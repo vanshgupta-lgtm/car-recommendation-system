@@ -1,0 +1,1277 @@
+brand,model,variant,price,fuel_type,transmission,engine_cc,power_bhp,torque_nm,seating_capacity,body_type,mileage,safety_rating,mileage_is_imputed,safety_is_imputed
+Hyundai,Santro,Era Mt,429990.0,Petrol,Manual,1086,69.0,99.04,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Magna Mt,503990.0,Petrol,Manual,1086,69.0,99.04,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Magna Mt Cng,547990.0,CNG,Manual,1086,59.0,99.04,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Magna Amt,530990.0,Petrol,AMT,1086,69.0,10.1,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Sportz Mt,512990.0,Petrol,Manual,1086,69.0,10.1,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Sportz Mt Cng,578990.0,CNG,Manual,1086,59.0,8.3,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Sportz Amt,570990.0,Petrol,AMT,1086,69.0,10.1,5,Hatchback,26.0,2.0,True,True
+Hyundai,Santro,Asta Mt,556490.0,Petrol,Manual,1086,69.0,99.04,5,Hatchback,26.0,2.0,True,True
+Tata,Tiago,Revotron Xe,460000.0,Petrol,Manual,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Hyundai,Aura,E 1.2 Petrol,579900.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,S 1.2 Petrol,655900.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,S 1.2 Amt Petrol,705800.0,Petrol,Automatic,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx 1.2 Petrol,729900.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx Plus 1.2 Amt Petrol,804800.0,Petrol,Automatic,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx (O) 1.2 Petrol,785900.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx Plus 1.0 Petrol,854900.0,Petrol,Manual,998,100.0,172.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,S 1.2 Diesel,773800.0,Diesel,Manual,1186,75.0,190.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,S 1.2 Amt Diesel,823700.0,Diesel,Automatic,1186,75.0,190.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx Plus 1.2 Amt Diesel,922700.0,Diesel,Automatic,1186,75.0,190.0,5,Sedan,18.5,2.0,False,False
+Hyundai,Aura,Sx (O) 1.2 Diesel,903800.0,Diesel,Manual,1186,75.0,190.0,5,Sedan,18.5,2.0,False,False
+Ford,Aspire,1.2 Ti-Vct Ambiente,598500.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Ti-Vct Trend Plus,697400.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Ti-Vct Trend,663400.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Ambiente,699400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Trend,737400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Trend Plus,777400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Titanium,817400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Titanium Plus,862400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Ti-Vct Titanium Plus,782400.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Ti-Vct Titanium,737400.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Trend Plus Cng,758314.0,CNG,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.2 Ti-Vct Blu,762400.0,Petrol,Manual,1194,96.0,120.0,5,Sedan,18.5,5.0,True,True
+Ford,Aspire,1.5 Tdci Blu,842400.0,Diesel,Manual,1498,100.0,215.0,5,Sedan,18.5,5.0,True,True
+Toyota,Glanza,G Hybrid,721900.0,Petrol,Manual,1197,89.0,113.0,5,Hatchback,26.0,2.0,False,False
+Toyota,Glanza,V,758200.0,Petrol,Manual,1197,82.0,113.0,5,Hatchback,26.0,2.0,False,False
+Toyota,Glanza,G Cvt,829900.0,Petrol,CVT,1197,82.0,113.0,5,Hatchback,26.0,2.0,False,False
+Toyota,Glanza,V Cvt,890200.0,Petrol,CVT,1197,82.0,113.0,5,Hatchback,26.0,2.0,False,False
+Toyota,Glanza,G Mt,697900.0,Petrol,Manual,1197,82.0,113.0,5,Hatchback,26.0,2.0,False,False
+Jeep,Compass Trailhawk,2.0 Trailhawk 4X4 At,2680000.0,Diesel,Automatic,1956,173.0,350.0,5,SUV,15.0,5.0,False,False
+Jeep,Compass Trailhawk,2.0 Trailhawk (O) 4X4 At,2760000.0,Diesel,Automatic,1956,173.0,350.0,5,SUV,15.0,5.0,False,False
+Audi,A4,Premium Plus 35 Tfsi,4149000.0,Petrol,DCT,1395,150.0,250.0,5,Sedan,17.0,5.0,False,False
+Audi,A4,Technology 35 Tfsi,4507000.0,Petrol,DCT,1395,150.0,250.0,5,Sedan,17.0,5.0,False,False
+Audi,A6,Premium Plus 45 Tfsi,5442200.0,Petrol,Automatic,1984,245.0,370.0,5,Sedan,14.0,5.0,False,False
+Audi,A6,Technology 45 Tfsi,5942200.0,Petrol,Automatic,1984,245.0,370.0,5,Sedan,14.0,5.0,False,False
+Audi,S5,Sportback,7243000.0,Petrol,Automatic,2995,333.0,500.0,5,Sedan,10.0,5.0,False,False
+Bmw,X5,Xdrive30D Sport,7330000.0,Diesel,Automatic,2993,265.0,620.0,5,SUV,12.0,5.0,False,False
+Bmw,X5,Xdrive30D Xline,8290000.0,Diesel,Automatic,2993,265.0,620.0,5,SUV,12.0,5.0,False,False
+Bmw,X5,Xdrive40I M Sport,8290000.0,Petrol,Automatic,2998,340.0,450.0,5,SUV,12.0,5.0,False,False
+Jeep,Grand Cherokee,Summit Petrol,7515000.0,Petrol,Automatic,3604,286.0,347.0,5,SUV,16.0,5.0,False,False
+Lamborghini,Urus,V8,30000000.0,Petrol,Automatic,3996,650.0,850.0,5,SUV,16.0,5.0,True,True
+Bentley,Bentayga,V8,37542069.0,Petrol,Automatic,3996,550.0,770.0,5,SUV,7.0,5.0,False,False
+Mercedes-Benz,Rolls-Royce Cullinan,Suv,69500000.0,Petrol,Automatic,6750,563.0,850.0,5,SUV,6.0,5.0,False,False
+Maruti Suzuki,S-Presso,Std,370500.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Std (O),376500.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Lxi,409000.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Lxi (O),415000.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi,432500.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi (O),438500.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi Ags,475500.0,Petrol,AMT,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi+,456000.0,Petrol,Manual,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi (O) Ags,481500.0,Petrol,AMT,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Maruti Suzuki,S-Presso,Vxi+ Ags,499000.0,Petrol,AMT,998,67.0,90.0,5,Hatchback,28.0,1.0,False,False
+Force,Gurkha,Xtreme,1299000.0,Diesel,Manual,2149,140.0,321.0,5,SUV,16.0,3.0,False,False
+Force,Gurkha,Xtreme Abs,1330000.0,Diesel,Manual,2149,140.0,321.0,5,SUV,16.0,3.0,False,False
+Jeep,Compass,1.4 Limited At,1996000.0,Petrol,Automatic,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Sport,1560000.0,Petrol,Manual,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Limited (O) At,2055000.0,Petrol,Automatic,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Sport,1661000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Longitude,1803000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Longitude (O),1888000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited,1973000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited (O),2022000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited 4X4,2151000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited (O) 4X4,2199000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Limited Plus At Petrol,2167000.0,Petrol,Automatic,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited Plus 4X2 Diesel,2133000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited Plus 4X4 Diesel,2311000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Sport Plus,1699000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Sport Plus,1599000.0,Petrol,Manual,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Longitude (O) At,1900000.0,Petrol,Automatic,1368,163.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,1.4 Limited (O) At Petrol Black Pack,2070000.0,Petrol,Automatic,1368,162.0,250.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited (O) Black Pack,2036300.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited (O) 4X4 Black Pack,2214000.0,Diesel,Manual,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Limited Plus 4X4 At,2499000.0,Diesel,Automatic,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Jeep,Compass,2.0 Longitude 4X4 At,2196000.0,Diesel,Automatic,1956,173.0,350.0,5,SUV,16.0,5.0,True,True
+Honda,Civic,1.8 V Cvt,1793900.0,Petrol,Automatic,1799,141.0,174.0,5,Sedan,18.5,5.0,True,True
+Honda,Civic,1.8 Vx Cvt,1944900.0,Petrol,Automatic,1799,141.0,174.0,5,Sedan,18.5,5.0,True,True
+Honda,Civic,1.8 Zx Cvt,2124900.0,Petrol,Automatic,1799,141.0,174.0,5,Sedan,18.5,5.0,True,True
+Honda,Civic,1.6 Vx Mt,2054900.0,Diesel,Manual,1597,120.0,300.0,5,Sedan,18.5,5.0,True,True
+Honda,Civic,1.6 Zx Mt,2234900.0,Diesel,Manual,1597,120.0,300.0,5,Sedan,18.5,5.0,True,True
+Mg,Zs Ev,Excite,2088000.0,Electric,Automatic,0,142.76,353.0,5,SUV,16.0,5.0,False,False
+Mg,Zs Ev,Exclusive,2358000.0,Electric,Automatic,0,142.76,353.0,5,SUV,16.0,5.0,False,False
+Mini,Cooper 3 Door,Cooper S,3420000.0,Petrol,Automatic,1998,192.0,280.0,5,Hatchback,26.0,2.0,False,False
+Land Rover Rover,Range Sport,5.0L V8 Svr Petrol,20517853.0,Petrol,Automatic,4999,567.0,700.0,5,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,5.0L V8 Autobiography Dynamic Petrol,17940227.0,Petrol,Automatic,4999,518.0,625.0,5,SUV,11.0,5.0,False,False
+Maserati,Ghibli,Diesel,13387856.0,Diesel,Automatic,2987,275.0,570.0,5,Not Mentioned,12.0,5.0,False,False
+Maserati,Ghibli,Gransport,13881858.0,Diesel,Automatic,2987,275.0,600.0,5,Not Mentioned,12.0,5.0,False,False
+Maserati,Ghibli,Granlusso,14247814.0,Diesel,Automatic,2987,275.0,600.0,5,Not Mentioned,12.0,5.0,False,False
+Ford,Figo,Ambiente 1.2 Ti-Vct,523000.0,Petrol,Manual,1194,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Figo,Titanium 1.2 Ti-Vct,599900.0,Petrol,Manual,1196,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Figo,Titanium1.5 Tdci,699900.0,Diesel,Manual,1498,100.0,215.0,5,Hatchback,26.0,2.0,True,True
+Ford,Figo,Titanium Blu 1.2 Ti-Vct,664900.0,Petrol,Manual,1194,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Figo,Titanium Blu 1.5 Tdci,764900.0,Diesel,Manual,1498,100.0,215.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Passat,2.0 Tdi Comfortline,3021500.0,Diesel,Automatic,1968,180.0,350.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Passat,2.0 Tdi Highline,3321500.0,Diesel,Automatic,1968,180.0,350.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Passat,2.0 Tdi Comfortline Connect,2599000.0,Diesel,Automatic,1968,180.0,350.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Passat,2.0 Tdi Highline Connect,2899000.0,Diesel,Automatic,1968,180.0,350.0,5,Sedan,18.5,5.0,True,True
+Mini,Countryman,Cooper S,3490000.0,Petrol,Automatic,1998,192.0,280.0,5,Hatchback,16.5,5.0,False,False
+Mini,Countryman,Cooper Sd,3740000.0,Diesel,Automatic,1998,190.0,400.0,5,Hatchback,16.5,5.0,False,False
+Mini,Countryman,Cooper S Jcw Inspired,4140000.0,Petrol,Automatic,1998,192.0,280.0,5,Hatchback,16.5,5.0,False,False
+Mini,Countryman,Black Edition,4240000.0,Petrol,Automatic,1998,192.0,280.0,5,Hatchback,16.5,5.0,False,False
+Lexus,Nx 300H,F-Sport,6060000.0,Petrol,Automatic,2494,194.0,210.0,5,SUV,17.0,5.0,False,False
+Lexus,Nx 300H,Luxury,5990000.0,Petrol,Automatic,2494,194.0,210.0,5,SUV,17.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Gle,300D 4Matic,7370000.0,Diesel,Automatic,1950,245.0,500.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Gle,400D 4Matic Hip Hop Edition,12500000.0,Diesel,Automatic,2925,330.0,700.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Cls,300D,8470000.0,Diesel,Automatic,1950,245.0,500.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Grand I10 Nios,Sportz Amt 1.2 Crdi,790350.0,Diesel,Automatic,1186,75.0,190.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Asta 1.2 Crdi,804450.0,Diesel,Manual,1186,75.0,190.0,5,Hatchback,26.0,2.0,False,False
+Maruti Suzuki R,Wagon,Vxi,479000.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Vxi Ags,526000.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Zxi,548000.0,Petrol,Manual,1197,83.0,1130.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Lxi,434000.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Vxi,513501.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Vxi Ags,560500.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Zxi Ags,594800.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Lxi (O),441000.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Vxi (O),486001.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Vxi (O),520500.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,1.2L Vxi Ags (O),567500.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Vxi Ags (O),533000.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Lxi Cng,500500.0,CNG,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Maruti Suzuki R,Wagon,Lxi (O) Cng,507500.0,CNG,Manual,998,68.0,90.0,5,Hatchback,28.5,1.0,False,False
+Toyota,Camry,Hybrid,3788000.0,Hybrid,Automatic,2487,178.0,221.0,5,Sedan,25.0,5.0,False,False
+Audi,A5,Sportback,6061200.0,Diesel,Automatic,1968,190.0,400.0,5,Sedan,18.5,5.0,True,True
+Lexus,Ls 500H,Luxury,18221000.0,Hybrid,Automatic,3456,299.0,350.0,5,SUV,16.0,5.0,True,True
+Lexus,Ls 500H,Ultra Luxury,18736000.0,Hybrid,Automatic,3456,299.0,350.0,5,SUV,16.0,5.0,True,True
+Lexus,Ls 500H,Distinct,19371000.0,Hybrid,Automatic,3456,299.0,350.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Glc,200 Progressive,5275000.0,Petrol,Automatic,1991,197.0,320.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Glc,220D 4Matic Progressive,5775000.0,Diesel,Automatic,1950,194.0,400.0,5,SUV,16.0,5.0,False,False
+Mahindra,Alturas G4,2Wd At,2770150.0,Diesel,Automatic,2157,178.0,420.0,0,Not Mentioned,12.0,5.0,True,True
+Mahindra,Alturas G4,4Wd At,3070150.0,Diesel,Automatic,2157,178.0,420.0,7,SUV,16.0,5.0,True,True
+Mini,Convertible,Cooper S,3830000.0,Petrol,Automatic,1998,192.0,280.0,4,Convertible,12.0,5.0,True,True
+Mini,John Cooper Works,Hatch,4350000.0,Petrol,Automatic,1998,231.0,320.0,2,Hatchback,26.0,2.0,True,True
+Audi,A8 L,55 Tfsi Quattro,15600000.0,Petrol,Automatic,2995,340.0,500.0,4,Sedan,18.5,5.0,False,False
+Lexus,Lc 500H,Coupe,19600000.0,Hybrid,Automatic,3456,299.0,350.0,4,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Maybach,S650,27308312.0,Petrol,Automatic,5980,630.0,1000.0,4,Sedan,8.0,5.0,False,False
+Bugatti,Chiron,W16,192142937.0,Petrol,Automatic,7993,1479.0,1600.0,2,Sports,11.0,5.0,True,True
+Bugatti,Chiron,Sport,212155397.0,Petrol,Automatic,7993,1600.0,1479.0,2,Sports,11.0,5.0,True,True
+Bajaj,Qute (Re60),Qcar,263000.0,Petrol,Manual,216,13.0,18.9,4,Hatchback,26.0,2.0,True,True
+Bajaj,Qute (Re60),Qcar Cng,283000.0,CNG,Manual,216,12.0,16.1,4,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Xl6,Zeta Mt,984689.0,Petrol,Manual,1462,104.0,138.0,6,MPV,23.0,3.0,False,False
+Maruti Suzuki,Xl6,Alpha Mt,1041189.0,Petrol,Manual,1462,104.0,138.0,6,MPV,23.0,3.0,False,False
+Maruti Suzuki,Xl6,Zeta At,1094689.0,Petrol,Automatic,1462,104.0,138.0,6,MPV,23.0,3.0,False,False
+Maruti Suzuki,Xl6,Alpha At,1151189.0,Petrol,Automatic,1462,104.0,138.0,6,MPV,23.0,3.0,False,False
+Mahindra,Marazzo,M2 7 Str,999900.0,Diesel,Manual,1497,121.0,300.0,7,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M4 7 Str,1156471.0,Diesel,Manual,1497,121.0,300.0,7,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M6 7 Str,1308592.0,Diesel,Manual,1497,121.0,300.0,7,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M8 7 Str,1468440.0,Diesel,Manual,1497,121.0,300.0,7,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M2 8 Str,999900.0,Diesel,Manual,1497,121.0,300.0,8,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M4 8 Str,1164569.0,Diesel,Manual,1497,121.0,300.0,8,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M6 8 Str,1316690.0,Diesel,Manual,1497,121.0,300.0,8,MPV,17.0,4.0,False,False
+Mahindra,Marazzo,M8 8 Str,1476538.0,Diesel,Manual,1497,121.0,300.0,8,MPV,17.0,4.0,False,False
+Kia,Carnival,Premium 7 Str,2495000.0,Diesel,Automatic,2199,200.0,440.0,7,MUV,14.0,5.0,False,False
+Kia,Carnival,Premium 8 Str,2515000.0,Diesel,Automatic,2199,200.0,440.0,7,MUV,14.0,5.0,False,False
+Kia,Carnival,Prestige 7 Str,2895000.0,Diesel,Automatic,2199,200.0,440.0,7,MUV,14.0,5.0,False,False
+Kia,Carnival,Prestige 9 (6+3) Str,2995000.0,Diesel,Automatic,2199,200.0,440.0,7,MUV,14.0,5.0,False,False
+Kia,Carnival,Limousine 7 Str,3395000.0,Diesel,Automatic,2199,200.0,440.0,7,MUV,14.0,5.0,False,False
+Mini,Cooper 3 Door,Cooper D,2990000.0,Diesel,Automatic,1496,116.0,270.0,4,Hatchback,26.0,2.0,False,False
+Mercedes-Benz,Mercedes-Benz C-Class Cabriolet,C300,6426497.0,Petrol,Automatic,1991,258.0,370.0,4,Convertible,12.0,5.0,False,False
+Bmw,Z4 Roadster,Sdrive 20I,6490000.0,Petrol,Automatic,1998,197.0,320.0,2,Convertible,12.0,5.0,False,False
+Bmw,Z4 Roadster,M 40I,7890000.0,Petrol,Automatic,2998,340.0,500.0,2,Convertible,12.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz V-Class,Expression Elwb,6840000.0,Diesel,Automatic,2143,163.0,380.0,7,MUV,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz V-Class,Exclusive Lwb,8190000.0,Diesel,Automatic,2143,163.0,380.0,6,MUV,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz V-Class,Elite,11000000.0,Diesel,Automatic,1950,163.0,380.0,6,MPV,22.5,3.0,True,True
+Mercedes-Benz,Mercedes-Benz Amg Gt 4-Door Coupe,63 S 4Matic+,24200000.0,Petrol,Automatic,0,639.0,700.0,4,Coupe,10.0,5.0,True,True
+Ferrari,Gtc4 Lusso,V8 T,42000000.0,Petrol,Automatic,3900,610.0,760.0,4,Coupe,10.0,5.0,True,True
+Ferrari,Gtc4 Lusso,V12,52000000.0,Petrol,Automatic,6262,681.0,697.0,4,Coupe,10.0,5.0,True,True
+Maruti Suzuki,Ertiga,Zxi,917000.0,Petrol,Manual,1462,104.0,138.0,7,MPV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,Vxi At,936000.0,Petrol,Automatic,1462,103.0,130.0,7,MUV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,Zxi Plus,971000.0,Petrol,Manual,1462,103.0,130.0,7,MUV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,Vxi,834000.0,Petrol,Manual,1462,103.0,180.0,7,MUV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,Zxi At,1013000.0,Petrol,Automatic,1462,104.0,138.0,7,MPV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,1.5L Vdi,986689.0,Diesel,Manual,1498,95.0,225.0,7,MPV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,1.5L Zdi,1069689.0,Diesel,Manual,1498,95.0,225.0,7,MPV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,1.5L Zdi Plus,1120689.0,Diesel,Manual,1498,95.0,225.0,7,MPV,23.0,3.0,False,False
+Maruti Suzuki,Ertiga,Vxi Cng (Cng +,887689.0,CNG + Petrol,Manual,1462,103.0,180.0,7,MUV,23.0,3.0,False,False
+Audi,A5 Cabriolet,2.0 Tdi,6948200.0,Diesel,Automatic,1968,190.0,400.0,4,Convertible,12.0,5.0,True,True
+Bmw,X7,Xdrive 40I,10490000.0,Petrol,Automatic,2998,335.0,450.0,7,SUV,12.5,5.0,False,False
+Bmw,X7,Xdrive30D Dpe Signature,10250000.0,Diesel,Automatic,2993,262.0,620.0,7,SUV,12.5,5.0,False,False
+Ferrari,812 Superfast,Superfast,52000000.0,Petrol,Automatic,6496,789.0,718.0,2,Coupe,10.0,5.0,True,True
+Jaguar,F-Type,Svr Coupe,26501830.0,Petrol,Automatic,5000,567.0,700.0,2,Coupe,10.0,5.0,True,True
+Jaguar,F-Type,Svr Convertible,28004965.0,Petrol,Automatic,5000,567.0,700.0,2,Convertible,12.0,5.0,True,True
+Jaguar,F-Type,2.0L Coupe,9092578.0,Petrol,Automatic,1997,297.0,400.0,2,Coupe,10.0,5.0,True,True
+Bmw,M5,Competition,15490000.0,Petrol,Automatic,4395,625.0,750.0,4,Sedan,18.5,5.0,False,False
+Land Rover,Discovery,3.0 Hse Diesel,10205494.0,Diesel,Automatic,2993,258.0,600.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 Se Diesel,9689321.0,Diesel,Automatic,2993,258.0,600.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 Hse Petrol,8433741.0,Petrol,Automatic,2995,394.0,450.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 Se Petrol,8077550.0,Petrol,Automatic,2995,394.0,450.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 S Diesel,8877094.0,Diesel,Automatic,2993,258.0,600.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 S Petrol,7693664.0,Petrol,Automatic,2995,394.0,450.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 Hse Luxury Diesel,10861088.0,Diesel,Automatic,2993,258.0,600.0,7,SUV,10.5,5.0,False,False
+Land Rover,Discovery,3.0 Hse Luxury Petrol,8937846.0,Petrol,Automatic,2995,394.0,450.0,7,SUV,10.5,5.0,False,False
+Porsche,Cayenne Coupe,Base,13151000.0,Petrol,Automatic,2995,340.0,450.0,0,Not Mentioned,24.5,5.0,False,False
+Porsche,Cayenne Coupe,Turbo,19763000.0,Petrol,Automatic,2995,550.0,770.0,0,Not Mentioned,24.5,5.0,False,False
+Fiat,Urban Cross,1.3 Multijet Dynamic,739074.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Mini,Cooper 5 Door,Cooper D,3600000.0,Petrol,Automatic,1496,116.0,270.0,5,Hatchback,26.0,2.0,True,True
+Jeep,Grand Cherokee,Summit,8931819.0,Diesel,Automatic,2987,240.0,570.0,5,SUV,16.0,5.0,False,False
+Lexus,Rx 450H,450Hl Luxury,9900000.0,Petrol,Automatic,3456,262.0,335.0,5,SUV,16.0,5.0,False,False
+Lexus,Lx 450D,V8,23290000.0,Diesel,Automatic,4461,261.0,650.0,7,SUV,6.0,5.0,False,False
+Mahindra,Tuv300 Plus,P4,992748.0,Diesel,Manual,2179,120.0,280.0,9,SUV,16.0,5.0,True,True
+Mahindra,Tuv300 Plus,P6,1029650.0,Diesel,Manual,2179,120.0,280.0,9,SUV,16.0,5.0,True,True
+Mahindra,Tuv300 Plus,P8,1142157.0,Diesel,Manual,2179,120.0,280.0,9,SUV,16.0,5.0,True,True
+Mahindra,E Verito,D4,1293214.0,Electric,Automatic,72,41.0,91.0,5,Sedan,18.5,5.0,True,True
+Mahindra,E Verito,D2,1267208.0,Electric,Automatic,72,41.0,91.0,5,Sedan,18.5,5.0,True,True
+Mahindra,E Verito,D6,1303241.0,Electric,Automatic,72,41.0,91.0,5,Sedan,18.5,5.0,True,True
+Land Rover Rover,Range Evoque Convertible,2.0 Hse Dynamic,6952964.0,Petrol,Automatic,1998,240.0,340.0,4,Convertible,12.0,5.0,False,False
+Land Rover Rover,Range Velar,2.0 Petrol R-Dynamic S,7246802.0,Petrol,Automatic,1997,250.0,365.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Amg-Gt,S,21583466.0,Petrol,Automatic,3982,510.0,650.0,2,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Amg-Gt,R,23264134.0,Petrol,Automatic,3982,585.0,700.0,2,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Amg-Gt,Roadster,22733626.0,Petrol,Automatic,3982,476.0,630.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Evo Spyder,41000000.0,Petrol,Automatic,5204,631.0,600.0,2,Convertible,12.0,5.0,True,True
+Lamborghini,Huracan,Evo Rwd,32200000.0,Petrol,Automatic,5204,610.0,560.0,2,Coupe,10.0,5.0,True,True
+Ford,Figo,Ambiente 1.5 Tdci,623000.0,Diesel,Manual,1498,100.0,215.0,5,Hatchback,26.0,2.0,True,True
+Nissan,Sunny,Xe Petrol,707025.0,Petrol,Manual,1498,99.0,134.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Xl Petrol,836461.0,Petrol,Manual,1498,99.0,134.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Xl Diesel,912534.0,Diesel,Manual,1461,86.0,200.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Xv Diesel,993997.0,Diesel,Manual,1461,86.0,200.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Xe Diesel,860997.0,Diesel,Manual,1461,86.0,200.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Xv Cvt,993997.0,Petrol,Automatic,1498,101.0,134.0,5,Sedan,18.5,5.0,True,True
+Nissan,Sunny,Special Edition Diesel,877285.0,Diesel,Manual,1461,86.0,200.0,5,Sedan,18.5,5.0,True,True
+Lexus,Es,300H,5695000.0,Hybrid,Automatic,2487,176.0,221.0,5,Sedan,22.0,5.0,False,False
+Hyundai,Grand I10 Nios,Magna 1.2 Crdi,675090.0,Diesel,Manual,1186,75.0,190.0,5,Hatchback,26.0,2.0,False,False
+Jaguar,F-Type,5.0 Convertible R,23659454.0,Petrol,Automatic,5000,495.0,625.0,0,Convertible,12.0,5.0,True,True
+Lexus,Lx 570,V8,23290000.0,Diesel,Automatic,5700,380.0,546.0,7,SUV,16.0,5.0,True,True
+Tata,Nano Genx,Xt,292667.0,Petrol,Manual,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Tata,Nano Genx,Xe,236447.0,Petrol,Manual,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Tata,Nano Genx,Xta,334768.0,Petrol,Automatic,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Tata,Nano Genx,Xm,272223.0,Petrol,Manual,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Tata,Nano Genx,Xma,314815.0,Petrol,Automatic,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Renault,Kwid,Rxe 0.8,353290.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Std 0.8,283290.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxl 0.8,383290.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxt 0.8,413290.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxt 1.0,433290.0,Petrol,Manual,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Climber 1.0 Mt,454490.0,Petrol,Manual,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxt Amt 1.0,463290.0,Petrol,Automatic,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Climber Amt 1.0,484490.0,Petrol,Automatic,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxt (O) 1.0,440990.0,Petrol,Manual,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Rxt (O) Amt 1.0,470990.0,Petrol,Automatic,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Climber (O) Mt 1.0,462190.0,Petrol,Manual,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Renault,Kwid,Climber (O) Amt 1.0,492190.0,Petrol,Automatic,999,68.0,91.0,5,Hatchback,21.5,1.0,False,False
+Datsun,Go,T (O),502492.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,A (O),499990.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,A,469990.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,T (O) Vdc,553015.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,T (O) Cvt,618015.0,Petrol,Manual,1198,78.0,104.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio Tour,H2,422444.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,29.5,2.0,False,False
+Nissan,Micra Active,Xv,599950.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Jeep,Grand Cherokee,Limited,7882867.0,Diesel,Automatic,2987,240.0,570.0,5,SUV,16.0,5.0,False,False
+Jeep,Grand Cherokee,Srt,11400000.0,Petrol,Automatic,6417,468.0,624.0,5,SUV,16.0,5.0,False,False
+Aston Martin,Db 11,V12,40456503.0,Petrol,Automatic,5198,608.0,700.0,2,Coupe,10.0,5.0,True,True
+Maruti Suzuki,Celerio,Lxi,426289.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Lxi Mt (O),434659.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,E2O Plus,P4,881425.0,Electric,Automatic,0,25.8,70.0,4,Hatchback,26.0,2.0,True,True
+Mahindra,E2O Plus,P6,957177.0,Electric,Automatic,0,25.8,70.0,4,Hatchback,26.0,2.0,True,True
+Volvo,V40,Kinetic,2769000.0,Diesel,Automatic,1984,150.0,350.0,5,Hatchback,26.0,2.0,True,True
+Volvo,V40,R Design,3191000.0,Diesel,Automatic,1984,150.0,350.0,5,Hatchback,26.0,2.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class,E350 D,7285332.0,Diesel,Automatic,2987,268.7,620.0,5,Sedan,18.5,5.0,False,False
+Lamborghini,Huracan,Lp 610-4,37133704.0,Petrol,Automatic,5204,610.0,560.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Lp 580-2,32452486.0,Petrol,Automatic,5204,580.0,540.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Avio,35150732.0,Petrol,Automatic,5204,610.0,560.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Performante,37614126.0,Petrol,Automatic,5204,639.0,600.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Lp 580-2 Spyder,35535000.0,Petrol,Automatic,5204,571.0,540.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Lp 610-4 Spyder,40742932.0,Petrol,Automatic,5204,602.0,560.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Huracan,Evo,37300000.0,Petrol,Automatic,5204,631.0,600.0,2,Coupe,10.0,5.0,True,True
+Honda,Wr-V,Vx Diesel,1035000.0,Diesel,Manual,1498,100.0,200.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,Exclusive Edition Diesel,1048050.0,Diesel,Manual,1498,100.0,200.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,V Diesel,995000.0,Diesel,Manual,1498,100.0,200.0,5,SUV,16.0,5.0,True,True
+Nissan,Gtr,3.8 V6,21240272.0,Petrol,Automatic,3799,570.0,637.0,4,Coupe,10.0,5.0,True,True
+Bmw,5-Series,530I M Sport,5980000.0,Petrol,Automatic,1998,252.0,350.0,5,Sedan,15.0,5.0,False,False
+Audi,A3 Cabriolet,40 Tfsi,5038000.0,Petrol,Automatic,1395,148.0,250.0,4,Convertible,12.0,5.0,True,True
+Renault,Lodgy,85 Ps Std,863299.0,Diesel,Manual,1461,85.0,200.0,8,MUV,18.5,5.0,True,True
+Renault,Lodgy,85 Ps Rxe 8 Seater,964199.0,Diesel,Manual,1461,85.0,200.0,8,MUV,18.5,5.0,True,True
+Renault,Lodgy,Stepway Rxz 110Ps 8-Seater,1211599.0,Diesel,Manual,1461,110.0,245.0,0,MUV,18.5,5.0,True,True
+Renault,Lodgy,Stepway Rxz 110Ps 7-Seater,1211599.0,Diesel,Manual,1461,110.0,245.0,7,MUV,18.5,5.0,True,True
+Renault,Lodgy,Stepway Rxl 85Ps 8-Seater,1053899.0,Diesel,Manual,1461,85.0,200.0,8,MUV,18.5,5.0,True,True
+Renault,Lodgy,Stepway Rxz 85Ps 8-Seater,1130099.0,Diesel,Manual,1461,85.0,200.0,8,MUV,18.5,5.0,True,True
+Renault,Lodgy,85 Ps Rxe 7 Seater,964199.0,Diesel,Manual,1461,85.0,200.0,7,MUV,18.5,5.0,True,True
+Mahindra,Xuv500,W7 At,1539488.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W9,1588943.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W9 At,1710118.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11,1716319.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 At,1837586.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O),1741319.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O) At,1862586.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W7 At,1539488.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W9,1588943.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W9 At,1710118.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11,1716319.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 At,1837586.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O),1741319.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O) At,1862586.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O) Awd,1852488.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W11 (O) Awd At,1973664.0,Diesel,Automatic,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W3,1230924.0,Diesel,Manual,2179,155.0,360.0,7,SUV,16.0,5.0,True,True
+Toyota,Innova Crysta,2.4 Gx 7 Str,1605000.0,Diesel,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 Vx 7 Str,1927000.0,Diesel,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 Gx 8 Str,1610000.0,Diesel,Manual,2393,150.0,343.0,8,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 Vx 8 Str,1932000.0,Diesel,Manual,2393,150.0,343.0,8,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 Zx 7 Str,2113000.0,Diesel,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Gx At 8 Str,1620000.0,Petrol,Automatic,2694,166.0,245.0,8,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Gx At 7 Str,1615000.0,Petrol,Automatic,2694,166.0,245.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Zx At 7 Str,2103000.0,Petrol,Automatic,2393,164.0,245.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Vx 7 Str,1807000.0,Petrol,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Gx Mt 7 Str,1493000.0,Petrol,Manual,2755,174.0,360.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.7 Gx Mt 8 Str,1498000.0,Petrol,Manual,2755,174.0,360.0,8,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,Touring Sport 2.4 Vx 7 Str,2097000.0,Diesel,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,Touring Sport 2.7 Vx 7 Str,1892000.0,Petrol,Manual,2393,166.0,245.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,Touring Sport 2.7 Zx At 7 Str,2171000.0,Petrol,Automatic,2694,166.0,245.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 G Plus 7 Str,1592000.0,Diesel,Manual,2393,150.0,343.0,7,MUV,18.5,5.0,False,False
+Toyota,Innova Crysta,2.4 G Plus 8 Str,1587000.0,Diesel,Manual,2393,150.0,343.0,8,MUV,18.5,5.0,False,False
+Volvo,Xc90,D5 Inscription,8790000.0,Diesel,Automatic,1969,225.0,470.0,7,SUV,12.0,5.0,False,False
+Volvo,Xc90,D5 Momentum,8090000.0,Diesel,Automatic,1969,225.0,470.0,7,SUV,12.0,5.0,False,False
+Volvo,Xc90,T8 Excellence,13124000.0,Hybrid,Automatic,1969,407.0,640.0,4,SUV,12.0,5.0,False,False
+Volvo,Xc90,D5 R-Design,8491500.0,Diesel,Automatic,1969,235.0,480.0,7,SUV,12.0,5.0,False,False
+Tata,Safari Storme,2.2 Vx 4X4 Varicor 400,1643829.0,Diesel,Manual,2179,156.0,400.0,7,SUV,15.0,5.0,False,False
+Maruti Suzuki,Ignis,Alpha 1.2 Amt,713898.0,Petrol,AMT,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Maruti Suzuki,Ignis,Alpha 1.2 Mt,666898.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Maruti Suzuki,Ignis,Sigma 1.2 Mt,483320.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Maruti Suzuki,Ignis,Zeta 1.2 Amt,630320.0,Petrol,AMT,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Maruti Suzuki,Ignis,Zeta 1.2 Mt,583320.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Tata,Bolt,Xt Diesel,787980.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xe Diesel,661111.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xm Diesel,693798.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xms Diesel,719661.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xt Petrol,674960.0,Petrol,Manual,1193,90.0,140.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xe Petrol,529035.0,Petrol,Manual,1193,90.0,140.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xm Petrol,590268.0,Petrol,Manual,1193,90.0,140.0,5,Hatchback,26.0,2.0,True,True
+Tata,Bolt,Xms Petrol,614515.0,Petrol,Manual,1193,90.0,140.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Cross,G,650000.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Cross,1.2 X Edition,668500.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Fiat,Urban Cross,1.3 Multijet Active,677618.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Fiat,Urban Cross,1.4 T-Jet Emotion,977516.0,Petrol,Manual,1368,140.0,210.0,5,Crossover,18.0,5.0,True,True
+Fiat,Urban Cross,1.3 Multijet Emotion,810211.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Fiat,Avventura,Multijet Active,711801.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Honda,Jazz,V Petrol,745000.0,Petrol,Manual,1199,90.0,110.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,Vx Cvt,909000.0,Petrol,Automatic,1199,90.0,110.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,Vx Petrol,789000.0,Petrol,Manual,1199,90.0,110.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,V Cvt,865000.0,Petrol,Automatic,1199,90.0,110.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,S Diesel,816500.0,Diesel,Manual,1498,100.0,200.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,V Diesel,896500.0,Diesel,Manual,1498,100.0,200.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,Vx Diesel,940500.0,Diesel,Manual,1498,100.0,200.0,5,Hatchback,26.0,2.0,True,True
+Audi,A3,35 Tfsi Premium Plus,2920750.0,Petrol,Automatic,1395,150.0,250.0,5,Sedan,18.5,5.0,True,True
+Audi,A3,35 Tfsi Technology,3120750.0,Petrol,Automatic,1395,150.0,250.0,5,Sedan,18.5,5.0,True,True
+Audi,Q3,30 Tdi Premium Fwd,3677200.0,Diesel,Manual,1968,148.0,340.0,5,SUV,14.0,5.0,False,False
+Audi,Q3,35 Tdi Quattro Premium Plus,3992200.0,Diesel,Automatic,1968,177.0,380.0,5,SUV,14.0,5.0,False,False
+Audi,Q3,35 Tdi Quattro Technology,4361000.0,Diesel,Automatic,1968,177.0,380.0,5,SUV,14.0,5.0,False,False
+Audi,Q3,30 Tfsi Premium,3496750.0,Petrol,Automatic,1395,150.0,250.0,5,SUV,14.0,5.0,False,False
+Volvo,S90,D4 Inscription,5890000.0,Diesel,Automatic,1969,190.0,400.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Trendline 1.6 (P),876500.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Fiat,Abarth Avventura,1.4 T-Jet,989219.0,Petrol,Manual,1368,143.0,210.0,5,Crossover,18.0,5.0,True,True
+Toyota,Corolla Altis,G Petrol,1645000.0,Petrol,Manual,1798,140.0,173.0,5,Sedan,18.5,5.0,True,True
+Toyota,Corolla Altis,G At Petrol,1806000.0,Petrol,Automatic,1798,140.0,173.0,5,Sedan,18.5,5.0,True,True
+Toyota,Corolla Altis,Gl Petrol,1882000.0,Petrol,Manual,1798,140.0,173.0,5,Sedan,18.5,5.0,True,True
+Toyota,Corolla Altis,Vl At Petrol,2019000.0,Petrol,Automatic,1798,140.0,173.0,5,Sedan,18.5,5.0,True,True
+Bmw,X1,Sdrive20I Xline,3830000.0,Petrol,Automatic,1998,192.0,280.0,5,Crossover,18.0,5.0,False,False
+Audi,Q5,35 Tdi Premium Plus,5021200.0,Diesel,Automatic,1968,190.0,400.0,5,SUV,13.0,5.0,False,False
+Audi,Q5,35 Tdi Technology,5621200.0,Diesel,Automatic,1968,190.0,400.0,5,SUV,13.0,5.0,False,False
+Honda,Wr-V,Vx Petrol,925000.0,Petrol,Manual,1199,90.0,110.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,S Diesel,925000.0,Diesel,Manual,1498,100.0,200.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,S Petrol,815000.0,Petrol,Manual,1199,90.0,110.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,Edge Plus Edition Diesel,916050.0,Diesel,Manual,1498,100.0,200.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,Edge Plus Edition Petrol,808050.0,Petrol,Manual,1199,90.0,110.0,5,SUV,16.0,5.0,True,True
+Honda,Wr-V,Exclusive Edition Petrol,935050.0,Petrol,Manual,1199,90.0,110.0,5,SUV,16.0,5.0,True,True
+Maruti Suzuki,S-Cross,1.3L Sigma,880689.0,Diesel,Manual,1248,90.0,200.0,5,Crossover,18.0,5.0,True,True
+Maruti Suzuki,S-Cross,1.3L Delta,992689.0,Diesel,Manual,1248,90.0,200.0,5,Crossover,18.0,5.0,True,True
+Maruti Suzuki,S-Cross,1.3L Zeta,1043689.0,Diesel,Manual,1248,90.0,200.0,5,Crossover,18.0,5.0,True,True
+Maruti Suzuki,S-Cross,1.3L Alpha,1143689.0,Diesel,Manual,1248,90.0,200.0,5,Crossover,18.0,5.0,True,True
+Jaguar,F-Pace,Prestige,6463780.0,Diesel,Automatic,1999,180.0,430.0,5,SUV,15.5,5.0,False,False
+Volvo,V90 Cross Country,D5 Inscription,6531000.0,Diesel,Automatic,1969,235.0,480.0,5,SUV,16.0,5.0,True,True
+Maruti Suzuki,Ciaz,1.3L Alpha Smart Hybrid,1102689.0,Diesel,Manual,1248,89.0,200.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.3L Sigma Smart Hybrid,919689.0,Diesel,Manual,1248,89.0,200.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.3L Delta Smart Hybrid,980689.0,Diesel,Manual,1248,89.0,200.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.3L Zeta Smart Hybrid,1062689.0,Diesel,Manual,1248,89.0,200.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Zeta Smart Hybrid,958689.0,Petrol,Manual,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Alpha,1138189.0,Diesel,Manual,1498,94.0,225.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Delta,997689.0,Diesel,Manual,1498,94.0,225.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Zeta,1109189.0,Diesel,Manual,1498,94.0,225.0,5,Sedan,24.0,4.0,False,False
+Fiat,Abarth Punto,1.4 T-Jet,980970.0,Petrol,Manual,1368,145.0,212.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Creta,1.4 Crdi E Plus,999990.0,Diesel,Manual,1396,90.0,220.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt E Plus,999990.0,Petrol,Manual,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Sx,1232534.0,Petrol,Manual,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Sx (O),1394437.0,Petrol,Manual,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Sx At,1377363.0,Petrol,Automatic,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Sx Dual Tone,1287041.0,Petrol,Automatic,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.4 Crdi S,1197919.0,Diesel,Manual,1396,90.0,220.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi Sx,1366797.0,Diesel,Manual,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi Sx (O),1543564.0,Diesel,Manual,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi Sx At,1527395.0,Diesel,Automatic,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi Sx Dual Tone,1421208.0,Diesel,Manual,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi S At,1336033.0,Diesel,Automatic,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Sx (O) Executive,1422937.0,Petrol,Manual,1591,121.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Crdi Sx (O) Executive,1572064.0,Diesel,Manual,1582,126.0,260.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.4 Crdi Ex,1107167.0,Diesel,Manual,1396,90.0,220.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,1.6 Vtvt Ex,1092192.0,Petrol,Manual,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Hyundai,Creta,Sports Edition Petrol,1279983.0,Petrol,Manual,1591,123.0,151.0,5,SUV,16.0,3.0,False,False
+Fiat,Punto Evo,Dynamic 1.2,535562.0,Petrol,Manual,1172,68.0,96.0,5,Hatchback,26.0,2.0,True,True
+Fiat,Punto Evo,Active Multijet 1.3,631292.0,Diesel,Manual,1172,76.0,197.0,5,Hatchback,26.0,2.0,True,True
+Fiat,Punto Evo,Dynamic Multijet 1.3,692655.0,Diesel,Manual,1248,76.0,197.0,5,Hatchback,26.0,2.0,True,True
+Fiat,Punto Evo,Emotion Multijet 1.3,747774.0,Diesel,Manual,1248,76.0,197.0,5,Hatchback,26.0,2.0,True,True
+Tata,Nano Genx,Emax Xm,296661.0,CNG,Manual,624,38.0,51.0,4,Hatchback,26.0,2.0,True,True
+Renault,Triber,Rxe,495000.0,Petrol,Manual,999,72.0,96.0,7,MUV,18.5,4.0,False,False
+Renault,Triber,Rxl,559000.0,Petrol,Manual,999,72.0,96.0,7,MUV,18.5,4.0,False,False
+Renault,Triber,Rxt,609000.0,Petrol,Manual,999,72.0,96.0,7,MUV,18.5,4.0,False,False
+Renault,Triber,Rxz,663000.0,Petrol,Manual,999,72.0,96.0,7,MUV,18.5,4.0,False,False
+Volkswagen,Tiguan,Highline 2.0L Tdi Amt,3153500.0,Diesel,Automatic,1968,141.0,340.0,0,SUV,16.0,5.0,True,True
+Honda,Cr-V,2Wd Diesel At,3067001.0,Diesel,Automatic,1597,120.0,300.0,7,SUV,16.0,5.0,True,True
+Honda,Cr-V,Awd Diesel At,3277001.0,Diesel,Automatic,1597,120.0,300.0,7,SUV,16.0,5.0,True,True
+Jaguar,Xe,S Diesel,4498000.0,Diesel,Automatic,1999,180.0,430.0,4,Sedan,18.5,5.0,True,True
+Jaguar,Xe,Se Diesel,4633000.0,Diesel,Automatic,1999,180.0,430.0,4,Sedan,18.5,5.0,True,True
+Land Rover,Discovery Sport,S,5706000.0,Diesel,Automatic,1999,179.0,430.0,7,SUV,11.5,5.0,False,False
+Land Rover,Discovery Sport,R-Dynamic Se,6089000.0,Diesel,Automatic,1999,179.0,430.0,7,SUV,11.5,5.0,False,False
+Audi,Rs5,Coupe,11141200.0,Petrol,Automatic,2894,450.0,600.0,4,Coupe,10.0,5.0,False,False
+Bmw,7-Series,740Li Design Pure Excellence Signature,13510000.0,Petrol,Automatic,2998,340.0,450.0,4,Sedan,14.0,5.0,False,False
+Bmw,7-Series,745Le Xdrive,16500000.0,Hybrid,Automatic,2998,286.0,450.0,4,Sedan,14.0,5.0,False,False
+Bmw,7-Series,M760Li Xdrive,24250000.0,Petrol,Automatic,6592,609.0,850.0,4,Sedan,14.0,5.0,False,False
+Audi,Q8,55 Tfsi Quattro Tiptronic,13359500.0,Petrol,Automatic,2995,340.0,500.0,7,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz G-Class,Amg G 63,21875136.0,Petrol,Automatic,3982,585.0,850.0,7,SUV,6.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz G-Class,G 350D,15000000.0,Diesel,Automatic,2925,289.0,600.0,7,SUV,6.0,5.0,False,False
+Mahindra,Thar,Crde,959860.0,Diesel,Manual,2498,105.0,247.0,6,SUV,13.5,5.0,False,False
+Mahindra,Thar,700 Special Edition,999148.0,Diesel,Manual,2498,105.0,247.0,6,SUV,13.5,5.0,False,False
+Mahindra,Thar,Crde Abs,974860.0,Diesel,Manual,2498,105.0,247.0,6,SUV,13.5,5.0,False,False
+Mahindra,Xuv500,G At,1610180.0,Petrol,Automatic,2179,140.0,320.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,G At,1610180.0,Petrol,Automatic,2179,140.0,320.0,7,SUV,16.0,5.0,True,True
+Skoda,Kodiaq Scout,2.0 Tdi At,3399000.0,Diesel,Automatic,1968,148.0,340.0,7,SUV,14.0,5.0,False,False
+Audi,Q7,40 Tfsi Quattro Premium Plus,6921500.0,Petrol,Automatic,1984,252.0,370.0,7,SUV,16.0,5.0,False,False
+Audi,Q7,40 Tfsi Quattro Technology Pack,7621500.0,Petrol,Automatic,1984,252.0,370.0,7,SUV,16.0,5.0,False,False
+Audi,Q7,40 Tfsi Quattro Black Styling,7711500.0,Petrol,Automatic,1984,252.0,370.0,7,SUV,16.0,5.0,False,False
+Volvo,Xc90,T8 Inscription,9665000.0,Hybrid,Automatic,1969,320.0,240.0,7,SUV,12.0,5.0,False,False
+Land Rover Rover,Range Sport,2.0L S Petrol,8670586.0,Petrol,Automatic,1997,296.0,400.0,7,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,2.0L Se Petrol,9448181.0,Petrol,Automatic,1997,296.0,400.0,7,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,3.0L V6 Se Petrol,11476911.0,Petrol,Automatic,2995,335.0,450.0,7,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,2.0L Hse Petrol,15600000.0,Petrol,Automatic,1997,296.0,400.0,7,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,3.0L V6 Hse Petrol,13228725.0,Petrol,Automatic,2995,335.0,450.0,7,SUV,11.0,5.0,False,False
+Land Rover Rover,Range,3.0L Tdv6 Vogue Lwb Diesel,19527130.0,Diesel,Automatic,2993,254.0,600.0,7,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,4.4L Sdv8 Autobiography Lwb Diesel,25174051.0,Diesel,Automatic,4367,335.0,740.0,7,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,4.4L Sdv8 Vogue Se Lwb Diesel,23675691.0,Diesel,Automatic,4367,335.0,740.0,7,SUV,16.0,5.0,True,True
+Maruti Suzuki,Ertiga,Lxi,759000.0,Petrol,Manual,1462,103.0,138.0,7,MPV,23.0,3.0,False,False
+Mitsubishi,Outlander,2.4L Outlander,2693000.0,Petrol,Automatic,2360,167.0,222.0,7,SUV,16.0,5.0,True,True
+Bmw,6-Series,630D Gt Luxury Line,6890000.0,Diesel,Automatic,2993,265.0,620.0,4,Sedan,18.5,5.0,True,True
+Bmw,6-Series,630D Gt M Sport,7450000.0,Diesel,Automatic,2993,265.0,620.0,4,Sedan,18.5,5.0,True,True
+Bmw,6-Series,620D Gt Luxury Line,6440000.0,Diesel,Automatic,1995,188.0,400.0,4,Sedan,18.5,5.0,True,True
+Jaguar,F-Type,2.0L Convertible,10144987.0,Petrol,Automatic,1997,297.0,400.0,2,Convertible,12.0,5.0,True,True
+Jaguar,F-Type,2.0 Convertible R Dynamic,10419200.0,Petrol,Automatic,1997,297.0,400.0,2,Convertible,12.0,5.0,True,True
+Jaguar,F-Type,2.0 Coupe R Dynamic,9366433.0,Petrol,Automatic,1997,297.0,400.0,2,Coupe,10.0,5.0,True,True
+Tata,Winger,15S,1205000.0,Diesel,Manual,2200,0.0,190.0,16,MUV,18.5,5.0,True,True
+Hyundai,Kona Electric,Premium,2371858.0,Electric,Automatic,0,136.0,395.0,4,SUV,16.0,5.0,True,True
+Datsun,Redi-Go,1.0 S,390000.0,Petrol,Manual,999,68.0,91.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Redi-Go,1.0 S Amt,437065.0,Petrol,Automatic,999,68.0,91.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto K10,Lxi Cng (O),439777.0,CNG,Manual,998,59.0,78.0,5,Hatchback,28.5,2.0,False,False
+Datsun,Go,D,374990.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,T,468229.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,T Vdc,528464.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Go,T Cvt,594464.0,Petrol,Manual,1198,78.0,104.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio Tour,H2 Cng,480670.0,CNG,Manual,998,59.0,78.0,5,Hatchback,29.5,2.0,False,False
+Nissan,Micra Active,Xl,525021.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Nissan,Micra Active,Xl (O),563133.0,Petrol,Manual,1198,68.0,104.0,5,Hatchback,26.0,2.0,True,True
+Ford,Freestyle,1.2L Ti-Vct Ambiente,591400.0,Petrol,Manual,1194,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Freestyle,1.2L Ti-Vct Titanium,721400.0,Petrol,Manual,1194,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Freestyle,1.2L Ti-Vct Titanium Plus,756400.0,Petrol,Manual,1194,96.0,120.0,5,Hatchback,26.0,2.0,True,True
+Ford,Freestyle,1.2L Ti-Vct Trend Plus,681400.0,Petrol,Manual,1194,96.0,120.0,5,Crossover,18.0,5.0,True,True
+Ford,Freestyle,1.5L Tdci Trend Plus,745900.0,Diesel,Manual,1498,100.0,215.0,5,Crossover,18.0,5.0,True,True
+Volvo,Xc40,D4 Momentum,3990000.0,Diesel,Automatic,1969,190.0,400.0,5,SUV,16.0,5.0,False,False
+Volvo,Xc40,D4 Inscription,4390000.0,Diesel,Automatic,1969,190.0,400.0,5,SUV,16.0,5.0,False,False
+Volvo,Xc40,T4 R-Design,3990000.0,Petrol,Automatic,1969,190.0,300.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Rolls-Royce Ghost Series Ii,Ewb,53247201.0,Petrol,Automatic,6592,570.0,780.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Alto,Std,294800.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Std (O),299900.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Lxi,352900.0,Petrol,Manual,796,47.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Lxi (O),357200.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Vxi,376100.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Lxi Cng (Cng +,405570.0,CNG + Petrol,Manual,796,47.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Lxi (O) Cng (Cng +,409190.0,CNG + Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto,Vxi Plus,389600.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Vxi Cng Mt,530000.0,CNG,Manual,998,59.0,78.0,5,Hatchback,26.0,2.0,True,True
+Tata,Altroz,Xe Petrol,529000.0,Petrol,Manual,1199,86.0,113.0,5,Hatchback,26.0,5.0,False,False
+Tata,Nexon,Xe,695000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xm,770000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz,870000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus,950000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus Dual Tone,970000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus (O),1040000.0,Petrol,Manual,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus (O) Dual Tone,1060000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xma,830000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus,1010000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus Dual Tone,1030000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus (O),1100000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus (O) Dual Tone,1120000.0,Petrol,Automatic,1198,110.0,170.0,5,SUV,20.5,5.0,False,False
+Ford,Ecosport,1.5L Ti-Vct Ambiente,791000.0,Petrol,Manual,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Ti-Vct Trend,871000.0,Petrol,Manual,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Ti-Vct Titanium,950000.0,Petrol,Manual,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Ti-Vct Titanium Plus At,1130000.0,Petrol,Automatic,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Tdci Titanium S,1145000.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Tata,Tigor Ev,Xm+,960868.0,Electric,Automatic,0,41.5,105.0,5,Sedan,18.5,4.0,False,False
+Tata,Tigor Ev,Xt+,975868.0,Electric,Automatic,0,41.5,105.0,5,Sedan,18.5,4.0,False,False
+Tata,Tigor Ev,Xe+,944175.0,Electric,Automatic,0,41.5,105.0,5,Sedan,18.5,4.0,False,False
+Volvo,S60,Momentum,3850500.0,Diesel,Automatic,1984,181.0,400.0,5,Sedan,18.5,5.0,True,True
+Audi,Q5,45 Tfsi Premium Plus,5021200.0,Petrol,Automatic,1984,248.0,370.0,5,SUV,13.0,5.0,False,False
+Audi,Q5,45 Tfsi Technology,5621200.0,Petrol,Automatic,1984,248.0,370.0,5,SUV,13.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz E-Class,E220D,5964321.0,Diesel,Automatic,2987,268.7,620.0,5,Sedan,18.5,5.0,False,False
+Mercedes-Benz,Mercedes-Benz E-Class,E220D Expression,5850000.0,Diesel,Automatic,2987,268.7,620.0,5,Sedan,18.5,5.0,False,False
+Mercedes-Benz,Mercedes-Benz E-Class,E220D Exclusive,6250000.0,Diesel,Automatic,2987,268.7,620.0,5,Sedan,18.5,5.0,False,False
+Bmw,X4,Xdrive30D M Sport X,6590000.0,Diesel,Automatic,2993,265.0,620.0,5,SUV,16.0,5.0,True,True
+Bmw,X4,Xdrive30I M Sport X,6350000.0,Petrol,Automatic,1998,248.0,350.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class All Terrain,E 220D,7500000.0,Diesel,Automatic,1950,194.0,400.0,5,SUV,16.0,5.0,True,True
+Land Rover Rover,Range Sport,3.0L Tdv6 S Diesel,10373732.0,Diesel,Automatic,2993,254.0,600.0,5,SUV,11.0,5.0,False,False
+Land Rover Rover,Range Sport,3.0L Tdv6 Se Diesel,11913021.0,Diesel,Automatic,2993,254.0,600.0,5,SUV,11.0,5.0,False,False
+Porsche,Cayenne,E-Hybrid,15806000.0,Hybrid,Automatic,2995,340.0,450.0,5,SUV,16.0,5.0,True,True
+Porsche,Cayenne,Turbo,19210000.0,Petrol,Automatic,3996,550.0,770.0,5,SUV,16.0,5.0,True,True
+Porsche,Cayenne,Base,11936000.0,Petrol,Automatic,2995,335.0,450.0,5,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,3.0L Tdv6 Vogue Diesel,18185267.0,Diesel,Automatic,2993,254.0,600.0,5,SUV,16.0,5.0,True,True
+Kia,Seltos,Htk 1.5,1029000.0,Petrol,Manual,1497,115.0,144.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htk Plus 1.5,1149000.0,Petrol,Manual,1497,115.0,144.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htx 1.5,1309000.0,Petrol,Manual,1497,115.0,144.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htx Cvt 1.5,1409000.0,Petrol,Automatic,1497,115.0,144.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Hte 1.5 Diesel,1034000.0,Diesel,Manual,1493,114.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htk 1.5 Diesel,1154000.0,Diesel,Manual,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htk Plus 1.5 Diesel,1254000.0,Diesel,Manual,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htk Plus At 1.5 Diesel,1354000.0,Diesel,Automatic,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htx Plus 1.5 Diesel,1534000.0,Diesel,Manual,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htx Plus At 1.5 Diesel,1634000.0,Diesel,Automatic,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Htx 1.5 Diesel,1414000.0,Diesel,Manual,1493,115.0,250.0,5,SUV,18.5,3.0,False,False
+Tata,Nexon Ev,Xm,1399000.0,Electric,Automatic,0,129.0,245.0,5,SUV,16.0,5.0,True,True
+Tata,Nexon Ev,Xz Plus,1499000.0,Electric,Automatic,0,129.0,245.0,5,SUV,16.0,5.0,True,True
+Tata,Nexon Ev,Xz Plus Lux,1599000.0,Electric,Automatic,0,129.0,245.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz C-Class,C 43 Amg,7500000.0,Petrol,Automatic,3982,503.0,700.0,5,Coupe,10.0,5.0,True,True
+Nissan,Micra,Xl (O) Cvt,662880.0,Petrol,Automatic,1198,77.0,104.0,5,Hatchback,26.0,2.0,True,True
+Nissan,Micra,Xv Cvt,781686.0,Petrol,Automatic,1198,77.0,104.0,5,Hatchback,26.0,2.0,True,True
+Tata,Harrier,Revotorq Xe,1345363.0,Diesel,Manual,1956,140.0,350.0,5,SUV,15.0,5.0,False,False
+Tata,Harrier,Revotorq Xm,1471368.0,Diesel,Manual,1956,140.0,350.0,5,SUV,15.0,5.0,False,False
+Tata,Harrier,Revotorq Xt,1591368.0,Diesel,Manual,1956,140.0,350.0,5,Hatchback,15.0,5.0,False,False
+Tata,Harrier,Revotorq Xz,1721368.0,Diesel,Manual,1956,140.0,350.0,5,Hatchback,15.0,5.0,False,False
+Tata,Harrier,Revotorq Xz Dual Tone,1732231.0,Diesel,Manual,1956,140.0,350.0,5,Hatchback,15.0,5.0,False,False
+Tata,Harrier,Revotorq Dark Edition,1730755.0,Diesel,Manual,1956,140.0,350.0,5,Hatchback,15.0,5.0,False,False
+Porsche,Macan,S,8503000.0,Petrol,Automatic,2995,349.0,480.0,5,SUV,10.5,5.0,False,False
+Porsche,Macan,Base,6998000.0,Petrol,Automatic,1984,248.0,370.0,5,SUV,10.5,5.0,False,False
+Tata,Tiago Nrg,1.2L Revotron,594993.0,Petrol,Manual,1199,85.0,114.0,5,Crossover,18.0,5.0,True,True
+Tata,Tiago Nrg,1.05L Revotorq,689993.0,Diesel,Manual,1047,70.0,140.0,5,Crossover,18.0,5.0,True,True
+Tata,Tiago Nrg,1.2L Revotron Amt,639993.0,Petrol,AMT,1199,85.0,114.0,5,Crossover,18.0,5.0,True,True
+Maruti Suzuki,Eeco,5 Str With Ac+Htr Cng,466057.0,CNG,Manual,1196,62.0,85.0,5,MPV,22.5,1.0,False,False
+Maruti Suzuki,Eeco,5 Str With Htr Cng,425255.0,CNG,Manual,1196,62.0,85.0,5,MPV,22.5,1.0,False,False
+Ford,Freestyle,1.5L Tdci Ambiente,676400.0,Diesel,Manual,1498,100.0,215.0,5,Crossover,18.0,5.0,True,True
+Ford,Freestyle,1.5L Tdci Titanium,790900.0,Diesel,Manual,1498,100.0,215.0,5,Hatchback,26.0,2.0,True,True
+Ford,Freestyle,1.5L Tdci Titanium Plus,836400.0,Diesel,Manual,1498,100.0,215.0,5,Hatchback,26.0,2.0,True,True
+Honda,Jazz,Exclusive Edition Cvt,928000.0,Petrol,Automatic,1199,89.0,110.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Tiguan,Comfortline 2.0L Tdi Amt,2814500.0,Diesel,Automatic,1968,141.0,340.0,5,SUV,16.0,5.0,True,True
+Honda,Cr-V,2Wd Petrol Cvt,2827001.0,Petrol,Automatic,1997,154.0,189.0,5,SUV,16.0,5.0,True,True
+Jaguar,Xe,S Petrol,4498000.0,Petrol,Automatic,1997,250.0,365.0,5,Sedan,18.5,5.0,True,True
+Jaguar,Xe,Se Petrol,4633000.0,Petrol,Automatic,1997,250.0,365.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Grand I10 Prime,Era T+ Cng Vtvt,545946.0,CNG,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10 Prime,Era T Cng Vtvt,528804.0,CNG,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Swift,Vxi,619000.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Vxi Amt,666000.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zxi,678000.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zxi Amt,725000.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zxi Plus,758000.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Ldi,599000.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Vdi,698000.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Vdi Amt,745000.0,Diesel,Automatic,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zdi,757000.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zdi Amt,804000.0,Diesel,Automatic,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zdi Plus,838000.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zxi Plus Amt,802000.0,Petrol,Automatic,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Maruti Suzuki,Swift,Zdi Plus Amt,884000.0,Diesel,Automatic,1248,75.0,190.0,5,Hatchback,28.0,2.0,False,False
+Tata,Altroz,Xe Diesel,699000.0,Diesel,Manual,1497,90.0,200.0,5,Hatchback,26.0,5.0,False,False
+Tata,Nexon,Xe Diesel,845000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xm Diesel,920000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Diesel,1020000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus Diesel,1100000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus Diesel Dual Tone,1120000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus (O) Diesel,1190000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xz Plus (O) Diesel Dual Tone,1210000.0,Diesel,Manual,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xma Diesel,980000.0,Diesel,Automatic,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus Diesel,1160000.0,Diesel,Automatic,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus Diesel Dual Tone,1180000.0,Diesel,Automatic,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus (O) Diesel,1250000.0,Diesel,Automatic,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Tata,Nexon,Xza Plus (O) Diesel Dual Tone,1270000.0,Diesel,Automatic,1497,110.0,260.0,5,SUV,20.5,5.0,False,False
+Ford,Ecosport,1.5L Tdci Ambiente,841000.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Tdci Trend,921000.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Tdci Titanium,999900.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Tdci Titanium Plus,1090000.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Ti-Vct Titanium Plus,999900.0,Petrol,Manual,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Ti-Vct Thunder Edition,999900.0,Petrol,Manual,1497,123.0,150.0,5,SUV,16.0,5.0,True,True
+Ford,Ecosport,1.5L Tdci Thunder Edition,1090000.0,Diesel,Manual,1498,100.0,205.0,5,SUV,16.0,5.0,True,True
+Hyundai,Verna,1.6 Vtvt Sx,999900.0,Petrol,Manual,1591,123.0,151.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Vtvt Sx (O),1172999.0,Petrol,Manual,1591,123.0,151.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Vtvt Sx(O) At,1287999.0,Petrol,Automatic,1591,123.0,155.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.4 Vtvt Ex,933182.0,Petrol,Manual,1396,100.0,133.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.4 Vtvt E,817867.0,Petrol,Manual,1396,100.0,133.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Vtvt Sx (O) Anniversary Edition,1178894.0,Petrol,Manual,1591,123.0,151.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Vtvt Sx Plus At,1162875.0,Petrol,Automatic,1591,123.0,155.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.4 Crdi E,942867.0,Diesel,Manual,1396,100.0,133.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.4 Crdi Ex,999900.0,Diesel,Manual,1396,100.0,133.0,5,Sedan,19.0,5.0,False,False
+Volkswagen,Vento,Highline 1.6 (P),999900.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Comfortline 1.6 (P),999900.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Highline 1.2 (P) Dsg,1197500.0,Petrol,Automatic,1197,105.0,175.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Highline Plus 1.2 (P) Dsg,1449500.0,Petrol,Automatic,1197,105.0,175.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Trendline 1.5 (D),958500.0,Diesel,Manual,1498,105.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Comfortline 1.5 (D),999900.0,Diesel,Manual,1498,105.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Highline 1.5 (D),1210500.0,Diesel,Manual,1498,105.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Highline 1.5 (D) Dsg,1336500.0,Diesel,Automatic,1498,105.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Vento,Highline Plus 1.5 (D) Dsg,1317500.0,Diesel,Automatic,1498,105.0,250.0,5,Sedan,18.5,5.0,True,True
+Bmw,X1,Sdrive20D M Sport,4240000.0,Diesel,Automatic,1995,187.0,400.0,5,SUV,18.0,5.0,False,False
+Bmw,3-Series,320D Sport,4140000.0,Diesel,Automatic,1995,190.0,400.0,5,Sedan,18.5,5.0,True,True
+Bmw,3-Series,320D Luxury Line,4690000.0,Diesel,Automatic,1995,190.0,400.0,5,Sedan,18.5,5.0,True,True
+Bmw,3-Series,330I M Sport,4790000.0,Petrol,Automatic,1998,258.0,400.0,5,Sedan,18.5,5.0,True,True
+Land Rover Rover,Range Evoque,S,5494000.0,Diesel,Automatic,1999,179.0,430.0,5,SUV,16.0,5.0,True,True
+Land Rover Rover,Range Evoque,Se R-Dynamic,5985000.0,Diesel,Automatic,1999,179.0,430.0,5,SUV,16.0,5.0,True,True
+Land Rover Rover,Range Evoque,S Petrol,5494000.0,Petrol,Automatic,1997,245.0,365.0,5,SUV,16.0,5.0,True,True
+Land Rover Rover,Range Evoque,Se R-Dynamic Petrol,5985000.0,Petrol,Automatic,1997,245.0,365.0,5,SUV,16.0,5.0,True,True
+Bmw,X4,Xdrive20D M Sport X,6060000.0,Diesel,Automatic,1995,188.0,400.0,5,SUV,16.0,5.0,True,True
+Fiat,Punto Evo Pure,1.3,575947.0,Diesel,Manual,1248,75.0,197.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna Cng,653452.0,CNG,Manual,1197,82.0,114.0,5,Hatchback,26.0,2.0,True,True
+Renault,Captur,Rxe Petrol,949999.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Renault,Captur,Rxe Diesel,1049999.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Renault,Captur,Platine Diesel Dual Tone,1299999.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Renault,Captur,Platine Petrol Dual Tone,1199999.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Kia,Seltos,Hte 1.5,989000.0,Petrol,Manual,1497,115.0,144.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Gtk 1.4,1379000.0,Petrol,Manual,1353,140.0,242.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Gtx 1.4,1529000.0,Petrol,Manual,1353,140.0,242.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Gtx At 1.4,1629000.0,Petrol,DCT,1353,140.0,242.0,5,SUV,18.5,3.0,False,False
+Kia,Seltos,Gtx Plus 1.4,1629000.0,Petrol,Manual,1353,140.0,242.0,5,SUV,18.5,3.0,False,False
+Mg,Hector,1.5L Style,1248000.0,Petrol,Manual,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,2.0L Style,1348000.0,Diesel,Manual,2000,168.0,350.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,2.0L Super,1448000.0,Diesel,Manual,2000,168.0,350.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,2.0L Smart,1588000.0,Diesel,Manual,2000,168.0,350.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,2.0L Sharp,1728000.0,Diesel,Manual,2000,168.0,350.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Super,1328000.0,Petrol,Manual,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Super Hybrid,1388000.0,Hybrid,Manual,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Sharp Hybrid,1628000.0,Hybrid,Manual,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Smart Hybrid,1498000.0,Hybrid,Manual,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Smart Dct,1568000.0,Petrol,DCT,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mg,Hector,1.5L Sharp Dct,1718000.0,Petrol,DCT,1500,141.0,250.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz C-Class,C 220D Prime,4020000.0,Diesel,Automatic,1950,192.0,400.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz C-Class,C 220D Progressive,4670000.0,Diesel,Automatic,1950,192.0,400.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz C-Class,C 300D Amg Line,4974750.0,Diesel,Automatic,1950,241.0,500.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz C-Class,C 200 Prime,4090000.0,Petrol,Automatic,1497,181.0,280.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz C-Class,C 200 Progressive,4654000.0,Petrol,Automatic,1497,181.0,280.0,5,Sedan,18.5,5.0,True,True
+Jaguar,F-Pace,Prestige Petrol,6422809.0,Petrol,Automatic,1997,247.0,369.0,5,SUV,15.5,5.0,False,False
+Hyundai,Grand I10 Nios,Era 1.2 Vtvt,504990.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Magna 1.2 Vtvt,589610.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Magna Amt 1.2 Vtvt,642610.0,Petrol,Automatic,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Sportz 1.2 Vtvt,643350.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Sportz Amt 1.2 Vtvt,703350.0,Petrol,Automatic,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Sportz Dual Tone 1.2 Vtvt,673350.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Hyundai,Grand I10 Nios,Asta 1.2 Vtvt,718950.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,False,False
+Nissan,Micra,Xld (O),743504.0,Diesel,Manual,1461,64.0,160.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Ciaz,1.5L Sigma Smart Hybrid,819689.0,Petrol,Manual,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Delta Smart Hybrid,881689.0,Petrol,Manual,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Alpha Smart Hybrid,997689.0,Petrol,Manual,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Delta At Smart Hybrid,980689.0,Petrol,Automatic,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Zeta At Smart Hybrid,1058688.0,Petrol,Automatic,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Maruti Suzuki,Ciaz,1.5L Alpha At Smart Hybrid,1098689.0,Petrol,Automatic,1462,103.0,138.0,5,Sedan,24.0,4.0,False,False
+Hyundai,Creta,Sports Edition Diesel,1414247.0,Diesel,Manual,1582,128.0,260.0,5,SUV,16.0,3.0,False,False
+Nissan,Kicks,Xl Petrol,955000.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xv Petrol,1095000.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xl Diesel,1109000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xv Diesel,1251000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xv Premium,1369000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xv Premium (O),1465000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xv Premium (O) Dual Tone,1465000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Nissan,Kicks,Xe Diesel,989000.0,Diesel,Manual,1461,110.0,240.0,5,SUV,16.0,5.0,True,True
+Toyota,Yaris,J,940000.0,Petrol,Manual,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,G,1055000.0,Petrol,Manual,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,V,1174000.0,Petrol,Manual,1498,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,Vx Cvt,1418000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,G Cvt,1175000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,J Cvt,1010000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,V Cvt,1294000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,Vx,1296000.0,Petrol,Manual,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,V (O),1197000.0,Petrol,Manual,1498,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,J (O),876000.0,Petrol,Manual,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,G (O),974000.0,Petrol,Manual,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,J (O) Cvt,935000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,G (O) Cvt,1083000.0,Petrol,Automatic,1496,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Toyota,Yaris,V (O) Cvt,1317000.0,Petrol,Automatic,1498,107.0,140.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Ambition 1.4 Tsi,1599599.0,Petrol,Manual,1395,140.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Ambition 2.0 Tdi Cr,1799599.0,Diesel,Manual,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Style 2.0 Tdi Cr,2079599.0,Diesel,Manual,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Style 2.0 Tdi Cr At,2299599.0,Diesel,Automatic,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,L & K 2.0 Tdi Cr At,2359599.0,Diesel,Automatic,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Corporate Edition 2.0 Tdi,1699000.0,Diesel,Manual,1968,141.0,320.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Onyx 1.8 Tsi Dsg,1999599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Onyx 2.0 Tdi Dsg,2199599.0,Diesel,Automatic,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent Prime,Cng T + (Cng +,556130.0,CNG + Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent Prime,T,536859.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent Prime,Cng T (Cng +,536859.0,CNG + Petrol,Manual,1197,81.8,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent Prime,T+ Crdi,639616.0,Diesel,Manual,1197,70.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent Prime,T Crdi,620297.0,Diesel,Manual,1197,71.0,114.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire Tour,Lxi Cng,598940.0,CNG,Manual,1197,69.0,115.0,5,Sedan,28.5,5.0,False,False
+Maruti Suzuki,Dzire,Lxi,582613.0,Petrol,Manual,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Vxi,673112.0,Petrol,Manual,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Ldi,666622.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zxi,732113.0,Petrol,Manual,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Vdi,757622.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Vxi Amt,720112.0,Petrol,Automatic,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zdi Amt,863122.0,Diesel,Automatic,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zdi,816622.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zxi Plus,821613.0,Petrol,Manual,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zxi At,779113.0,Petrol,Automatic,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zxi Plus Amt,868613.0,Petrol,Automatic,1197,84.3,115.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zdi Plus,906122.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Vdi Amt,804622.0,Diesel,Automatic,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Dzire,Zdi Plus Amt,952622.0,Diesel,Automatic,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Ameo,Trendline 1.0L,594000.0,Petrol,Manual,999,76.0,95.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Ameo,Comfortline 1.0L,665000.0,Petrol,Manual,999,76.0,95.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Ameo,Highline Plus 1.0L,799900.0,Petrol,Manual,999,76.0,95.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xma Diesel,836320.0,Diesel,AMT,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Honda,Amaze,S Cvt Petrol,763000.0,Petrol,Automatic,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,E Mt Diesel,705000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,E Mt Petrol,593000.0,Petrol,Manual,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,S Cvt Diesel,865000.0,Diesel,Automatic,1498,80.0,160.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,V Cvt Petrol,823000.0,Petrol,Automatic,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,V Cvt Diesel,925000.0,Diesel,Automatic,1498,80.0,160.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,S Mt Diesel,785000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Vx Mt Diesel,893000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,V Mt Diesel,845000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Vx Mt Petrol,781000.0,Petrol,Manual,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,V Mt Petrol,733000.0,Petrol,Manual,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,S Mt Petrol,673000.0,Petrol,Manual,1198,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Exclusive Edition Diesel,906000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Exclusive Edition Petrol,794000.0,Petrol,Manual,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Vx Cvt Diesel,966000.0,Diesel,Automatic,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Vx Cvt Petrol,864000.0,Petrol,Automatic,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Ace Edition Cvt Diesel,979300.0,Diesel,Automatic,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Ace Edition Cvt Petrol,877300.0,Petrol,Automatic,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Ace Edition Mt Diesel,906300.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,18.5,5.0,False,False
+Honda,Amaze,Ace Edition Mt Petrol,794300.0,Petrol,Manual,1199,90.0,110.0,5,Sedan,18.5,5.0,False,False
+Hyundai,Venue,1.2 Kappa Mt E,655000.0,Petrol,Manual,1197,82.0,112.7,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Mt S,826000.0,Petrol,Manual,998,117.0,172.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.4 Crdi Mt E,780000.0,Diesel,Manual,1397,89.0,220.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx,959000.0,Petrol,Manual,998,117.0,172.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx Dual Tone,974000.0,Petrol,Manual,998,117.0,172.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Mt Sx(O),1065000.0,Petrol,Manual,998,117.0,1712.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Dct S,940000.0,Petrol,DCT,998,118.0,172.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.0 Turbo Gdi Dct Sx Plus,1115500.0,Petrol,DCT,998,118.0,172.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.2 Kappa Mt S,725000.0,Petrol,Manual,1197,82.0,115.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.4 Crdi Mt S,850000.0,Diesel,Manual,1397,89.0,220.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.4 Crdi Mt Sx,983000.0,Diesel,Manual,1397,89.0,220.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.4 Crdi Mt Sx Dual Tone,998000.0,Diesel,Manual,1397,89.0,220.0,5,SUV,20.0,3.0,False,False
+Hyundai,Venue,1.4 Crdi Mt Sx(O),1089000.0,Diesel,Manual,1397,90.0,22.4,5,SUV,20.0,3.0,False,False
+Mahindra,Bolero Power Plus,Zlx,886398.0,Diesel,Manual,1493,70.0,195.0,7,SUV,16.0,3.0,False,False
+Mahindra,Bolero Power Plus,Slx,851302.0,Diesel,Manual,1493,70.0,195.0,7,SUV,16.0,3.0,False,False
+Mahindra,Bolero Power Plus,Sle,785656.0,Diesel,Manual,1493,70.0,195.0,7,SUV,16.0,3.0,False,False
+Mahindra,Bolero Power Plus,Lx,749192.0,Diesel,Manual,1493,70.0,195.0,7,SUV,16.0,3.0,False,False
+Hyundai,I20 Active,1.2 S,774035.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,3.0,False,False
+Hyundai,I20 Active,1.4 Sx,993393.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,3.0,False,False
+Mahindra,Xuv300,1.2 W4,830127.0,Petrol,Manual,1197,109.0,200.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.2 W6,915128.0,Petrol,Manual,1197,109.0,200.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.2 W8,1060129.0,Petrol,Manual,1197,109.0,200.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.2 W8(O),1184129.0,Petrol,Manual,1197,109.0,200.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W4,869131.0,Diesel,Manual,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W6,950131.0,Diesel,Manual,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W8,1095129.0,Diesel,Manual,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W8 (O),1214130.0,Diesel,Manual,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W8 Amt,1149800.0,Diesel,Automatic,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W8 (O) Amt,1269131.0,Diesel,Automatic,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mahindra,Xuv300,1.5 W6 Amt,999000.0,Diesel,AMT,1497,115.0,300.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Go+,Datsun A (O),555196.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun A,500575.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Maruti Suzuki,Baleno,1.3 Delta,746621.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.3 Alpha,868221.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.3 Sigma,668611.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.3 Zeta,807921.0,Diesel,Manual,1248,75.0,190.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Alpha,758212.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Alpha Cvt,890212.0,Petrol,Automatic,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Delta,636612.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Delta Cvt,768612.0,Petrol,Automatic,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Sigma,558602.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Zeta,697912.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Delta Dualjet,733412.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Zeta Dualjet,789912.0,Petrol,Manual,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno,1.2 Zeta Cvt,829912.0,Petrol,Automatic,1197,83.0,115.0,5,Hatchback,26.0,4.0,False,False
+Maruti Suzuki,Baleno Rs,Rs 1.0,788913.0,Petrol,Manual,998,102.0,150.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Tuv300,T4 Plus,854328.0,Diesel,Manual,1493,84.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T6 Plus,914328.0,Diesel,Manual,1493,84.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T8,976592.0,Diesel,Manual,1493,84.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T10,999614.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T10 (O),1031943.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T10 Dual Tone,1022930.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Tuv300,T10 (O) Dual Tone,1055259.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Hyundai,Xcent,S 1.2,643769.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,S At 1.2,733734.0,Petrol,Automatic,1197,82.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,Sx 1.2,705546.0,Petrol,Manual,1197,82.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,Sx 1.2 (O),782346.0,Petrol,Manual,1197,82.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,S 1.2 Crdi,742033.0,Diesel,Manual,1120,72.0,180.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,E,581078.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,Sx 1.2 Crdi,798558.0,Diesel,Manual,1120,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,Sx 1.2 Crdi (O),875358.0,Diesel,Manual,1120,72.0,190.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Xcent,E Crdi,673261.0,Diesel,Manual,1197,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Eeco,7 Str,380573.0,Petrol,Manual,1196,74.0,101.0,7,MPV,22.5,1.0,False,False
+Dc,Avanti,Standard,3407407.0,Petrol,Manual,2000,250.0,340.0,2,Coupe,10.0,5.0,True,True
+Ford,Mustang,Fastback V8,7462000.0,Petrol,Automatic,4951,401.0,515.0,4,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class Cabriolet,E400,7711338.0,Petrol,Not Mentioned,2996,334.0,480.0,4,Convertible,12.0,5.0,True,True
+Bmw,M2 Competition,Coupe,8180000.0,Petrol,Automatic,2979,410.0,550.0,4,Coupe,10.0,5.0,False,False
+Porsche,718,Boxster,8995000.0,Petrol,Automatic,1988,300.0,380.0,2,Convertible,12.0,5.0,True,True
+Porsche,718,Cayman,8595000.0,Petrol,Automatic,1988,300.0,380.0,2,Coupe,10.0,5.0,True,True
+Bmw,7-Series,730Ld Design Pure Excellence,12290000.0,Diesel,Automatic,2993,265.0,620.0,4,Sedan,14.0,5.0,False,False
+Bmw,7-Series,730Ld Design Pure Excellence Signature,13200000.0,Diesel,Automatic,2993,265.0,620.0,4,Sedan,14.0,5.0,False,False
+Bmw,7-Series,730Ld M Sport,13510000.0,Diesel,Automatic,2993,265.0,620.0,4,Sedan,14.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz S-Class,Amg S 63 Coupe,25500000.0,Petrol,Automatic,3982,450.0,900.0,4,Coupe,13.5,5.0,False,False
+Maserati,Granturismo,Sport,17229579.0,Petrol,Automatic,4691,460.0,520.0,4,Coupe,10.0,5.0,False,False
+Maserati,Quattroporte,Granlusso,17900000.0,Diesel,Automatic,2987,275.0,600.0,4,Sports,11.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Maybach,S560,19890000.0,Petrol,Automatic,4663,453.0,700.0,4,Sedan,8.0,5.0,False,False
+Porsche,Panamera,Turbo,21263000.0,Petrol,Automatic,3996,550.0,770.0,4,Sedan,18.5,5.0,False,False
+Porsche,Panamera,Turbo Executive,22613000.0,Petrol,Automatic,3996,550.0,770.0,4,Sedan,18.5,5.0,False,False
+Porsche,Panamera,Turbo Sport Turismo,21747000.0,Petrol,Automatic,3996,550.0,770.0,4,Sedan,18.5,5.0,False,False
+Mercedes-Benz,Mercedes-Benz S-Class Cabriolet,S500,23491293.0,Petrol,Automatic,4663,455.0,700.0,4,Convertible,12.0,5.0,True,True
+Audi,R8,V10 Plus,27245000.0,Petrol,Automatic,5204,610.0,560.0,2,Coupe,10.0,5.0,True,True
+Bentley,Continental Gt,Coupe,33791059.0,Petrol,Automatic,5998,590.0,720.0,4,Coupe,10.0,5.0,True,True
+Ferrari,Portofino,V8 Convertible,35000000.0,Petrol,Automatic,3855,560.0,755.0,2,Convertible,8.0,5.0,False,False
+Ferrari,458 Speciale,Coupe,42531500.0,Petrol,Automatic,4497,605.0,540.0,2,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Rolls-Royce Wraith,Coupe,50025840.0,Petrol,Automatic,6592,625.0,800.0,4,Coupe,10.0,5.0,True,True
+Bentley,Mulsanne,Sedan,52571294.0,Petrol,Automatic,6752,512.0,1020.0,4,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Rolls-Royce Phantom Coupe,6.8 L,77312661.0,Petrol,Automatic,6749,460.0,720.0,4,Coupe,6.5,5.0,False,False
+Mahindra,Kuv100 Nxt,K2 6Str,488194.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2+ 6Str,532184.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2 D 6Str,590798.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2+ D 6Str,619243.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K4+ D 6Str,667273.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K4+ 6Str,579645.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K6+ 6Str,631144.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K6+ D 6Str,754548.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 6Str,693550.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 D 6Str,787304.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 6 Str Dual Tone,701045.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 D 6 Str Dual Tone,794800.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2 D 6Str Taxi,559741.0,Diesel,Manual,1198,77.0,190.0,6,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2 6Str Cng Taxi,542913.0,Petrol,Manual,1198,82.0,115.0,6,Hatchback,26.0,2.0,True,True
+Volvo,S60 Cross Country,D4,4426500.0,Diesel,Automatic,2400,190.0,420.0,4,Crossover,18.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class,E 63 S Amg,15000000.0,Petrol,Automatic,5461,549.0,720.0,4,Sedan,18.5,5.0,False,False
+Audi,Rs7,Sportback,17072000.0,Petrol,Automatic,3993,560.0,700.0,4,Coupe,10.0,5.0,True,True
+Maserati,Grancabrio,Standard,19865675.0,Petrol,Automatic,4691,450.0,510.0,4,Convertible,12.0,5.0,True,True
+Ferrari,488 Gtb,Std,36761413.0,Petrol,Automatic,3902,670.0,760.0,2,Coupe,10.0,5.0,True,True
+Ferrari,488 Gtb,Spider,39319552.0,Petrol,Automatic,3902,670.0,760.0,2,Coupe,10.0,5.0,True,True
+Lamborghini,Aventador,Lp 700-4,47893943.0,Petrol,Automatic,6498,700.0,690.0,2,Convertible,12.0,5.0,True,True
+Lamborghini,Aventador,Lp700-4 Roadster,53210327.0,Petrol,Automatic,6498,700.0,690.0,2,Convertible,12.0,5.0,True,True
+Lamborghini,Aventador,S,47467700.0,Petrol,Automatic,6498,740.0,690.0,2,Coupe,10.0,5.0,True,True
+Mercedes-Benz,Rolls-Royce Dawn,Convertible,59216193.0,Petrol,Automatic,6598,571.0,780.0,4,Convertible,12.0,5.0,True,True
+Mercedes-Benz,Rolls-Royce Drophead Coupe,Phantom,83755383.0,Petrol,Automatic,6749,453.0,720.0,4,Convertible,12.0,5.0,True,True
+Maruti Suzuki,Omni,E 8 Str Bs-Iv,284485.0,Petrol,Manual,796,34.7,59.0,8,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun D,412292.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T,552656.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T (O),574448.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T Vdc,593361.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T (O) Vdc,615153.0,Petrol,Manual,1198,68.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T Cvt,658361.0,Petrol,Manual,1198,78.0,104.0,7,MPV,22.5,3.0,True,True
+Mercedes-Benz,Go+,Datsun T (O) Cvt,680153.0,Petrol,Manual,1198,78.0,104.0,7,MPV,22.5,3.0,True,True
+Bmw,M4,Coupe,13590000.0,Petrol,Automatic,2979,431.0,550.0,4,Coupe,10.0,5.0,False,False
+Porsche,911,Carrera S,17420000.0,Petrol,Automatic,2981,450.0,530.0,4,Coupe,9.0,5.0,False,False
+Porsche,911,Carrera S Cabriolet,18844000.0,Petrol,Automatic,2981,450.0,530.0,4,Convertible,9.0,5.0,False,False
+Aston Martin,Vantage,Coupe,29500000.0,Petrol,Automatic,3982,505.0,685.0,2,Coupe,10.0,5.0,False,False
+Aston Martin,Rapide,Luxe,38845823.0,Petrol,Automatic,5935,560.0,630.0,4,Sedan,18.5,5.0,True,True
+Bmw,6-Series,630I Gt Luxury Line,6440000.0,Petrol,Automatic,4395,450.0,0.0,4,Coupe,10.0,5.0,True,True
+Jaguar,F-Type,5.0 Coupe R,22155390.0,Petrol,Automatic,5000,550.0,680.0,2,Coupe,10.0,5.0,True,True
+Ferrari,458 Spider,V8,43367500.0,Petrol,Automatic,3902,669.0,760.0,2,Convertible,12.0,5.0,True,True
+Bentley,Flying Spur,V8,34167064.0,Petrol,Automatic,3993,507.0,660.0,4,Sedan,18.5,5.0,True,True
+Bentley,Flying Spur,W12,39382083.0,Petrol,Automatic,5998,616.0,800.0,4,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gls,63 Amg,19199181.0,Petrol,Automatic,5461,557.0,760.0,7,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Gls,400 4Matic,8776900.0,Petrol,Automatic,2996,333.0,480.0,7,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Gls,Grand Edition Petrol,8690000.0,Petrol,Automatic,2996,333.0,480.0,7,SUV,16.0,5.0,False,False
+Maserati,Levante,Diesel,14512054.0,Diesel,Automatic,2987,275.0,600.0,4,SUV,9.5,5.0,False,False
+Maserati,Levante,Gransport,14863774.0,Diesel,Automatic,2979,350.0,500.0,4,SUV,9.5,5.0,False,False
+Maserati,Levante,Granlusson,15383399.0,Diesel,Automatic,2979,430.0,580.0,4,SUV,9.5,5.0,False,False
+Tata,Hexa,Xt 4X4,1929417.0,Diesel,Manual,2179,156.0,320.0,6,SUV,16.0,5.0,True,True
+Ford,Endeavour,3.2L 4X4 At Titanium Plus,3470000.0,Diesel,Automatic,3198,200.0,470.0,7,SUV,16.0,5.0,True,True
+Audi,Q7,45 Tdi Premium Plus,7221500.0,Diesel,Automatic,2967,249.0,600.0,7,SUV,16.0,5.0,False,False
+Audi,Q7,45 Tdi Technology Pack,8021500.0,Diesel,Automatic,2967,249.0,600.0,7,SUV,16.0,5.0,False,False
+Audi,Q7,45 Tdi Black Styling,8111500.0,Diesel,Automatic,2967,249.0,600.0,7,SUV,16.0,5.0,False,False
+Land Rover Rover,Range Sport,4.4L Sdv8 Hse Diesel,14908985.0,Diesel,Automatic,4367,335.0,740.0,7,SUV,11.0,5.0,False,False
+Toyota,Land Cruiser,Vx,14699000.0,Diesel,Automatic,4461,265.0,650.0,7,SUV,16.0,5.0,False,False
+Land Rover Rover,Range,5.0L V8 Autobiography Petrol,26037526.0,Petrol,Automatic,4999,518.0,625.0,7,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,3.0L V6 Vogue Lwb Petrol,19527130.0,Petrol,Automatic,2995,335.0,450.0,7,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,4.4L Sdv8 Svautobiography Lwb Diesel,39294685.0,Diesel,Automatic,4367,335.0,740.0,4,SUV,16.0,5.0,True,True
+Land Rover Rover,Range,3.0L V6 Vogue Se Lwb Petrol,21398758.0,Petrol,Automatic,2995,335.0,450.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N4,797802.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N6,905642.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N8,984818.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N4 +,832415.0,Diesel,Manual,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N6 Amt,972359.0,Diesel,Automatic,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Mahindra,Nuvosport,N8 Amt,1048603.0,Diesel,Automatic,1493,100.0,240.0,7,SUV,16.0,5.0,True,True
+Isuzu,Mu-X,4X2,2734834.0,Diesel,Automatic,2999,177.0,380.0,7,SUV,16.0,4.0,False,False
+Isuzu,Mu-X,4X4,2931534.0,Diesel,Automatic,2999,177.0,380.0,7,SUV,16.0,4.0,False,False
+Toyota,Land Cruiser Prado,Vx L,9630000.0,Diesel,Automatic,2982,173.0,410.0,7,SUV,16.0,5.0,True,True
+Icml,Extreme,Ld Di Non Ac 9 Seater Bsiii,642478.0,Diesel,Manual,1994,101.4,240.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Ld Crdfi Non Ac 9 Seater Bsiv,589678.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Ld Di Ps Ac 9 Seater Bsiii,689761.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Ld Crdfi Ps Ac 9 Seater Bsiii,788177.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Sd Di 9 Seater Bsiii,2650777.0,Diesel,Manual,1994,101.4,240.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Ld Crdfi Ps Ac 9 Seater Bsiv,628072.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Vd Crdfi 7 Seater Bsiii,900967.0,Diesel,Manual,1994,122.0,270.0,7,SUV,16.0,5.0,True,True
+Icml,Extreme,Vd Di 7 Seater Bsiii,1465148.0,Diesel,Manual,1994,101.4,240.0,7,SUV,16.0,5.0,True,True
+Icml,Extreme,Sd Crdfi 9 Seater Bsiv,552890.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Icml,Extreme,Vd Crdfi 7 Seater Bsiv,927689.0,Diesel,Manual,1994,122.0,270.0,7,SUV,16.0,5.0,True,True
+Icml,Extreme,Sd Crdfi 9 Seater Bsiii,835275.0,Diesel,Manual,1994,122.0,270.0,9,SUV,16.0,5.0,True,True
+Maruti Suzuki,Gypsy,Hard Top,637343.0,Petrol,Manual,1298,80.0,103.0,8,SUV,16.0,5.0,True,True
+Maruti Suzuki,Gypsy,Soft Top,622730.0,Petrol,Manual,1298,80.0,103.0,8,SUV,16.0,5.0,True,True
+Mahindra,Bolero Power Plus,Plus Ac Bs4 Ps,859497.0,Diesel,Manual,2523,63.0,0.0,7,SUV,16.0,3.0,False,False
+Mahindra,Bolero Power Plus,Plus Non Ac Bs4 Ps,819117.0,Diesel,Manual,2523,63.9,195.0,9,SUV,16.0,3.0,False,False
+Honda,Brv,E Petrol,952900.0,Petrol,Manual,1497,119.0,145.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,S Petrol,1052900.0,Petrol,Manual,1497,119.0,145.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,V Petrol,1167900.0,Petrol,Manual,1497,119.0,145.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,Vx Petrol,1271900.0,Petrol,Manual,1497,119.0,145.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,V Cvt Petrol,1285900.0,Petrol,Automatic,1497,119.0,145.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,S Diesel,1187900.0,Diesel,Manual,1498,100.0,200.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,V Diesel,1273900.0,Diesel,Manual,1498,100.0,200.0,7,SUV,16.0,5.0,True,True
+Honda,Brv,Vx Diesel,1382900.0,Diesel,Manual,1498,100.0,200.0,7,SUV,16.0,5.0,True,True
+Force,Gurkha,Xpedition 5 Door,999000.0,Diesel,Manual,2596,85.0,230.0,7,SUV,16.0,3.0,False,False
+Force,Gurkha,Xpedition 3 Door,975000.0,Diesel,Manual,2596,85.0,230.0,7,SUV,16.0,3.0,False,False
+Mahindra,Scorpio,S3 2Wd,999994.0,Diesel,Manual,2523,75.0,200.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S5 2Wd,1220030.0,Diesel,Manual,2179,120.0,280.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S7 120 2Wd,1330006.0,Diesel,Manual,2179,120.0,280.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S7 140 2Wd,1360668.0,Diesel,Manual,2179,140.0,320.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S11 2Wd,1540081.0,Diesel,Manual,2179,140.0,320.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S11 4Wd,1663054.0,Diesel,Manual,2179,140.0,320.0,9,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,S9 2Wd,1423710.0,Diesel,Manual,2179,140.0,320.0,9,SUV,16.0,5.0,False,False
+Mahindra,Xuv500,W7,1418313.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xuv500,W7,1418313.0,Diesel,Manual,2179,155.0,330.0,7,SUV,16.0,5.0,True,True
+Tata,Hexa,Xm Plus 4X2,1639374.0,Diesel,Manual,2179,156.0,400.0,7,SUV,16.0,5.0,True,True
+Tata,Hexa,Xta 4X2,1912593.0,Diesel,Automatic,2179,156.0,400.0,6,SUV,16.0,5.0,True,True
+Tata,Hexa,Xt 4X2,1796458.0,Diesel,Manual,2179,156.0,400.0,6,SUV,16.0,5.0,True,True
+Tata,Hexa,Xe 4X2,1371864.0,Diesel,Manual,2179,150.0,320.0,7,SUV,16.0,5.0,True,True
+Tata,Hexa,Xm 4X2,1531377.0,Diesel,Manual,2179,156.0,400.0,7,SUV,16.0,5.0,True,True
+Tata,Hexa,Xma 4X2,1655587.0,Diesel,Automatic,2179,156.0,400.0,7,SUV,16.0,5.0,True,True
+Toyota,Fortuner,2.8 4X2 At,3205000.0,Diesel,Automatic,2755,177.0,450.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,2.8 4X2 Mt,3019000.0,Diesel,Manual,2755,177.0,420.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,2.8 4X4 Mt,3216000.0,Diesel,Manual,2755,177.0,420.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,2.8 4X4 At,3395000.0,Diesel,Automatic,2755,177.0,450.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,2.7 4X2 At,2977000.0,Petrol,Automatic,2694,166.0,245.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,2.7 4X2 Mt,2818000.0,Petrol,Manual,2694,166.0,245.0,7,SUV,12.0,5.0,False,False
+Toyota,Fortuner,Trd Celebratory Edition,3420000.0,Diesel,Automatic,2755,177.0,450.0,7,SUV,12.0,5.0,False,False
+Ford,Endeavour,2.2L 4X2 At Titanium Plus,3233000.0,Diesel,Automatic,2198,160.0,385.0,7,SUV,16.0,5.0,True,True
+Ford,Endeavour,2.2L 4X2 Mt Titanium,2920000.0,Diesel,Manual,2198,160.0,385.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xylo,D2 Bs-Iv,963037.0,Diesel,Manual,2489,95.0,218.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xylo,D4 Bs-Iv,1004487.0,Diesel,Manual,2489,95.0,218.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xylo,H4 Bs-Iv,1031951.0,Diesel,Manual,2179,120.0,280.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xylo,H4 Abs Bs-Iv,1066139.0,Diesel,Manual,2179,120.0,280.0,7,SUV,16.0,5.0,True,True
+Mahindra,Xylo,H8 Abs Airbags Bs-Iv,1228335.0,Diesel,Manual,2179,121.0,280.0,8,SUV,16.0,5.0,True,True
+Tata,Safari Storme,2.2 Lx 4X2,1109005.0,Diesel,Manual,2179,150.0,320.0,7,SUV,15.0,5.0,False,False
+Tata,Safari Storme,2.2 Ex 4X2,1335158.0,Diesel,Manual,2179,150.0,320.0,7,SUV,15.0,5.0,False,False
+Tata,Safari Storme,2.2 Vx 4X2 Varicor 400,1479574.0,Diesel,Manual,2179,156.0,400.0,7,SUV,15.0,5.0,False,False
+Mahindra,Bolero,Zlx,942263.0,Diesel,Manual,2523,63.0,195.0,7,SUV,17.0,1.0,False,False
+Mahindra,Bolero,Slx,917055.0,Diesel,Manual,2523,63.0,195.0,7,SUV,17.0,1.0,False,False
+Mahindra,Bolero,Sle,860720.0,Diesel,Manual,2523,63.0,195.0,7,SUV,17.0,1.0,False,False
+Mahindra,Bolero,Ex,815883.0,Diesel,Manual,2523,63.0,195.0,7,SUV,17.0,1.0,False,False
+Mahindra,Bolero,Ex Non Ac,773678.0,Diesel,Manual,2523,63.0,195.0,7,SUV,17.0,1.0,False,False
+Mitsubishi,Pajero Sport,2.5 Mt,2903750.0,Diesel,Manual,2477,178.0,400.0,7,SUV,16.0,5.0,True,True
+Mitsubishi,Pajero Sport,2.5 At,2835500.0,Diesel,Automatic,2477,178.0,350.0,7,SUV,16.0,5.0,True,True
+Mitsubishi,Pajero Sport,Limited Edition,2953240.0,Diesel,Manual,2477,178.0,400.0,7,SUV,16.0,5.0,True,True
+Mitsubishi,Pajero Sport,Select Plus Mt,2992800.0,Diesel,Manual,2477,178.0,400.0,7,SUV,16.0,5.0,True,True
+Mitsubishi,Pajero Sport,Select Plus At,2952500.0,Diesel,Automatic,2477,178.0,350.0,7,SUV,16.0,5.0,True,True
+Mitsubishi,Montero,3.2 At,6862560.0,Diesel,Automatic,3200,202.0,441.0,7,SUV,16.0,5.0,True,True
+Datsun,Redi-Go,D,279650.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Redi-Go,T,351832.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Redi-Go,A,333419.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,26.0,2.0,True,True
+Datsun,Redi-Go,S,362000.0,Petrol,Manual,799,54.0,72.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto K10,Lxi,377588.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,2.0,False,False
+Maruti Suzuki,Alto K10,Vxi,394036.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,2.0,False,False
+Maruti Suzuki,Alto K10,Lx,360843.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,2.0,False,False
+Maruti Suzuki,Alto K10,Vxi (O),407238.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,28.5,2.0,False,False
+Maruti Suzuki,Alto K10,Vxi Amt (O),438559.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,28.5,2.0,False,False
+Tata,Tiago,Revotron Xt,520000.0,Petrol,Manual,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xz,570000.0,Petrol,Manual,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xz Plus,599000.0,Petrol,Manual,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xz Plus Dual Tone,610000.0,Petrol,Manual,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xza,620000.0,Petrol,AMT,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xza Plus,649000.0,Petrol,AMT,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Tata,Tiago,Revotron Xza Plus Dual Tone,660000.0,Petrol,AMT,1199,86.0,114.0,5,Hatchback,23.5,4.0,False,False
+Hyundai,Aura,S 1.2 Cng Petrol (Cng +,728900.0,CNG + Petrol,Manual,1197,69.0,95.0,5,Sedan,18.5,2.0,False,False
+Mercedes-Benz,Mercedes-Benz Gls,350 Cdi,8820000.0,Diesel,Automatic,2987,258.0,619.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz Gls,Grand Edition Diesel,8690000.0,Diesel,Automatic,2987,258.0,619.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz S-Class,S 350 D,13558438.0,Diesel,Automatic,2987,258.0,620.0,5,Sedan,13.5,5.0,False,False
+Mercedes-Benz,Mercedes-Benz S-Class,S 450,13976653.0,Petrol,Automatic,2996,333.0,480.0,5,Sedan,13.5,5.0,False,False
+Bentley,Bentayga,W12,45941557.0,Petrol,Automatic,5950,608.0,900.0,5,SUV,7.0,5.0,False,False
+Mercedes-Benz,Rolls-Royce Ghost Series Ii,6.6,46709733.0,Petrol,Automatic,6593,563.0,780.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Grand I10 Prime,Era T Crdi,551530.0,Diesel,Manual,1120,71.0,16.3,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10 Prime,Era T+ Crdi,568930.0,Diesel,Manual,1120,71.0,16.3,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K4+ 5Str,573250.0,Petrol,Manual,1198,82.0,115.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K6+ 5Str,631146.0,Petrol,Manual,1198,82.0,115.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 5Str,687175.0,Petrol,Manual,1198,82.0,115.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K4+ D 5Str,660832.0,Diesel,Manual,1198,77.0,190.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K6+ D 5Str,748128.0,Diesel,Manual,1198,77.0,190.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K8 D 5Str,780884.0,Diesel,Manual,1198,77.0,190.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2 D 5Str Taxi,550155.0,Diesel,Manual,1198,77.0,190.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Kuv100 Nxt,K2 5Str Cng Taxi,524312.0,Petrol,Manual,1198,82.0,115.0,5,Hatchback,26.0,2.0,True,True
+Tata,Tigor,Revotron Xz,650000.0,Petrol,Manual,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Tata,Tigor,Revotron Xz Plus,699000.0,Petrol,Manual,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Tata,Tigor,Revotron Xza Plus,749000.0,Petrol,AMT,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Volvo,Xc60,Inscription D5,5990000.0,Diesel,Automatic,1969,233.0,480.0,5,SUV,12.0,5.0,False,False
+Jaguar,Xj,3.0L,9738609.0,Diesel,Automatic,2993,274.0,600.0,5,Sedan,18.5,5.0,True,True
+Volvo,V40 Cross Country,D3,3283000.0,Diesel,Automatic,1984,150.0,350.0,5,Hatchback,26.0,2.0,True,True
+Jaguar,Xj,50,11129599.0,Diesel,Automatic,2993,302.0,689.0,5,Sedan,18.5,5.0,True,True
+Land Rover Rover,Range,5.0L V8 Svautobiography Lwb Petrol,40499548.0,Petrol,Automatic,4999,558.0,700.0,5,SUV,16.0,5.0,True,True
+Jaguar,Xj,3.0L Portfolio,10725145.0,Diesel,Automatic,2993,274.0,600.0,5,Sedan,18.5,5.0,True,True
+Land Rover Rover,Range,5.0L V8 Svautobiography Dynamic Petrol,32522000.0,Petrol,Automatic,4999,558.0,700.0,5,SUV,16.0,5.0,True,True
+Maruti Suzuki,Alto 800 Tour,H1,354235.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Alto 800 Tour,H1 (O),356559.0,Petrol,Manual,796,48.0,69.0,5,Hatchback,26.0,2.0,True,True
+Bmw,5-Series,530D M Sport,6680000.0,Diesel,Automatic,2993,258.0,560.0,5,Sedan,15.0,5.0,False,False
+Maruti Suzuki,Eeco,5 Str,352136.0,Petrol,Manual,1196,73.0,101.0,5,MPV,22.5,1.0,False,False
+Mercedes-Benz,Rolls-Royce Phantom,Ewb,75400000.0,Petrol,Automatic,6749,460.0,720.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Rolls-Royce Phantom,Sedan,95000000.0,Petrol,Automatic,6749,460.0,720.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Ignis,Delta 1.2 Amt,607841.0,Petrol,AMT,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Maruti Suzuki,Eeco,5 Str With Ac+Htr,392967.0,Petrol,Manual,1196,73.0,101.0,5,MPV,22.5,1.0,False,False
+Maruti Suzuki,Ignis,Delta 1.2 Mt,560841.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,20.0,3.0,False,False
+Premier,Rio,Gx,506000.0,Petrol,Manual,1173,76.6,103.9,5,SUV,16.0,5.0,True,True
+Premier,Rio,Lx,739000.0,Diesel,Manual,1489,64.0,152.0,5,SUV,16.0,5.0,True,True
+Premier,Rio,Dx,603000.0,Diesel,Manual,1489,64.0,152.0,5,SUV,16.0,5.0,True,True
+Premier,Rio,Ex,568623.0,Diesel,Manual,1489,64.0,152.0,5,SUV,16.0,5.0,True,True
+Premier,Rio,Glx,670000.0,Petrol,Manual,1173,76.6,103.9,5,SUV,16.0,5.0,True,True
+Toyota,Etios Liva,Gd,647800.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,V,581000.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,G,520300.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Premier,Rio,Crdi4,739000.0,Diesel,Manual,1248,72.0,183.0,5,SUV,16.0,5.0,True,True
+Toyota,Etios Liva,Vd,704000.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Vx,630000.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Vxd,745000.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Dual Tone Vxd,756700.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Dual Tone Vd,720700.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Dual Tone V,597700.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Dual Tone Vx,641700.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Gxd,686000.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Vx Dual Tone Limited Edition,662700.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Liva,Gx,558400.0,Petrol,Manual,1197,80.0,104.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Dzire Tour,Lxi,553423.0,Petrol,Manual,1197,83.0,115.0,5,Sedan,28.5,5.0,False,False
+Toyota,Etios Liva,Vxd Dual Tone Limited Edition,777700.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Dzire Tour,Ldi,653523.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,28.5,5.0,False,False
+Hyundai,Elite I20,Era 1.4 Crdi,697803.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Sportz Plus,721693.0,Petrol,Manual,1197,84.0,115.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Magna Plus,634950.0,Petrol,Manual,1197,84.0,115.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Magna Plus Crdi,770803.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Asta (O) 1.2,808993.0,Petrol,Manual,1197,84.0,114.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Sportz Plus Crdi Dual Tone,876103.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Asta (O) Crdi,934003.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Sportz Plus Cvt,831693.0,Petrol,Manual,1197,84.0,115.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Sportz Plus Dual Tone,751693.0,Petrol,Manual,1197,84.0,115.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Asta (O) Cvt,920993.0,Petrol,Automatic,1197,83.0,115.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Sportz Plus Crdi,846103.0,Diesel,Manual,1396,90.0,220.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Platinum Etios,Gd,734700.0,Diesel,Manual,1364,68.0,170.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,V,718600.0,Petrol,Manual,1496,90.0,132.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,G,627100.0,Petrol,Manual,1496,90.0,132.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Vd,828600.0,Diesel,Manual,1364,68.0,170.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Vx,778400.0,Petrol,Manual,1496,90.0,132.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Vxd,888400.0,Diesel,Manual,1364,68.0,170.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Gxd,799600.0,Diesel,Manual,1364,68.0,170.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Vx Limited Edition,803400.0,Petrol,Manual,1496,90.0,132.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Vxd Limited Edition,913400.0,Diesel,Manual,1364,68.0,170.0,5,Sedan,18.5,5.0,True,True
+Toyota,Platinum Etios,Gx,689600.0,Petrol,Manual,1496,90.0,132.0,5,Sedan,18.5,5.0,True,True
+Toyota,Etios Cross,Gd,766000.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Cross,Vd,797500.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Cross,V,802000.0,Petrol,Manual,1496,90.0,132.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Verito Vibe,D6,750428.0,Diesel,Manual,1461,65.0,160.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Verito Vibe,D4,685729.0,Diesel,Manual,1461,65.0,160.0,5,Hatchback,26.0,2.0,True,True
+Mahindra,Verito Vibe,D2,657628.0,Diesel,Manual,1461,65.0,160.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Etios Cross,1.4 X Edition,816000.0,Diesel,Manual,1364,68.0,170.0,5,Hatchback,26.0,2.0,True,True
+Skoda,Superb Sportline,Sportline 2.0L Tdi At,3149599.0,Diesel,Automatic,1968,177.0,350.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb Sportline,Sportline 1.8L Tsi At,2899599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Fiat,Avventura,Multijet Dynamic,796132.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Fiat,Avventura,Multijet Emotion,876341.0,Diesel,Manual,1248,93.0,209.0,5,Crossover,18.0,5.0,True,True
+Audi,A3,35 Tdi Technology,3221200.0,Diesel,Automatic,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Audi,A3,35 Tdi Premium Plus,3021200.0,Diesel,Automatic,1968,143.0,320.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz B-Class,B 180 Sport,2988311.0,Petrol,Automatic,1595,122.0,200.0,5,MPV,22.5,3.0,True,True
+Mercedes-Benz,Mercedes-Benz B-Class,B 180 Night Edition,3198662.0,Petrol,Automatic,1595,122.0,200.0,5,MPV,22.5,3.0,True,True
+Mercedes-Benz,Mercedes-Benz B-Class,B 200 Cdi Night Edition,3303282.0,Diesel,Automatic,2143,136.0,300.0,5,MPV,22.5,3.0,True,True
+Mercedes-Benz,Mercedes-Benz B-Class,B 200 Cdi Sport,3089851.0,Diesel,Automatic,2143,136.0,300.0,5,MPV,22.5,3.0,True,True
+Mercedes-Benz,Mercedes-Benz Cla-Class,200 Sport,3599000.0,Petrol,Automatic,1991,183.0,300.0,5,Sedan,18.5,5.0,True,True
+Skoda,Kodiaq,Style 2.0 Tdi 4X4 At,3299599.0,Diesel,Automatic,1968,177.0,350.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Cla-Class,200 D Sport,3699000.0,Diesel,Automatic,2143,136.0,300.0,5,Sedan,18.5,5.0,True,True
+Skoda,Kodiaq,Laurin And Klement,3678599.0,Diesel,Automatic,1968,148.0,340.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Cla-Class,200 Cdi Style,3172000.0,Diesel,Automatic,2143,136.0,300.0,5,Sedan,18.5,5.0,True,True
+Mini,Clubman,Cooper S,4120000.0,Petrol,Manual,1998,192.0,280.0,5,Hatchback,26.0,2.0,True,True
+Jaguar,Xf,2.0 Prestige,5436329.0,Petrol,Automatic,1999,247.0,340.0,5,Sedan,18.5,5.0,True,True
+Skoda,Kodiaq,Corporate Edition,3299599.0,Diesel,Automatic,1968,177.0,350.0,5,SUV,16.0,5.0,True,True
+Jaguar,Xf,2.0 Portfolio Diesel,6138811.0,Diesel,Automatic,1999,180.0,430.0,5,Sedan,18.5,5.0,True,True
+Jaguar,Xf,2.0 Prestige Diesel,5506622.0,Diesel,Automatic,1999,180.0,430.0,5,Sedan,18.5,5.0,True,True
+Jaguar,Xf,2.0 Portfolio,6073446.0,Petrol,Automatic,1999,247.0,340.0,5,Sedan,18.5,5.0,True,True
+Bmw,X3,Xdrive 30I Luxury Line,5880000.0,Petrol,Automatic,1998,248.0,350.0,5,SUV,15.0,5.0,False,False
+Jaguar,Xf,2.0 Pure Diesel,4977080.0,Diesel,Automatic,1999,180.0,430.0,5,Sedan,18.5,5.0,True,True
+Bmw,X3,Xdrive 20D Luxury Line,5930000.0,Diesel,Automatic,1995,190.0,400.0,5,SUV,15.0,5.0,False,False
+Bmw,X3,Xdrive20D Xline,5600000.0,Diesel,Automatic,1995,190.0,400.0,5,SUV,15.0,5.0,False,False
+Maruti Suzuki,Swift,Lxi,519000.0,Petrol,Manual,1197,83.0,113.0,5,Hatchback,28.0,2.0,False,False
+Tata,Zest,Xe Petrol,582287.0,Petrol,Manual,1193,90.0,140.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xm Petrol,653926.0,Petrol,Manual,1193,90.0,140.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xms Petrol,672641.0,Petrol,Manual,1193,90.0,140.0,5,Sedan,18.5,5.0,True,True
+Fiat,Linea,Active Multijet,862175.0,Diesel,Manual,1248,93.0,209.0,5,Sedan,18.5,5.0,True,True
+Fiat,Linea,Active Fire,715860.0,Petrol,Manual,1368,114.0,207.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xt Petrol,732475.0,Petrol,Manual,1193,90.0,140.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Vitara Brezza,Ldi,762742.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Fiat,Linea,Dynamic Multijet,932025.0,Diesel,Manual,1248,93.0,209.0,5,Sedan,18.5,5.0,True,True
+Fiat,Linea,T-Jet Emotion,997763.0,Petrol,Manual,1368,114.0,207.0,5,Sedan,18.5,5.0,True,True
+Fiat,Linea,Emotion Multijet,991434.0,Diesel,Manual,1248,93.0,209.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Vitara Brezza,Zdi+,987743.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Vdi,814742.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Zdi+ Dual Tone,1003552.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Zdi,892243.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Zdi Ags,942243.0,Diesel,Automatic,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Vdi Ags,864742.0,Diesel,Automatic,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Zdi+ Ags,1037742.0,Diesel,Manual,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Maruti Suzuki,Vitara Brezza,Zdi+ Dual Tone Ags,1059742.0,Diesel,Automatic,1248,90.0,200.0,5,SUV,21.0,4.0,False,False
+Hyundai,I20 Active,1.2 Sx,858536.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,3.0,False,False
+Renault,Duster,Rxe Petrol,799990.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,Rxs Petrol,919990.0,Petrol,Manual,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Hyundai,I20 Active,1.2 Sx Dual Tone,882298.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,3.0,False,False
+Renault,Duster,Rxs (Opt) Cvt,999990.0,Petrol,CVT,1498,106.0,142.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,85 Ps Rxe Mt Diesel,929990.0,Diesel,Manual,1461,85.0,200.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,85 Ps Rxs Mt Diesel,999990.0,Diesel,Manual,1461,85.0,200.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,110 Ps Rxs Mt Diesel,1119990.0,Diesel,Automatic,1461,110.0,245.0,5,SUV,16.0,5.0,True,True
+Force,Gurkha,Xplorer 3 Door,1075000.0,Diesel,Manual,2596,85.0,230.0,5,SUV,16.0,3.0,False,False
+Renault,Duster,110 Ps Rxz Amt Diesel,1249990.0,Diesel,Automatic,1461,110.0,245.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,110 Ps Rxs Awd (Opt) Diesel,1249990.0,Diesel,Automatic,1461,110.0,245.0,5,SUV,16.0,5.0,True,True
+Renault,Duster,110 Ps Rxz Mt Diesel,1209990.0,Diesel,Automatic,1461,110.0,245.0,5,SUV,16.0,5.0,True,True
+Skoda,Monte Carlo,Monte Carlo 1.5 Tdi At,1425599.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Force,Gurkha,Xplorer 5 Door,1225000.0,Diesel,Manual,2596,85.0,230.0,5,SUV,16.0,3.0,False,False
+Mahindra,Scorpio,4Wd Getaway,1236258.0,Diesel,Manual,2179,121.0,280.0,5,SUV,16.0,5.0,False,False
+Mahindra,Scorpio,2Wd Getaway,1123158.0,Diesel,Manual,2179,121.0,280.0,5,SUV,16.0,5.0,False,False
+Skoda,Monte Carlo,Monte Carlo 1.5 Tdi Mt,1299599.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Monte Carlo,Monte Carlo 1.6 Mpi Mt,1139599.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Monte Carlo,Monte Carlo 1.6 Mpi At,1269599.0,Petrol,Automatic,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Toyota,Corolla Altis,Gl Diesel,1936000.0,Diesel,Manual,1364,88.4,205.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,Style 1.8 Tsi Mt,2599599.0,Petrol,Manual,1798,180.0,320.0,5,Sedan,18.5,5.0,True,True
+Toyota,Corolla Altis,G Diesel,1771000.0,Diesel,Manual,1364,88.4,205.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,L & K 1.8 Tsi At,3099599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,Style 2.0 Tdi At,3029599.0,Diesel,Automatic,1968,177.0,350.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,L & K 2.0 Tdi At,3349599.0,Diesel,Automatic,1968,177.0,350.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,Style 1.8 Tsi At,2779599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Volvo,S60,Polestar,5602000.0,Petrol,Automatic,1969,372.0,470.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class,E200,5861062.0,Petrol,Automatic,1991,184.0,300.0,5,Sedan,18.5,5.0,False,False
+Skoda,Superb,Corporate Edition 1.8 Tsi At,2599599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Superb,Corporate Edition 2.0 Tdi At,2849599.0,Diesel,Automatic,1968,177.0,350.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz E-Class,E200 Expression,5750000.0,Petrol,Automatic,1991,184.0,300.0,5,Sedan,18.5,5.0,False,False
+Mercedes-Benz,Mercedes-Benz E-Class,E200 Exclusive,6150000.0,Petrol,Automatic,1991,184.0,300.0,5,Sedan,18.5,5.0,False,False
+Jeep,Wrangler,Unlimited,6394000.0,Petrol,Automatic,1999,268.0,400.0,5,SUV,10.5,5.0,False,False
+Land Rover Rover,Range Velar,2.0 Diesel R-Dynamic S,7246802.0,Diesel,Automatic,1999,179.0,430.0,5,SUV,16.0,5.0,False,False
+Fiat,Linea Classic,1.4,646336.0,Petrol,Manual,1368,90.0,115.0,5,Sedan,18.5,5.0,True,True
+Fiat,Punto Evo Pure,1.2L Fire Dynamic,482330.0,Petrol,Manual,1172,68.0,96.0,5,Hatchback,26.0,2.0,True,True
+Fiat,Linea Classic,1.3 Multijet,751203.0,Diesel,Manual,1248,76.0,197.0,5,Sedan,18.5,5.0,True,True
+Nissan,Terrano,Xl (P),999900.0,Petrol,Manual,1598,104.0,145.0,5,SUV,16.0,5.0,True,True
+Nissan,Terrano,Xv D Premium 110 Ps Amt,1464900.0,Diesel,Automatic,1461,110.0,248.0,5,SUV,16.0,5.0,True,True
+Nissan,Terrano,Xe D 85Ps,999900.0,Diesel,Manual,1461,85.0,200.0,5,SUV,16.0,5.0,True,True
+Fiat,Linea Classic,Plus 1.3 Multijet,808558.0,Diesel,Manual,1248,76.0,197.0,5,Sedan,18.5,5.0,True,True
+Nissan,Terrano,Sport Edition,1235700.0,Diesel,Manual,1461,85.0,200.0,5,SUV,16.0,5.0,True,True
+Nissan,Terrano,Xl D(O),1235700.0,Diesel,Manual,1461,85.0,200.0,5,SUV,16.0,5.0,True,True
+Nissan,Terrano,Xv D Premium 110 Ps,1419900.0,Diesel,Manual,1461,110.0,248.0,5,SUV,16.0,5.0,True,True
+Hyundai,Elantra,Sx At,1949000.0,Petrol,AMT,1999,152.0,196.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Elantra,Sx(O) At,2039000.0,Petrol,AMT,1999,152.0,196.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Elantra,Sx,1849000.0,Petrol,Manual,1999,152.0,196.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Elantra,S,1589000.0,Petrol,Manual,1999,152.0,196.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Tucson,2Wd At Gl Petrol,2187384.0,Petrol,Automatic,1999,155.0,192.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,2Wd At Gl Diesel,2364354.0,Diesel,Automatic,1995,185.0,400.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,2Wd Mt Petrol,1876656.0,Petrol,Manual,1999,155.0,192.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,2Wd Mt Diesel,2079717.0,Diesel,Manual,1995,185.0,400.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,2Wd At Gl(O) Petrol,2246749.0,Petrol,Automatic,1999,155.0,192.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,2Wd At Gls Petrol,2373522.0,Petrol,Automatic,1999,155.0,192.0,5,SUV,16.0,5.0,False,False
+Hyundai,Tucson,4Wd At Gls Diesel,2697417.0,Diesel,Automatic,1995,185.0,400.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz A-Class,200D,2886871.0,Diesel,Automatic,2143,136.0,300.0,5,Hatchback,17.0,5.0,False,False
+Hyundai,Tucson,2Wd At Gl(O) Diesel,2423720.0,Diesel,Automatic,1995,185.0,400.0,5,SUV,16.0,5.0,False,False
+Mercedes-Benz,Mercedes-Benz A-Class,180,2785288.0,Petrol,Automatic,1595,122.0,200.0,5,Hatchback,17.0,5.0,False,False
+Skoda,Rapid,1.5 Tdi Cr Active,1006139.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Nissan,Micra,Xvd,812964.0,Diesel,Manual,1461,64.0,160.0,5,Hatchback,26.0,2.0,True,True
+Volvo,V40 Cross Country,T4,2962000.0,Petrol,Automatic,1596,180.0,240.0,5,Hatchback,26.0,2.0,True,True
+Skoda,Rapid,1.6 Mpi Ambition,998599.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.6 Mpi Active,881916.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.5 Tdi Cr Ambition At,1249599.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.5 Tdi Cr Ambition,1129599.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.6 Mpi Style At,1243599.0,Petrol,Automatic,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.5 Tdi Cr Style At,1399599.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.5 Tdi Cr Style,1273599.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.6 Mpi Style,1115599.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,1.6 Mpi Ambition At,999599.0,Petrol,Automatic,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,Onyx Mt Diesel,1158599.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,Onyx At Petrol,1099599.0,Petrol,Automatic,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,Onyx At Diesel,1273599.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Rapid,Onyx Mt Petrol,975599.0,Petrol,Manual,1598,105.0,153.0,5,Sedan,18.5,5.0,True,True
+Isuzu,Dmax V-Cross,Standard,1654783.0,Diesel,Manual,2499,134.0,320.0,5,Pick-up,18.5,4.0,False,False
+Isuzu,Dmax V-Cross,High Z,1806813.0,Diesel,Manual,2499,134.0,320.0,5,Pick-up,18.5,4.0,False,False
+Isuzu,Dmax V-Cross,Z Prestige,1999000.0,Diesel,Automatic,1898,150.0,350.0,5,Pick-up,18.5,4.0,False,False
+Mercedes-Benz,Mercedes-Benz Gla-Class,45 Amg 4Matic,7784944.0,Petrol,Automatic,1991,360.0,450.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gla-Class,200 D Sport,3564000.0,Diesel,Automatic,2143,136.0,300.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gla-Class,200 Sport,3438000.0,Petrol,Automatic,1991,183.0,300.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gla-Class,200 D Style,3233000.0,Diesel,Automatic,2143,136.0,300.0,5,SUV,16.0,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gla-Class,45 Aero Edition,8067000.0,Petrol,Automatic,1991,375.0,475.0,5,SUV,16.0,5.0,True,True
+Honda,Accord Hybrid,2.0 At,4321237.0,Hybrid,Automatic,1993,145.0,175.0,5,Sedan,18.5,5.0,True,True
+Mercedes-Benz,Mercedes-Benz Gla-Class,220 D 4Matic,3864000.0,Diesel,Automatic,2143,170.0,350.0,5,SUV,16.0,5.0,True,True
+Skoda,Octavia,Style 1.8 Tsi At,2059599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Bmw,5-Series,520D Luxury Line,5930000.0,Diesel,Automatic,1995,190.0,400.0,5,Sedan,15.0,5.0,False,False
+Skoda,Octavia,Style 1.4 Tsi,1899599.0,Petrol,Manual,1395,140.0,250.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,L & K 1.8 Tsi At,2359599.0,Petrol,Automatic,1798,180.0,250.0,5,Sedan,18.5,5.0,True,True
+Mahindra,Verito,1.5 D4 Bs-Iv,772617.0,Diesel,Manual,1461,65.0,160.0,5,Sedan,18.5,5.0,True,True
+Skoda,Octavia,Corporate Edition 1.4 Tsi,1549000.0,Petrol,Manual,1395,140.0,250.0,5,Sedan,18.5,5.0,True,True
+Mahindra,Verito,1.5 D2,748370.0,Diesel,Manual,1461,65.0,160.0,5,Sedan,18.5,5.0,True,True
+Mahindra,Verito,1.5 D6 Bs-Iv,845154.0,Diesel,Manual,1461,120.0,280.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Celerio X,Vxi,475198.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Vxi (O),481074.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Zxi (O),540350.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Vxi Amt (O),524074.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Zxi,499734.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Vxi Amt,518198.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Zxi Amt (O),552350.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio X,Zxi Amt,542735.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Xcent Prime,T+,556130.0,Petrol,Manual,1197,83.0,114.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Polo,Comfortline 1.0 (P),676500.0,Petrol,Manual,999,76.0,95.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Elite I20,Era 1.2,559693.0,Petrol,Manual,1197,84.0,115.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Highline Plus 1.0 (P),776500.0,Petrol,Manual,999,76.0,95.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Trendline 1.0L (P),582000.0,Petrol,Manual,999,76.0,95.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Comfortline 1.5 (D),851500.0,Diesel,Manual,1498,90.0,230.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Trendline 1.5L (D),734500.0,Diesel,Manual,1498,90.0,230.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Highline Plus 1.5 (D),931500.0,Diesel,Manual,1498,90.0,230.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Ameo,Trendline 1.5L Tdi,711500.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Polo,Gt Tdi,988500.0,Diesel,Manual,1498,110.0,250.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Polo,Gt Tsi,976000.0,Petrol,Automatic,1197,105.0,175.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Ameo,Highline Plus 1.5L Tdi,925500.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Ameo,Comfortline 1.5L Tdi,810500.0,Diesel,Manual,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Volkswagen,Ameo,Highline Plus 1.5L Tdi Dsg,999900.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Celerio,Vxi,465138.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Zxi,490924.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Vxi At,508138.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Ameo,Gt Line Tdi Dsg,999900.0,Diesel,Automatic,1498,110.0,250.0,5,Sedan,18.5,5.0,True,True
+Maruti Suzuki,Celerio,Zxi (Opt),531279.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Vxi (O) Mt,472257.0,Petrol,Manual,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Zxi Ags,533924.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Zxi (O) Ags,543279.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Maruti Suzuki,Celerio,Vxi (O) Ags,515257.0,Petrol,Automatic,998,68.0,90.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10 Prime,Era T Vtvt,460369.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Tata,Altroz,Xz Petrol,744000.0,Petrol,Manual,1199,86.0,113.0,5,Hatchback,26.0,5.0,False,False
+Tata,Altroz,Xm Petrol,615000.0,Petrol,Manual,1199,86.0,113.0,5,Hatchback,26.0,5.0,False,False
+Hyundai,Grand I10 Prime,Era T+ Vtvt,477511.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Tata,Altroz,Xt Petrol,684000.0,Petrol,Manual,1199,86.0,113.0,5,Hatchback,26.0,5.0,False,False
+Tata,Altroz,Xm Diesel,775000.0,Diesel,Manual,1497,90.0,200.0,5,Hatchback,26.0,5.0,False,False
+Tata,Altroz,Xz Diesel,904000.0,Diesel,Manual,1497,90.0,200.0,5,Hatchback,26.0,5.0,False,False
+Tata,Altroz,Xz (O) Petrol,769000.0,Petrol,Manual,1199,86.0,113.0,5,Hatchback,26.0,5.0,False,False
+Tata,Altroz,Xt Diesel,844000.0,Diesel,Manual,1497,90.0,200.0,5,Hatchback,26.0,5.0,False,False
+Tata,Tigor,Revotron Xm,610000.0,Petrol,Manual,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Tata,Tigor,Revotron Xe,575000.0,Petrol,Manual,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Tata,Altroz,Xz (O) Diesel,929000.0,Diesel,Manual,1497,90.0,200.0,5,Hatchback,26.0,5.0,False,False
+Tata,Zest,Xm Diesel,767317.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Tata,Tigor,Revotron Xma,660000.0,Petrol,AMT,1199,86.0,113.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xe Diesel,702946.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xms Diesel,793898.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xt Diesel,855362.0,Diesel,Manual,1248,90.0,200.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Xta Diesel,989000.0,Diesel,Automatic,1248,90.0,200.0,5,Sedan,18.5,5.0,True,True
+Tata,Zest,Zest Premio Edition,788797.0,Diesel,Manual,1248,75.0,190.0,5,Sedan,18.5,5.0,True,True
+Hyundai,Verna,1.6 Crdi Sx(O) At,1407871.0,Diesel,Automatic,1582,128.0,260.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Crdi Sx (O),1301881.0,Diesel,Manual,1582,128.0,260.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Crdi Sx,1172544.0,Diesel,Manual,1582,128.0,260.0,5,Sedan,19.0,5.0,False,False
+Hyundai,Verna,1.6 Crdi Sx Plus At,1328545.0,Diesel,Automatic,1582,128.0,260.0,5,Sedan,19.0,5.0,False,False
+Bmw,X1,Sdrive20D Xline,3930000.0,Diesel,Automatic,1995,190.0,400.0,5,Crossover,18.0,5.0,False,False
+Volkswagen,Vento,Gt Line (D),1449500.0,Diesel,Manual,1498,110.0,250.0,5,Hatchback,26.0,2.0,True,True
+Volkswagen,Vento,Gt Line (P) Dsg,1317500.0,Petrol,Automatic,1197,105.0,175.0,5,Hatchback,26.0,2.0,True,True
+Bmw,X1,Sdrive20D Expedition,3520000.0,Diesel,Automatic,1995,190.0,400.0,5,Crossover,18.0,5.0,False,False
+Maruti Suzuki,Omni,5 Str Bs-Iv,282778.0,Petrol,Manual,796,34.7,59.0,5,MPV,22.5,3.0,True,True
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna,586428.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Bmw,X1,Xdrive20D M Sport,4570000.0,Diesel,Automatic,1995,190.0,400.0,5,Crossover,18.0,5.0,False,False
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz,620637.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10,1.2 Kappa Vtvt Magna At,652328.0,Petrol,Automatic,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz At,705538.0,Petrol,Automatic,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Honda,City,Sv Mt Petrol,991000.0,Petrol,Manual,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False
+Honda,City,V Mt Petrol,1065900.0,Petrol,Manual,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False
+Hyundai,Grand I10,1.2 Kappa Vtvt Sportz Dual Tone,640537.0,Petrol,Manual,1197,83.0,114.0,5,Hatchback,26.0,2.0,True,True
+Toyota,Prius,Z8,4509000.0,Hybrid,Automatic,1798,98.0,142.0,5,Sedan,18.5,5.0,True,True
+Honda,City,V Mt Diesel,1191000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Vx Mt Petrol,1182000.0,Petrol,Manual,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Vx Cvt Petrol,1312000.0,Petrol,Automatic,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Sv Mt Diesel,1111000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,17.5,5.0,False,False
+Honda,City,V Cvt Petrol,1201000.0,Petrol,Automatic,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Vx Mt Diesel,1302000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Zx Mt Diesel,1421000.0,Diesel,Manual,1498,100.0,200.0,5,Sedan,17.5,5.0,False,False
+Honda,City,Zx Cvt Petrol,1431000.0,Petrol,Automatic,1497,119.0,145.0,5,Sedan,17.5,5.0,False,False

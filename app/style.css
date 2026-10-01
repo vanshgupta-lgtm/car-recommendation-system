@@ -1,0 +1,520 @@
+/* Premium Automotive Dashboard Styling — AutoAI */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+}
+
+/* Dark glassmorphism background */
+.stApp {
+    background: radial-gradient(circle at 10% 10%, #111827 0%, #080c14 55%, #030712 100%);
+    color: #F3F4F6;
+}
+
+/* Hide Streamlit default top padding */
+.block-container {
+    padding-top: 1.8rem;
+    padding-bottom: 3rem;
+}
+
+/* Hero Header */
+.hero-container {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 20px;
+    padding: 28px 36px;
+    margin-bottom: 24px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(16px);
+}
+
+.hero-title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    background: linear-gradient(120deg, #60A5FA 0%, #38BDF8 40%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #94A3B8;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.badge-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 14px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badge-brand {
+    background: rgba(59, 130, 246, 0.18);
+    color: #93C5FD;
+    border-color: rgba(59, 130, 246, 0.35);
+}
+
+.badge-fuel {
+    background: rgba(16, 185, 129, 0.18);
+    color: #6EE7B7;
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
+.badge-body {
+    background: rgba(168, 85, 247, 0.18);
+    color: #D8B4FE;
+    border-color: rgba(168, 85, 247, 0.35);
+}
+
+.badge-safety {
+    background: rgba(245, 158, 11, 0.18);
+    color: #FCD34D;
+    border-color: rgba(245, 158, 11, 0.35);
+}
+
+/* Visual Preference Cards */
+.pref-section-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tier-card {
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    transition: all 0.25s ease;
+}
+
+.tier-card:hover {
+    border-color: #38BDF8;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.2);
+}
+
+/* Car Recommendation Card with Image */
+.car-card-with-img {
+    background: linear-gradient(160deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.car-card-with-img:hover {
+    border-color: rgba(56, 189, 248, 0.5);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(14, 165, 233, 0.22);
+}
+
+.car-img-container {
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    background: #0F172A;
+}
+
+.car-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.car-card-with-img:hover .car-img {
+    transform: scale(1.04);
+}
+
+.floating-score {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+    color: #FFFFFF;
+    padding: 6px 14px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 1.05rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.car-card-body {
+    padding: 22px 24px;
+}
+
+.card-title {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.card-variant {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #94A3B8;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: #38BDF8;
+}
+
+/* Why Recommended box */
+.why-box {
+    background: rgba(15, 23, 42, 0.85);
+    border-left: 4px solid #38BDF8;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    margin-top: 14px;
+    font-size: 0.94rem;
+    line-height: 1.6;
+    color: #E2E8F0;
+}
+
+/* Metric highlights */
+.metric-tile {
+    background: rgba(30, 41, 59, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+.metric-val {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+.metric-lbl {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #94A3B8;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+}
+
+/* Top Navigation Container */
+.nav-container {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Base button styling */
+.stButton > button {
+    border-radius: 12px !important;
+    transition: all 0.25s ease !important;
+}
+
+/* Secondary Navigation / Regular Buttons */
+div[data-testid="stButton"] button[kind="secondary"],
+.stButton > button:not([kind="primary"]) {
+    background: rgba(30, 41, 59, 0.65) !important;
+    color: #94A3B8 !important;
+    font-size: 1.0rem !important;
+    font-weight: 600 !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: none !important;
+    padding: 10px 18px !important;
+}
+
+div[data-testid="stButton"] button[kind="secondary"]:hover,
+.stButton > button:not([kind="primary"]):hover {
+    background: rgba(51, 65, 85, 0.9) !important;
+    color: #38BDF8 !important;
+    border-color: rgba(56, 189, 248, 0.4) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Primary Active / Action Buttons */
+div[data-testid="stButton"] button[kind="primary"],
+.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%) !important;
+    color: #FFFFFF !important;
+    font-size: 1.08rem !important;
+    font-weight: 700 !important;
+    border: 1px solid rgba(56, 189, 248, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(6, 182, 212, 0.45) !important;
+    padding: 12px 24px !important;
+}
+
+div[data-testid="stButton"] button[kind="primary"]:hover,
+.stButton > button[kind="primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 28px rgba(6, 182, 212, 0.6) !important;
+}
+
+/* Universal High-Contrast Typography for ALL Widgets & Labels */
+label[data-testid="stWidgetLabel"],
+label[data-testid="stWidgetLabel"] *,
+div[data-testid="stWidgetLabel"],
+div[data-testid="stWidgetLabel"] * {
+    color: #38BDF8 !important; /* Bright vivid neon cyan for all labels */
+    font-size: 1.12rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.2px !important;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Captions and helper descriptions */
+div[data-testid="stCaptionContainer"],
+div[data-testid="stCaptionContainer"] p,
+.stCaption {
+    color: #E2E8F0 !important; /* Crisp silver-white instead of faint grey */
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+/* High-Contrast Interactive Pills Component */
+div[data-testid="stPills"] {
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 16px !important;
+    padding: 14px 18px !important;
+    margin-top: 6px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+div[data-testid="stPills"] button,
+button[data-testid="stPill"],
+div[data-testid="stPill"] {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 2px solid #475569 !important;
+    border-radius: 12px !important;
+    color: #FFFFFF !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    padding: 10px 18px !important;
+    margin: 4px 6px 4px 0 !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+div[data-testid="stPills"] button:hover,
+button[data-testid="stPill"]:hover {
+    border-color: #38BDF8 !important;
+    background: rgba(56, 189, 248, 0.2) !important;
+    color: #38BDF8 !important;
+    transform: translateY(-2px) !important;
+}
+
+div[data-testid="stPills"] button[aria-selected="true"],
+button[data-testid="stPill"][aria-selected="true"] {
+    background: linear-gradient(135deg, #0284C7 0%, #4F46E5 100%) !important;
+    border-color: #38BDF8 !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.6) !important;
+    transform: scale(1.02) !important;
+}
+
+/* Universal Maximum-Contrast Rule for Radio Buttons */
+div[data-testid="stRadio"] {
+    background: rgba(15, 23, 42, 0.85) !important;
+    border: 1px solid rgba(56, 189, 248, 0.35) !important;
+    border-radius: 16px !important;
+    padding: 16px 20px !important;
+    margin-top: 6px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Card styling for each individual radio option */
+div[data-testid="stRadio"] div[role="radiogroup"] > label,
+div[data-testid="stRadio"] label[data-baseweb="radio"] {
+    background: rgba(30, 41, 59, 0.92) !important;
+    border: 1.5px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 12px !important;
+    padding: 12px 18px !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+div[data-testid="stRadio"] div[role="radiogroup"] > label:hover,
+div[data-testid="stRadio"] label[data-baseweb="radio"]:hover {
+    background: rgba(56, 189, 248, 0.18) !important;
+    border-color: #38BDF8 !important;
+    transform: translateX(4px) !important;
+    box-shadow: 0 6px 18px rgba(56, 189, 248, 0.25) !important;
+}
+
+/* Checked state of radio card */
+div[data-testid="stRadio"] div[role="radiogroup"] > label:has(input:checked),
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) {
+    background: linear-gradient(135deg, rgba(2, 132, 199, 0.35) 0%, rgba(99, 102, 241, 0.35) 100%) !important;
+    border-color: #38BDF8 !important;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.5) !important;
+}
+
+/* Force pure white font and clear readability on ALL radio text */
+div[data-testid="stRadio"] div[role="radiogroup"] > label p,
+div[data-testid="stRadio"] div[role="radiogroup"] > label span,
+div[data-testid="stRadio"] div[role="radiogroup"] > label div,
+div[data-testid="stRadio"] label[data-baseweb="radio"] *,
+[data-baseweb="radio"] p,
+[data-baseweb="radio"] span,
+[data-baseweb="radio"] div {
+    color: #FFFFFF !important;
+    font-size: 1.05rem !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    opacity: 1.0 !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+div[data-testid="stRadio"] div[role="radiogroup"] > label:has(input:checked) p,
+div[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) p {
+    color: #38BDF8 !important;
+    font-weight: 800 !important;
+}
+
+/* Radio circle glowing accents */
+div[data-testid="stRadio"] input[type="radio"] {
+    accent-color: #38BDF8 !important;
+    transform: scale(1.2) !important;
+}
+
+/* Horizontal radio styling (e.g. Range Switcher & Similarity metric) */
+div[data-testid="stRadio"] div[role="radiogroup"][aria-orientation="horizontal"] {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+}
+div[data-testid="stRadio"] div[role="radiogroup"][aria-orientation="horizontal"] > label,
+div[data-testid="stRadio"] div[role="radiogroup"][aria-orientation="horizontal"] label[data-baseweb="radio"] {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    margin-bottom: 0 !important;
+}
+
+/* Selectbox dropdowns high-contrast */
+div[data-testid="stSelectbox"] div[data-baseweb="select"] {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 2px solid #475569 !important;
+    border-radius: 12px !important;
+    min-height: 48px !important;
+}
+
+div[data-testid="stSelectbox"] div[data-baseweb="select"]:hover {
+    border-color: #38BDF8 !important;
+}
+
+div[data-testid="stSelectbox"] * {
+    color: #FFFFFF !important;
+    font-size: 1.05rem !important;
+    font-weight: 600 !important;
+}
+
+/* MultiSelect */
+div[data-testid="stMultiSelect"] div[data-baseweb="select"] {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 2px solid #475569 !important;
+    border-radius: 12px !important;
+    min-height: 48px !important;
+}
+div[data-testid="stMultiSelect"] div[data-baseweb="select"]:hover {
+    border-color: #38BDF8 !important;
+}
+div[data-testid="stMultiSelect"] span[data-baseweb="tag"] {
+    background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%) !important;
+    border-radius: 8px !important;
+    padding: 4px 10px !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+}
+
+/* Checkbox */
+div[data-testid="stCheckbox"] label p,
+div[data-testid="stCheckbox"] label span {
+    color: #F8FAFC !important;
+    font-size: 1.02rem !important;
+    font-weight: 600 !important;
+}
+
+/* Slider labels and current value numbers */
+div[data-testid="stSlider"] div[data-testid="stThumbValue"] {
+    color: #38BDF8 !important;
+    font-weight: 800 !important;
+    font-size: 1.05rem !important;
+}
+div[data-testid="stSlider"] div[data-testid="stTickBarMin"],
+div[data-testid="stSlider"] div[data-testid="stTickBarMax"] {
+    color: #94A3B8 !important;
+    font-weight: 600 !important;
+}
+
+/* Expander */
+div[data-testid="stExpander"] {
+    background: rgba(15, 23, 42, 0.7) !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 14px !important;
+}
+div[data-testid="stExpander"] summary span,
+div[data-testid="stExpander"] summary p {
+    color: #38BDF8 !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+}
+
+/* Budget precision input boxes */
+div[data-testid="stNumberInput"] input {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 2px solid #475569 !important;
+    color: #38BDF8 !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    border-radius: 12px !important;
+}
+
+div[data-testid="stNumberInput"] input:focus {
+    border-color: #38BDF8 !important;
+    box-shadow: 0 0 16px rgba(56, 189, 248, 0.4) !important;
+}
+
+/* Glowing live budget card */
+.live-budget-banner {
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.18) 0%, rgba(99, 102, 241, 0.18) 100%);
+    border: 1px solid rgba(56, 189, 248, 0.45);
+    border-radius: 14px;
+    padding: 16px 22px;
+    margin-top: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+
