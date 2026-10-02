@@ -115,18 +115,19 @@ df_cars, df_inter, preprocessor, content_rec, knn_rec, cf_rec, hybrid_rec = load
 
 # Pages list
 PAGES = [
+    "🏠 Home",
     "✨ 1. Preference Matchmaker",
     "🏆 2. Top AI Recommendations",
     "🔍 3. Similar Cars Finder",
     "📊 4. ML Benchmark & Insights"
 ]
 
-# Handle automatic programmatic page transition (from Matchmaker to Recommendations)
+# Handle automatic programmatic page transition
 if "target_page" in st.session_state and st.session_state["target_page"]:
     st.session_state["active_page"] = st.session_state["target_page"]
     st.session_state["target_page"] = None
 
-if "active_page" not in st.session_state:
+if "active_page" not in st.session_state or st.session_state["active_page"] not in PAGES:
     st.session_state["active_page"] = PAGES[0]
 
 # Auto-scroll to top if flagged
@@ -154,25 +155,24 @@ if "user_pref" not in st.session_state:
 if "has_searched" not in st.session_state:
     st.session_state["has_searched"] = False
 
-# --- HERO BANNER ---
-st.markdown("""
-<div class="hero-container">
-    <div class="hero-title">⚡ AutoMatch AI: Machine Learning Car Recommendation System</div>
-    <div class="hero-subtitle">
-        An End-to-End Machine Learning System featuring Content-Based Filtering, KNN Vector Space Retrieval, and Collaborative Filtering (TruncatedSVD) across 5,200+ vehicles with budgets up to ₹15 Crore.
-    </div>
-    <div>
-        <span class="badge-pill badge-brand">📊 5,200+ Synthesized Vehicle Dataset</span>
-        <span class="badge-pill badge-fuel">🧠 Hybrid RecEngine (Content + KNN + SVD)</span>
-        <span class="badge-pill badge-body">⚡ Sub-5ms Vector AI Cosine Search</span>
-        <span class="badge-pill badge-safety">🎯 Multi-Objective Optimization (Price, Power, Safety, Tech)</span>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
-# --- TOP INTERACTIVE NAVIGATION BAR ---
 current_page = st.session_state["active_page"]
 
+# --- SLEEK COMPACT HEADER (Shown on secondary pages to keep landing page uncluttered) ---
+if current_page != PAGES[0]:
+    st.markdown("""
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 12px 14px 12px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 1.4rem;">⚡</span>
+            <span style="font-size: 1.15rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AutoMatch AI</span>
+            <span style="background: rgba(56,189,248,0.12); color: #38BDF8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(56,189,248,0.3);">ML Recommender</span>
+        </div>
+        <div style="font-size: 0.82rem; color: #94A3B8;">
+            5,200+ Vehicles Catalog • 83 Models • ₹4 Lakh – ₹15 Crore
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# --- TOP INTERACTIVE NAVIGATION BAR ---
 st.markdown('<div class="nav-container">', unsafe_allow_html=True)
 nav_cols = st.columns(len(PAGES))
 for i, page_name in enumerate(PAGES):
@@ -189,9 +189,200 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 
 # =========================================================================
-# PAGE 1: PREFERENCE MATCHMAKER (DEDICATED VISUAL & EYE-CATCHING PAGE)
+# PAGE 0: HOME LANDING PAGE (MINIMAL, ULTRA-ATTRACTIVE, HERO DRIVEN)
 # =========================================================================
 if current_page == PAGES[0]:
+    scroll_to_top()
+
+    # --- LANDING HERO BANNER ---
+    st.markdown("""
+    <div class="landing-hero">
+        <div class="landing-glow-pill">⚡ NEXT-GEN AUTOMOTIVE INTELLIGENCE</div>
+        <div class="landing-title">Find The Best Car For You.</div>
+        <div class="landing-desc">
+            Stop browsing hundreds of confusing car specs. Tell us your lifestyle, budget, and driving habits, and let our multi-metric recommendation engine match you with your dream car in seconds.
+        </div>
+    """, unsafe_allow_html=True)
+
+    # Primary Glow Button in Hero
+    st.markdown('<div class="hero-cta-box">', unsafe_allow_html=True)
+    col_c1, col_c2, col_c3 = st.columns([1, 2, 1])
+    with col_c2:
+        if st.button("🚀 FIND THE BEST CAR FOR YOU  →", type="primary", use_container_width=True, key="home_hero_cta"):
+            st.session_state["target_page"] = PAGES[1]
+            st.session_state["do_scroll_top"] = True
+            st.rerun()
+    st.markdown('</div>', unsafe_allow_html=True)
+
+    # Stats strip inside hero
+    st.markdown("""
+        <div class="landing-stats-row">
+            <div class="landing-stat-item">
+                <div class="landing-stat-value">5,200+</div>
+                <div class="landing-stat-label">Synthesized Profiles</div>
+            </div>
+            <div class="landing-stat-item">
+                <div class="landing-stat-value">83</div>
+                <div class="landing-stat-label">Curated Models</div>
+            </div>
+            <div class="landing-stat-item">
+                <div class="landing-stat-value">₹4L – ₹15 Cr</div>
+                <div class="landing-stat-label">Price Spectrum</div>
+            </div>
+            <div class="landing-stat-item">
+                <div class="landing-stat-value">&lt; 5ms</div>
+                <div class="landing-stat-label">ML Latency</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # --- SECTION: JUMP STRAIGHT IN BY VIBE ---
+    st.markdown('<div class="section-headline">✨ Explore By Driving Lifestyle</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-subheadline">Select your desired automotive vibe to immediately launch tailored recommendations:</div>', unsafe_allow_html=True)
+
+    col_v1, col_v2, col_v3, col_v4 = st.columns(4)
+
+    with col_v1:
+        st.markdown("""
+        <div class="vibe-card">
+            <div>
+                <div class="vibe-icon">⚡</div>
+                <div class="vibe-title">Electric Revolution</div>
+                <div class="vibe-tag">Born-EV & Clean Tech</div>
+                <div class="vibe-desc">Instant torque, futuristic dual-screen cockpits, zero emissions and ultra-low running costs.</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Explore EVs →", key="vibe_btn_ev", use_container_width=True):
+            st.session_state["user_pref"] = {
+                "min_budget": 12.0, "max_budget": 50.0,
+                "body_type": "All", "fuel_type": "Electric",
+                "transmission": "Automatic", "brands": ["All"],
+                "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
+                "features": ["Connected Car Tech", "Level 2 ADAS"],
+                "top_k": 8, "strict_filtering": False
+            }
+            st.session_state["has_searched"] = True
+            st.session_state["do_scroll_top"] = True
+            st.session_state["target_page"] = PAGES[2]
+            st.rerun()
+
+    with col_v2:
+        st.markdown("""
+        <div class="vibe-card">
+            <div>
+                <div class="vibe-icon">⛰️</div>
+                <div class="vibe-title">Rugged 4x4 SUVs</div>
+                <div class="vibe-tag">All-Terrain & Adventure</div>
+                <div class="vibe-desc">Dominating road stance, authentic 4WD traction, high ground clearance and supreme trail capability.</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Explore 4x4s →", key="vibe_btn_4x4", use_container_width=True):
+            st.session_state["user_pref"] = {
+                "min_budget": 15.0, "max_budget": 120.0,
+                "body_type": "SUV", "fuel_type": "Diesel",
+                "transmission": "All", "brands": ["All"],
+                "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
+                "features": ["4x4 / AWD", "High Ground Clearance"],
+                "top_k": 8, "strict_filtering": False
+            }
+            st.session_state["has_searched"] = True
+            st.session_state["do_scroll_top"] = True
+            st.session_state["target_page"] = PAGES[2]
+            st.rerun()
+
+    with col_v3:
+        st.markdown("""
+        <div class="vibe-card">
+            <div>
+                <div class="vibe-icon">👨‍👩‍👧‍👦</div>
+                <div class="vibe-title">Family 7-Seaters</div>
+                <div class="vibe-tag">Hybrid & Supreme Comfort</div>
+                <div class="vibe-desc">Captain seat luxury, stellar hybrid fuel economy, 5-star passenger safety and massive cargo room.</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Explore 7-Seaters →", key="vibe_btn_7s", use_container_width=True):
+            st.session_state["user_pref"] = {
+                "min_budget": 15.0, "max_budget": 45.0,
+                "body_type": "MUV", "fuel_type": "Strong Hybrid",
+                "transmission": "Automatic", "brands": ["All"],
+                "min_seats": 7, "min_mileage": 15.0, "min_safety": 0,
+                "features": ["Captain Seats", "Ventilated Seats"],
+                "top_k": 8, "strict_filtering": False
+            }
+            st.session_state["has_searched"] = True
+            st.session_state["do_scroll_top"] = True
+            st.session_state["target_page"] = PAGES[2]
+            st.rerun()
+
+    with col_v4:
+        st.markdown("""
+        <div class="vibe-card">
+            <div>
+                <div class="vibe-icon">👑</div>
+                <div class="vibe-title">Bespoke Ultra-Luxury</div>
+                <div class="vibe-tag">V8s & Flagship Exotics</div>
+                <div class="vibe-desc">Handcrafted interiors, whisper-quiet cabin refinement, twin-turbo muscle and unmatched prestige.</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Explore Luxury →", key="vibe_btn_lux", use_container_width=True):
+            st.session_state["user_pref"] = {
+                "min_budget": 90.0, "max_budget": 1500.0,
+                "body_type": "All", "fuel_type": "Petrol",
+                "transmission": "Automatic", "brands": ["All"],
+                "min_seats": 0, "min_mileage": 5.0, "min_safety": 5,
+                "features": ["Bespoke Interior", "Air Suspension", "Level 2 ADAS"],
+                "top_k": 8, "strict_filtering": False
+            }
+            st.session_state["has_searched"] = True
+            st.session_state["do_scroll_top"] = True
+            st.session_state["target_page"] = PAGES[2]
+            st.rerun()
+
+    st.markdown("<br><br>", unsafe_allow_html=True)
+
+    # --- SECTION: SPOTLIGHT VEHICLES ---
+    st.markdown('<div class="section-headline">🔥 Trending In The Spotlight</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-subheadline">Authentic real-world photography of standout icons in our 5,200+ car catalog:</div>', unsafe_allow_html=True)
+
+    spotlight_cars = [
+        {"model": "BE6", "brand": "Mahindra", "body": "SUV", "trim": "Born-EV Coupe", "tag": "Electric • 682 km Range", "price": "₹ 18.90 Lakhs"},
+        {"model": "Invicto", "brand": "Maruti Suzuki", "body": "MUV", "trim": "Alpha+ Strong Hybrid", "tag": "Strong Hybrid • 23.2 kmpl", "price": "₹ 25.21 Lakhs"},
+        {"model": "Mercedes-Maybach GLS", "brand": "Mercedes-Benz", "body": "Luxury SUV", "trim": "GLS 600 4MATIC V8", "tag": "550 BHP Twin-Turbo V8", "price": "₹ 3.35 Crore"},
+        {"model": "Land Cruiser 300", "brand": "Toyota", "body": "Luxury SUV", "trim": "ZX 3.3L Twin-Turbo 4x4", "tag": "King of Off-Road Luxury", "price": "₹ 2.10 Crore"},
+    ]
+
+    col_s1, col_s2, col_s3, col_s4 = st.columns(4)
+    spotlight_cols = [col_s1, col_s2, col_s3, col_s4]
+
+    for idx, sc in enumerate(spotlight_cars):
+        with spotlight_cols[idx]:
+            img_uri = get_car_image(sc["model"], sc["body"], sc["brand"])
+            st.markdown(f"""
+            <div class="spotlight-card">
+                <img src="{img_uri}" alt="{sc['brand']} {sc['model']}" class="spotlight-img"/>
+                <div class="spotlight-title">{sc['brand']} {sc['model']}</div>
+                <div class="spotlight-badge">{sc['tag']}</div>
+                <div class="spotlight-price">{sc['price']}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            if st.button(f"Find Similar to {sc['model']} →", key=f"spot_btn_{idx}", use_container_width=True):
+                st.session_state["selected_ref_car_model"] = sc["model"]
+                st.session_state["target_page"] = PAGES[3]
+                st.session_state["do_scroll_top"] = True
+                st.rerun()
+
+
+# =========================================================================
+# PAGE 1: PREFERENCE MATCHMAKER (DEDICATED VISUAL & EYE-CATCHING PAGE)
+# =========================================================================
+elif current_page == PAGES[1]:
     st.markdown("## 🎯 Tell Us Your Dream Car Preferences")
     st.caption("Customize your budget, body style, powertrain, and desired features. Clicking 'FIND MY PERFECT CARS' will automatically load your personalized recommendations.")
 
@@ -336,7 +527,7 @@ if current_page == PAGES[0]:
             }
             st.session_state["has_searched"] = True
             st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[1]
+            st.session_state["target_page"] = PAGES[2]
             st.rerun()
 
     st.markdown("---")
@@ -466,14 +657,14 @@ if current_page == PAGES[0]:
             st.session_state["has_searched"] = True
             # Flag to automatically scroll to top when Page 2 renders!
             st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[1]
+            st.session_state["target_page"] = PAGES[2]
             st.rerun()
 
 
 # =========================================================================
 # PAGE 2: TOP AI RECOMMENDATIONS (ARRANGED IN DESCENDING ORDER OF PRICE)
 # =========================================================================
-elif current_page == PAGES[1]:
+elif current_page == PAGES[2]:
     # Always snap scroll to top of recommendations
     scroll_to_top()
 
@@ -486,7 +677,7 @@ elif current_page == PAGES[1]:
     with col_nav_back:
         if st.button("← Modify Preferences / Budget", use_container_width=True):
             st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[0]
+            st.session_state["target_page"] = PAGES[1]
             st.rerun()
 
     # Compute recommendations using hybrid engine
@@ -639,7 +830,7 @@ elif current_page == PAGES[1]:
 # =========================================================================
 # PAGE 3: SIMILAR CARS FINDER (WITH AUTHENTIC IMAGES & DESCENDING PRICE)
 # =========================================================================
-elif current_page == PAGES[2]:
+elif current_page == PAGES[3]:
     scroll_to_top()
     st.subheader("🔍 Discover Direct Vehicle Alternatives")
     st.caption("Select any vehicle from our dataset catalog to discover its closest competitors using vector-space Cosine and KNN distance.")
@@ -651,7 +842,16 @@ elif current_page == PAGES[2]:
     ]
     car_id_map = {label: r["car_id"] for label, (_, r) in zip(car_labels, df_cars.iterrows())}
 
-    selected_label = st.selectbox("Search or Select Reference Vehicle:", car_labels, index=0)
+    default_idx = 0
+    if "selected_ref_car_model" in st.session_state and st.session_state["selected_ref_car_model"]:
+        target_m = str(st.session_state["selected_ref_car_model"]).lower()
+        for idx, lbl in enumerate(car_labels):
+            if target_m in lbl.lower():
+                default_idx = idx
+                break
+        st.session_state["selected_ref_car_model"] = None
+
+    selected_label = st.selectbox("Search or Select Reference Vehicle:", car_labels, index=default_idx)
     ref_car_id = car_id_map[selected_label]
     ref_car = df_cars[df_cars["car_id"] == ref_car_id].iloc[0]
 
@@ -788,7 +988,7 @@ elif current_page == PAGES[2]:
 # =========================================================================
 # PAGE 4: BENCHMARK & CATALOG ANALYTICS
 # =========================================================================
-elif current_page == PAGES[3]:
+elif current_page == PAGES[4]:
     scroll_to_top()
     st.subheader("📊 Recommender Benchmark & Machine Learning Analytics")
     st.caption("Quantitative offline evaluation across 60 buyer personas across the ₹3.5L to ₹15.0 Crore catalog.")

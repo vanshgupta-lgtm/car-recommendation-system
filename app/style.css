@@ -517,4 +517,224 @@ div[data-testid="stNumberInput"] input:focus {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
 }
 
+/* =========================================================================
+   HOMEPAGE LANDING PAGE (MINIMAL, ULTRA-ATTRACTIVE, HERO DRIVEN)
+   ========================================================================= */
+.landing-hero {
+    background: radial-gradient(circle at 50% -20%, rgba(56, 189, 248, 0.22) 0%, rgba(30, 58, 138, 0.2) 40%, rgba(15, 23, 42, 0.85) 80%),
+                linear-gradient(180deg, rgba(15, 23, 42, 0.98) 0%, rgba(3, 7, 18, 0.98) 100%);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    border-radius: 24px;
+    padding: 55px 36px 45px 36px;
+    text-align: center;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65), 0 0 45px rgba(56, 189, 248, 0.12);
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-glow-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    color: #38BDF8;
+    padding: 7px 18px;
+    border-radius: 9999px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+}
+
+.landing-title {
+    font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+    font-weight: 900;
+    line-height: 1.15;
+    background: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 25%, #38BDF8 65%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+}
+
+.landing-desc {
+    font-size: 1.18rem;
+    color: #94A3B8;
+    max-width: 760px;
+    margin: 0 auto 28px auto;
+    line-height: 1.6;
+}
+
+.landing-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 36px;
+    padding-top: 26px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    flex-wrap: wrap;
+}
+
+.landing-stat-item {
+    text-align: center;
+}
+
+.landing-stat-value {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #38BDF8;
+    letter-spacing: -0.5px;
+}
+
+.landing-stat-label {
+    font-size: 0.78rem;
+    color: #64748B;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-top: 2px;
+}
+
+/* Section Header */
+.section-headline {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #F8FAFC;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-subheadline {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    margin-bottom: 18px;
+}
+
+/* Vibe Cards */
+.vibe-card {
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.9) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 22px 18px;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vibe-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(56, 189, 248, 0.5);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(56, 189, 248, 0.15);
+}
+
+.vibe-icon {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.vibe-title {
+    font-size: 1.22rem;
+    font-weight: 800;
+    color: #F8FAFC;
+    margin-bottom: 6px;
+}
+
+.vibe-tag {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #38BDF8;
+    background: rgba(56, 189, 248, 0.12);
+    border-radius: 6px;
+    padding: 3px 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.vibe-desc {
+    font-size: 0.88rem;
+    color: #94A3B8;
+    line-height: 1.45;
+    margin-bottom: 14px;
+    flex-grow: 1;
+}
+
+/* Spotlight Preview Cards */
+.spotlight-card {
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.92) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 16px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.spotlight-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(56, 189, 248, 0.5);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
+}
+
+.spotlight-img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.spotlight-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #F8FAFC;
+    margin-bottom: 4px;
+}
+
+.spotlight-badge {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #38BDF8;
+    margin-bottom: 6px;
+}
+.spotlight-price {
+    font-size: 1.12rem;
+    font-weight: 800;
+    color: #10B981;
+}
+
+/* Glowing prominent CTA button for Landing Hero */
+div.hero-cta-box {
+    margin: 18px 0 24px 0;
+}
+
+div.hero-cta-box div[data-testid="stButton"] button {
+    background: linear-gradient(135deg, #0284C7 0%, #2563EB 50%, #7C3AED 100%) !important;
+    color: #FFFFFF !important;
+    font-size: 1.25rem !important;
+    font-weight: 800 !important;
+    padding: 16px 32px !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.35) !important;
+    box-shadow: 0 10px 28px rgba(37, 99, 235, 0.45), 0 0 30px rgba(124, 58, 237, 0.35) !important;
+    letter-spacing: 0.6px !important;
+    text-transform: uppercase !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+div.hero-cta-box div[data-testid="stButton"] button:hover {
+    transform: translateY(-3px) scale(1.02) !important;
+    box-shadow: 0 16px 40px rgba(37, 99, 235, 0.65), 0 0 45px rgba(124, 58, 237, 0.55) !important;
+    border-color: #FFFFFF !important;
+}
+
+
 
