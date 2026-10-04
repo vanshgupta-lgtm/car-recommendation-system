@@ -44,9 +44,12 @@ BRAND_NEW_CAR_SEEDS = [
     # --- PREMIUM & EXECUTIVE (₹25L – ₹70L) ---
     {"brand": "Toyota", "model": "Innova Hycross", "body_type": "MUV", "fuel_types": ["Petrol", "Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 19.77, "price_max_lakh": 30.98, "engine_cc": 1987, "power_bhp": 172, "mileage_kmpl": 23.2, "seats": 7, "safety_stars": 5, "tier": "premium"},
     {"brand": "Maruti Suzuki", "model": "Invicto", "body_type": "MUV", "fuel_types": ["Petrol", "Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 25.21, "price_max_lakh": 28.92, "engine_cc": 1987, "power_bhp": 184, "mileage_kmpl": 21.2, "seats": 7, "safety_stars": 5, "tier": "premium"},
+    {"brand": "Kia", "model": "Sorento", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel", "Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 38.00, "price_max_lakh": 45.00, "engine_cc": 2151, "power_bhp": 227, "mileage_kmpl": 16.5, "seats": 7, "safety_stars": 5, "tier": "premium"},
     {"brand": "Toyota", "model": "Fortuner", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Manual", "Automatic"], "price_min_lakh": 33.43, "price_max_lakh": 51.44, "engine_cc": 2755, "power_bhp": 201, "mileage_kmpl": 12.0, "seats": 7, "safety_stars": 5, "tier": "premium"},
     {"brand": "Volkswagen", "model": "Tiguan", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 35.17, "price_max_lakh": 38.50, "engine_cc": 1984, "power_bhp": 187, "mileage_kmpl": 12.6, "seats": 5, "safety_stars": 5, "tier": "premium"},
     {"brand": "Skoda", "model": "Kodiaq", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 38.50, "price_max_lakh": 41.99, "engine_cc": 1984, "power_bhp": 188, "mileage_kmpl": 13.3, "seats": 7, "safety_stars": 5, "tier": "premium"},
+    {"brand": "Toyota", "model": "Camry", "body_type": "Sedan", "fuel_types": ["Hybrid", "Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 46.17, "price_max_lakh": 48.50, "engine_cc": 2487, "power_bhp": 215, "mileage_kmpl": 23.2, "seats": 5, "safety_stars": 5, "tier": "premium"},
+    {"brand": "Kia", "model": "Carnival", "body_type": "MUV", "fuel_types": ["Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 63.90, "price_max_lakh": 69.90, "engine_cc": 2151, "power_bhp": 197, "mileage_kmpl": 14.8, "seats": 7, "safety_stars": 5, "tier": "luxury"},
     {"brand": "BMW", "model": "3 Series Gran Limousine", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 60.60, "price_max_lakh": 62.00, "engine_cc": 1998, "power_bhp": 255, "mileage_kmpl": 15.3, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "BMW", "model": "X1", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 49.50, "price_max_lakh": 52.50, "engine_cc": 1995, "power_bhp": 148, "mileage_kmpl": 16.3, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "Mercedes-Benz", "model": "C-Class", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 61.85, "price_max_lakh": 69.00, "engine_cc": 1993, "power_bhp": 201, "mileage_kmpl": 16.9, "seats": 5, "safety_stars": 5, "tier": "luxury"},
@@ -86,6 +89,8 @@ BRAND_NEW_CAR_SEEDS = [
     {"brand": "BMW", "model": "7 Series", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel", "Electric"], "transmissions": ["Automatic"], "price_min_lakh": 181.50, "price_max_lakh": 213.00, "engine_cc": 2998, "power_bhp": 375, "mileage_kmpl": 12.6, "seats": 5, "safety_stars": 5, "tier": "ultra_luxury"},
     {"brand": "Mercedes-Benz", "model": "S-Class", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 176.50, "price_max_lakh": 217.00, "engine_cc": 2999, "power_bhp": 362, "mileage_kmpl": 12.8, "seats": 5, "safety_stars": 5, "tier": "ultra_luxury"},
     {"brand": "Toyota", "model": "Land Cruiser", "body_type": "SUV", "fuel_types": ["Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 210.00, "price_max_lakh": 225.00, "engine_cc": 3346, "power_bhp": 304, "mileage_kmpl": 10.2, "seats": 5, "safety_stars": 5, "tier": "ultra_luxury"},
+    {"brand": "Mercedes-Benz", "model": "V-Class", "body_type": "MUV", "fuel_types": ["Diesel", "Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 71.10, "price_max_lakh": 146.00, "engine_cc": 1950, "power_bhp": 236, "mileage_kmpl": 16.0, "seats": 7, "safety_stars": 5, "tier": "ultra_luxury"},
+    {"brand": "Toyota", "model": "Vellfire", "body_type": "MUV", "fuel_types": ["Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 122.30, "price_max_lakh": 132.50, "engine_cc": 2487, "power_bhp": 190, "mileage_kmpl": 19.3, "seats": 7, "safety_stars": 5, "tier": "ultra_luxury"},
     {"brand": "Porsche", "model": "911 Carrera", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 198.00, "price_max_lakh": 275.00, "engine_cc": 2981, "power_bhp": 388, "mileage_kmpl": 10.2, "seats": 4, "safety_stars": 5, "tier": "supercar"},
     {"brand": "Porsche", "model": "Taycan Turbo", "body_type": "Sedan", "fuel_types": ["Electric"], "transmissions": ["Automatic"], "price_min_lakh": 189.00, "price_max_lakh": 252.00, "engine_cc": 0, "power_bhp": 670, "range_km": 505, "mileage_kmpl": 0.0, "seats": 4, "safety_stars": 5, "tier": "supercar"},
     {"brand": "Mercedes-AMG", "model": "G 63", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 360.00, "price_max_lakh": 400.00, "engine_cc": 3982, "power_bhp": 577, "mileage_kmpl": 6.8, "seats": 5, "safety_stars": 5, "tier": "supercar"},
@@ -159,6 +164,8 @@ MODEL_VARIANTS = {
 
     # Kia & Honda
     "Seltos": ["HTE", "HTK+", "HTX", "GTX+", "X-Line"],
+    "Sorento": ["Premium 7-Seater", "Prestige AWD", "Limousine Plus Hybrid"],
+    "Carnival": ["Limousine 7-Seater", "Limousine Plus 7-Seater"],
     "City": ["SV", "V", "VX", "ZX"],
 
     # Volkswagen & Skoda
@@ -171,6 +178,8 @@ MODEL_VARIANTS = {
     # Toyota
     "Innova Hycross": ["GX", "VX", "ZX", "ZX(O)"],
     "Fortuner": ["Standard 4x2", "4x4", "Legender", "GR-S"],
+    "Camry": ["2.5 Hybrid", "Elegance Hybrid", "ZX Hybrid"],
+    "Vellfire": ["Hi Grade Executive Lounge", "VIP Executive Lounge"],
     "Land Cruiser": ["ZX (LC300)", "GR-S (LC300)"],
 
     # Audi, BMW, Mercedes-Benz
@@ -187,6 +196,7 @@ MODEL_VARIANTS = {
     "E-Class": ["E 200 Exclusive", "E 220d AMG Line", "E 450 4MATIC"],
     "GLE": ["GLE 300d 4MATIC", "GLE 450d 4MATIC", "GLE 450 4MATIC"],
     "S-Class": ["S 350d", "S 450 4MATIC", "S 580e"],
+    "V-Class": ["Expression", "Exclusive", "Elite", "Marco Polo Horizon"],
 
     # Land Rover
     "Defender 110": ["S", "SE", "HSE", "X-Dynamic", "V8 Carpathian"],

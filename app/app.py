@@ -112,6 +112,8 @@ def load_data_and_models():
 
 
 df_cars, df_inter, preprocessor, content_rec, knn_rec, cf_rec, hybrid_rec = load_data_and_models()
+num_models = df_cars["model"].nunique()
+total_cars = len(df_cars)
 
 # Pages list
 PAGES = [
@@ -159,7 +161,7 @@ current_page = st.session_state["active_page"]
 
 # --- SLEEK COMPACT HEADER (Shown on secondary pages to keep landing page uncluttered) ---
 if current_page != PAGES[0]:
-    st.markdown("""
+    st.markdown(f"""
     <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 12px 14px 12px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08);">
         <div style="display: flex; align-items: center; gap: 10px;">
             <span style="font-size: 1.4rem;">⚡</span>
@@ -167,7 +169,7 @@ if current_page != PAGES[0]:
             <span style="background: rgba(56,189,248,0.12); color: #38BDF8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(56,189,248,0.3);">ML Recommender</span>
         </div>
         <div style="font-size: 0.82rem; color: #94A3B8;">
-            5,200+ Vehicles Catalog • 83 Models • ₹4 Lakh – ₹15 Crore
+            {total_cars:,}+ Vehicles Catalog • {num_models} Models • ₹4 Lakh – ₹15 Crore
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -215,14 +217,14 @@ if current_page == PAGES[0]:
     st.markdown('</div>', unsafe_allow_html=True)
 
     # Stats strip inside hero
-    st.markdown("""
+    st.markdown(f"""
         <div class="landing-stats-row">
             <div class="landing-stat-item">
-                <div class="landing-stat-value">5,200+</div>
+                <div class="landing-stat-value">{total_cars:,}+</div>
                 <div class="landing-stat-label">Synthesized Profiles</div>
             </div>
             <div class="landing-stat-item">
-                <div class="landing-stat-value">83</div>
+                <div class="landing-stat-value">{num_models}</div>
                 <div class="landing-stat-label">Curated Models</div>
             </div>
             <div class="landing-stat-item">
