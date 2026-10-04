@@ -159,31 +159,7 @@ if "has_searched" not in st.session_state:
 
 current_page = st.session_state["active_page"]
 
-# --- SIDEBAR DRAWER (Slide-out menu accessible via top-left chevron or shortcut) ---
-with st.sidebar:
-    st.markdown("""
-    <div style="padding: 10px 0 16px 0; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 16px;">
-        <div style="font-size: 1.35rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ AutoMatch AI</div>
-        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px;">Automotive Recommendation System</div>
-    </div>
-    """, unsafe_allow_html=True)
-    st.markdown("#### 🧭 Navigation Menu")
-    for i, page_name in enumerate(PAGES):
-        is_active = (current_page == page_name)
-        label = f"● {page_name}" if is_active else f"   {page_name}"
-        if st.button(label, key=f"sidebar_nav_{i}", type="primary" if is_active else "secondary", use_container_width=True):
-            if current_page != page_name:
-                st.session_state["active_page"] = page_name
-                st.session_state["do_scroll_top"] = True
-                st.rerun()
-    st.markdown("---")
-    st.markdown(f"""
-    <div style="font-size: 0.82rem; color: #94A3B8; line-height: 1.6;">
-        <b>Catalog:</b> {total_cars:,}+ vehicles<br>
-        <b>Coverage:</b> {num_models} active models<br>
-        <b>Price Range:</b> ₹4 Lakh – ₹15 Cr
-    </div>
-    """, unsafe_allow_html=True)
+# (Sidebar completely disabled per user preference - only top-left hamburger dropdown menu is used)
 
 # --- TOP-LEFT HAMBURGER & DROPDOWN HEADER BAR ---
 st.markdown('<div class="top-nav-bar">', unsafe_allow_html=True)

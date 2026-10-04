@@ -17,6 +17,17 @@ html, body, [class*="css"] {
     padding-bottom: 3rem;
 }
 
+/* Completely hide Streamlit sidebar & toggle icons */
+[data-testid="stSidebar"],
+[data-testid="stSidebarCollapsedControl"],
+section[data-testid="stSidebar"],
+div[data-testid="stSidebarCollapsedControl"] {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    visibility: hidden !important;
+}
+
 /* Hero Header */
 .hero-container {
     background: linear-gradient(135deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.95) 100%);
