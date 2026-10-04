@@ -217,7 +217,63 @@ html, body, [class*="css"] {
     margin-top: 2px;
 }
 
-/* Top Navigation Container */
+/* Top Navigation Bar Container */
+.top-nav-bar {
+    background: rgba(15, 23, 42, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 10px 18px;
+    margin-bottom: 6px;
+    backdrop-filter: blur(14px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Top Hamburger Menu Popover Button */
+div[data-testid="stPopover"] > button {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%) !important;
+    border: 1px solid rgba(56, 189, 248, 0.4) !important;
+    border-radius: 12px !important;
+    color: #F8FAFC !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    padding: 8px 20px !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35) !important;
+    transition: all 0.25s ease !important;
+    cursor: pointer !important;
+}
+
+div[data-testid="stPopover"] > button:hover {
+    background: rgba(56, 189, 248, 0.2) !important;
+    border-color: #38BDF8 !important;
+    color: #38BDF8 !important;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.45) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Popover Content Dropdown Menu */
+div[data-testid="stPopoverBody"] {
+    background: rgba(11, 18, 33, 0.98) !important;
+    border: 1px solid rgba(56, 189, 248, 0.4) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.85), 0 0 30px rgba(56, 189, 248, 0.2) !important;
+    padding: 16px 18px !important;
+    min-width: 310px !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+div[data-testid="stPopoverBody"] div[data-testid="stButton"] button {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    font-size: 0.96rem !important;
+    font-weight: 600 !important;
+    padding: 10px 16px !important;
+    margin-bottom: 6px !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+}
+
+/* Top Navigation Legacy Container (if any) */
 .nav-container {
     background: rgba(15, 23, 42, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.12);

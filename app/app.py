@@ -159,35 +159,79 @@ if "has_searched" not in st.session_state:
 
 current_page = st.session_state["active_page"]
 
-# --- SLEEK COMPACT HEADER (Shown on secondary pages to keep landing page uncluttered) ---
-if current_page != PAGES[0]:
-    st.markdown(f"""
-    <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 12px 14px 12px; margin-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.08);">
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <span style="font-size: 1.4rem;">⚡</span>
-            <span style="font-size: 1.15rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">AutoMatch AI</span>
-            <span style="background: rgba(56,189,248,0.12); color: #38BDF8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(56,189,248,0.3);">ML Recommender</span>
-        </div>
-        <div style="font-size: 0.82rem; color: #94A3B8;">
-            {total_cars:,}+ Vehicles Catalog • {num_models} Models • ₹4 Lakh – ₹15 Crore
-        </div>
+# --- SIDEBAR DRAWER (Slide-out menu accessible via top-left chevron or shortcut) ---
+with st.sidebar:
+    st.markdown("""
+    <div style="padding: 10px 0 16px 0; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 16px;">
+        <div style="font-size: 1.35rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ AutoMatch AI</div>
+        <div style="font-size: 0.8rem; color: #94A3B8; margin-top: 4px;">Automotive Recommendation System</div>
     </div>
     """, unsafe_allow_html=True)
-
-# --- TOP INTERACTIVE NAVIGATION BAR ---
-st.markdown('<div class="nav-container">', unsafe_allow_html=True)
-nav_cols = st.columns(len(PAGES))
-for i, page_name in enumerate(PAGES):
-    with nav_cols[i]:
+    st.markdown("#### 🧭 Navigation Menu")
+    for i, page_name in enumerate(PAGES):
         is_active = (current_page == page_name)
-        btn_type = "primary" if is_active else "secondary"
-        if st.button(page_name, key=f"nav_btn_{i}", type=btn_type, use_container_width=True):
+        label = f"● {page_name}" if is_active else f"   {page_name}"
+        if st.button(label, key=f"sidebar_nav_{i}", type="primary" if is_active else "secondary", use_container_width=True):
             if current_page != page_name:
                 st.session_state["active_page"] = page_name
                 st.session_state["do_scroll_top"] = True
                 st.rerun()
+    st.markdown("---")
+    st.markdown(f"""
+    <div style="font-size: 0.82rem; color: #94A3B8; line-height: 1.6;">
+        <b>Catalog:</b> {total_cars:,}+ vehicles<br>
+        <b>Coverage:</b> {num_models} active models<br>
+        <b>Price Range:</b> ₹4 Lakh – ₹15 Cr
+    </div>
+    """, unsafe_allow_html=True)
+
+# --- TOP-LEFT HAMBURGER & DROPDOWN HEADER BAR ---
+st.markdown('<div class="top-nav-bar">', unsafe_allow_html=True)
+top_left, top_mid, top_right = st.columns([1.6, 5.0, 3.4], vertical_alignment="center")
+
+with top_left:
+    with st.popover("☰  Menu", use_container_width=False):
+        st.markdown("""
+        <div style="padding: 4px 6px 10px 6px; border-bottom: 1px solid rgba(255,255,255,0.12); margin-bottom: 10px;">
+            <div style="font-weight: 800; font-size: 1.05rem; color: #38BDF8;">⚡ AutoMatch AI Menu</div>
+            <div style="font-size: 0.78rem; color: #94A3B8;">Jump directly to any section:</div>
+        </div>
+        """, unsafe_allow_html=True)
+        for i, page_name in enumerate(PAGES):
+            is_active = (current_page == page_name)
+            label = f"✓  {page_name}" if is_active else f"    {page_name}"
+            if st.button(label, key=f"popover_nav_{i}", type="primary" if is_active else "secondary", use_container_width=True):
+                if current_page != page_name:
+                    st.session_state["active_page"] = page_name
+                    st.session_state["do_scroll_top"] = True
+                    st.rerun()
+
+with top_mid:
+    if current_page != PAGES[0]:
+        st.markdown(f"""
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 1.12rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ AutoMatch AI</span>
+            <span style="color: #64748B;">/</span>
+            <span style="color: #38BDF8; font-size: 0.95rem; font-weight: 600;">{current_page}</span>
+        </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.markdown(f"""
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 1.15rem; font-weight: 800; background: linear-gradient(135deg, #FFFFFF, #38BDF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ AutoMatch AI</span>
+            <span style="background: rgba(56,189,248,0.12); color: #38BDF8; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(56,189,248,0.3);">ML Recommender</span>
+        </div>
+        """, unsafe_allow_html=True)
+
+with top_right:
+    st.markdown(f"""
+    <div style="text-align: right; font-size: 0.82rem; color: #94A3B8;">
+        {total_cars:,}+ Vehicles • {num_models} Models • ₹4L – ₹15 Cr
+    </div>
+    """, unsafe_allow_html=True)
+
 st.markdown('</div>', unsafe_allow_html=True)
-st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<div style='margin-bottom: 16px;'></div>", unsafe_allow_html=True)
 
 
 # =========================================================================
