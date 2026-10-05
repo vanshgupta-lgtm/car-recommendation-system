@@ -79,6 +79,7 @@ BRAND_NEW_CAR_SEEDS = [
     # --- LUXURY & SUPERCARS (₹70L – ₹3.5 Cr) ---
     {"brand": "BMW", "model": "X3", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 72.50, "price_max_lakh": 74.90, "engine_cc": 1995, "power_bhp": 188, "mileage_kmpl": 16.5, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "BMW", "model": "6 Series GT", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 73.50, "price_max_lakh": 78.90, "engine_cc": 1995, "power_bhp": 188, "mileage_kmpl": 15.8, "seats": 5, "safety_stars": 5, "tier": "luxury"},
+    {"brand": "BMW", "model": "M340i", "body_type": "Sedan", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 72.90, "price_max_lakh": 75.90, "engine_cc": 2998, "power_bhp": 382, "mileage_kmpl": 13.0, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "Mercedes-Benz", "model": "E-Class", "body_type": "Sedan", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 78.50, "price_max_lakh": 92.50, "engine_cc": 1993, "power_bhp": 197, "mileage_kmpl": 16.0, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "Land Rover", "model": "Range Rover Velar", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 87.90, "price_max_lakh": 95.00, "engine_cc": 1997, "power_bhp": 201, "mileage_kmpl": 13.1, "seats": 5, "safety_stars": 5, "tier": "luxury"},
     {"brand": "Audi", "model": "Q7", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 88.66, "price_max_lakh": 97.84, "engine_cc": 2995, "power_bhp": 335, "mileage_kmpl": 11.2, "seats": 7, "safety_stars": 5, "tier": "luxury"},
@@ -189,6 +190,7 @@ MODEL_VARIANTS = {
     "X3": ["xDrive20d M Sport", "xDrive20d Shadow Edition", "xDrive20i SportX"],
     "X5": ["xDrive30d xLine", "xDrive30d M Sport", "xDrive40i M Sport"],
     "3 Series Gran Limousine": ["330Li M Sport", "320Ld M Sport", "330Li Iconic Edition"],
+    "M340i": ["xDrive", "xDrive Shadow Edition", "xDrive 50 Jahre M Edition"],
     "6 Series GT": ["620d Luxury Line", "630d M Sport", "630i M Sport"],
     "7 Series": ["740i M Sport", "740d M Sport", "i7 xDrive60"],
     "C-Class": ["C 200", "C 220d", "C 300 AMG Line"],
