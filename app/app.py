@@ -162,8 +162,7 @@ current_page = st.session_state["active_page"]
 # (Sidebar completely disabled per user preference - only top-left hamburger dropdown menu is used)
 
 # --- TOP-LEFT HAMBURGER & DROPDOWN HEADER BAR ---
-st.markdown('<div class="top-nav-bar">', unsafe_allow_html=True)
-top_left, top_mid, top_right = st.columns([1.6, 5.0, 3.4], vertical_alignment="center")
+top_left, top_mid, top_right = st.columns([1.5, 5.0, 3.5], vertical_alignment="center")
 
 with top_left:
     with st.popover("☰  Menu", use_container_width=False):
@@ -206,8 +205,7 @@ with top_right:
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown('</div>', unsafe_allow_html=True)
-st.markdown("<div style='margin-bottom: 16px;'></div>", unsafe_allow_html=True)
+st.markdown("<div style='margin-bottom: 12px;'></div>", unsafe_allow_html=True)
 
 
 # =========================================================================
@@ -374,10 +372,30 @@ if current_page == PAGES[0]:
     st.markdown('<div class="section-subheadline">Authentic real-world photography of standout icons in our 5,200+ car catalog:</div>', unsafe_allow_html=True)
 
     spotlight_cars = [
-        {"model": "BE6", "brand": "Mahindra", "body": "SUV", "trim": "Born-EV Coupe", "tag": "Electric • 682 km Range", "price": "₹ 18.90 Lakhs"},
-        {"model": "Invicto", "brand": "Maruti Suzuki", "body": "MUV", "trim": "Alpha+ Strong Hybrid", "tag": "Strong Hybrid • 23.2 kmpl", "price": "₹ 25.21 Lakhs"},
-        {"model": "Mercedes-Maybach GLS", "brand": "Mercedes-Benz", "body": "Luxury SUV", "trim": "GLS 600 4MATIC V8", "tag": "550 BHP Twin-Turbo V8", "price": "₹ 3.35 Crore"},
-        {"model": "Land Cruiser 300", "brand": "Toyota", "body": "Luxury SUV", "trim": "ZX 3.3L Twin-Turbo 4x4", "tag": "King of Off-Road Luxury", "price": "₹ 2.10 Crore"},
+        {
+            "model": "BE6", "brand": "Mahindra", "body": "SUV",
+            "display_title": "Mahindra BE6",
+            "tag": "Electric • 682 km Range", "price": "₹ 18.90 Lakhs",
+            "btn_label": "Find Similar to BE6 →"
+        },
+        {
+            "model": "Invicto", "brand": "Maruti Suzuki", "body": "MUV",
+            "display_title": "Maruti Suzuki Invicto",
+            "tag": "Strong Hybrid • 23.2 kmpl", "price": "₹ 25.21 Lakhs",
+            "btn_label": "Find Similar to Invicto →"
+        },
+        {
+            "model": "Mercedes-Maybach GLS", "brand": "Mercedes-Benz", "body": "Luxury SUV",
+            "display_title": "Mercedes-Maybach GLS",
+            "tag": "550 BHP Twin-Turbo V8", "price": "₹ 3.35 Crore",
+            "btn_label": "Find Similar to GLS →"
+        },
+        {
+            "model": "Land Cruiser 300", "brand": "Toyota", "body": "Luxury SUV",
+            "display_title": "Toyota Land Cruiser 300",
+            "tag": "King of Off-Road Luxury", "price": "₹ 2.10 Crore",
+            "btn_label": "Find Similar to LC300 →"
+        },
     ]
 
     col_s1, col_s2, col_s3, col_s4 = st.columns(4)
@@ -388,13 +406,15 @@ if current_page == PAGES[0]:
             img_uri = get_car_image(sc["model"], sc["body"], sc["brand"])
             st.markdown(f"""
             <div class="spotlight-card">
-                <img src="{img_uri}" alt="{sc['brand']} {sc['model']}" class="spotlight-img"/>
-                <div class="spotlight-title">{sc['brand']} {sc['model']}</div>
-                <div class="spotlight-badge">{sc['tag']}</div>
-                <div class="spotlight-price">{sc['price']}</div>
+                <img src="{img_uri}" alt="{sc['display_title']}" class="spotlight-img"/>
+                <div class="spotlight-info">
+                    <div class="spotlight-title">{sc['display_title']}</div>
+                    <div class="spotlight-badge">{sc['tag']}</div>
+                    <div class="spotlight-price">{sc['price']}</div>
+                </div>
             </div>
             """, unsafe_allow_html=True)
-            if st.button(f"Find Similar to {sc['model']} →", key=f"spot_btn_{idx}", use_container_width=True):
+            if st.button(sc["btn_label"], key=f"spot_btn_{idx}", use_container_width=True):
                 st.session_state["selected_ref_car_model"] = sc["model"]
                 st.session_state["target_page"] = PAGES[3]
                 st.session_state["do_scroll_top"] = True

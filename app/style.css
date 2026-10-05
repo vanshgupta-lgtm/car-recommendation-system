@@ -11,21 +11,29 @@ html, body, [class*="css"] {
     color: #F3F4F6;
 }
 
-/* Hide Streamlit default top padding */
+/* Clean top padding */
 .block-container {
-    padding-top: 1.8rem;
-    padding-bottom: 3rem;
+    padding-top: 1.2rem !important;
+    padding-bottom: 3rem !important;
 }
 
-/* Completely hide Streamlit sidebar & toggle icons */
+/* Completely hide Streamlit Header, Deploy Button & Sidebar Controls */
+header[data-testid="stHeader"],
+.stDeployButton,
+[data-testid="stDeployButton"],
+#MainMenu,
+footer,
+div[data-testid="stToolbar"],
 [data-testid="stSidebar"],
 [data-testid="stSidebarCollapsedControl"],
 section[data-testid="stSidebar"],
 div[data-testid="stSidebarCollapsedControl"] {
     display: none !important;
-    width: 0 !important;
-    height: 0 !important;
     visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
 
 /* Hero Header */
@@ -228,15 +236,13 @@ div[data-testid="stSidebarCollapsedControl"] {
     margin-top: 2px;
 }
 
-/* Top Navigation Bar Container */
+/* Top Navigation Bar Container (Invisible flex layout, no horizontal bar) */
 .top-nav-bar {
-    background: rgba(15, 23, 42, 0.78);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 16px;
-    padding: 10px 18px;
-    margin-bottom: 6px;
-    backdrop-filter: blur(14px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 8px !important;
+    box-shadow: none !important;
 }
 
 /* Top Hamburger Menu Popover Button */
@@ -734,14 +740,21 @@ div[data-testid="stNumberInput"] input:focus {
     flex-grow: 1;
 }
 
-/* Spotlight Preview Cards */
+/* Spotlight Preview Cards - 100% Equalized Heights & Perfect Button Alignment */
 .spotlight-card {
     background: linear-gradient(145deg, rgba(30, 41, 59, 0.75) 0%, rgba(15, 23, 42, 0.92) 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     padding: 16px;
     transition: all 0.3s ease;
-    height: 100%;
+    height: 310px !important;
+    min-height: 310px !important;
+    max-height: 310px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 12px;
 }
 
 .spotlight-card:hover {
@@ -752,17 +765,32 @@ div[data-testid="stNumberInput"] input:focus {
 
 .spotlight-img {
     width: 100%;
-    height: 175px;
+    height: 155px;
     object-fit: cover;
     border-radius: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     border: 1px solid rgba(255, 255, 255, 0.08);
+    display: block;
+}
+
+.spotlight-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .spotlight-title {
-    font-size: 1.15rem;
+    font-size: 1.10rem;
     font-weight: 800;
     color: #F8FAFC;
+    line-height: 1.25;
+    height: 2.6rem;
+    min-height: 2.6rem;
+    max-height: 2.6rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
     margin-bottom: 4px;
 }
 
@@ -770,12 +798,23 @@ div[data-testid="stNumberInput"] input:focus {
     font-size: 0.78rem;
     font-weight: 600;
     color: #38BDF8;
-    margin-bottom: 6px;
+    height: 1.3rem;
+    min-height: 1.3rem;
+    max-height: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
 }
+
 .spotlight-price {
-    font-size: 1.12rem;
+    font-size: 1.15rem;
     font-weight: 800;
     color: #10B981;
+    height: 1.6rem;
+    min-height: 1.6rem;
+    max-height: 1.6rem;
+    display: flex;
+    align-items: center;
 }
 
 /* Glowing prominent CTA button for Landing Hero */
