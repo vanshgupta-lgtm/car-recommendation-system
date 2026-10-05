@@ -95,27 +95,29 @@ def inject_scroll_reveal_engine():
                 const p = window.parent;
                 const d = p.document;
 
-                function initScrollReveal() {
-                    const targetSelectors = [
-                        '.reveal-on-scroll',
-                        '.vibe-card',
-                        '.spotlight-card',
-                        '.section-headline',
-                        '.section-subheadline',
-                        '.landing-stat-item',
-                        '.car-card-with-img',
-                        '.metric-tile'
-                    ];
+                const targetSelectors = [
+                    '.reveal-on-scroll',
+                    '.vibe-card',
+                    '.spotlight-card',
+                    '.section-headline',
+                    '.section-subheadline',
+                    '.landing-stat-item',
+                    '.car-card-with-img',
+                    '.metric-tile'
+                ];
 
+                function checkElementsInView() {
                     const elements = d.querySelectorAll(targetSelectors.join(','));
                     if (!elements || elements.length === 0) return;
 
                     const vh = p.innerHeight || 800;
 
-                    // Immediately reveal elements already near or within view
                     elements.forEach(el => {
+                        if (el.classList.contains('reveal-active')) return;
+
                         const rect = el.getBoundingClientRect();
-                        if (rect.top <= vh * 0.90) {
+                        // Trigger only when element enters the viewport
+                        if (rect.top <= (vh - 35) && rect.bottom >= 20) {
                             el.classList.add('reveal-active');
                             const col = el.closest('[data-testid="column"]');
                             if (col) {
@@ -127,8 +129,12 @@ def inject_scroll_reveal_engine():
                             el.classList.add('scroll-reveal-target');
                         }
                     });
+                }
 
-                    // Set up IntersectionObserver
+                function initObserver() {
+                    const elements = d.querySelectorAll(targetSelectors.join(','));
+                    if (!elements || elements.length === 0) return;
+
                     if ('IntersectionObserver' in p) {
                         const observerOptions = {
                             root: null,
@@ -156,68 +162,48 @@ def inject_scroll_reveal_engine():
                             }
                         });
                     }
-
-                    // Fail-safe timeout: after 1.5 seconds, force all elements visible
-                    setTimeout(() => {
-                        elements.forEach(el => {
-                            el.classList.add('reveal-active');
-                            const col = el.closest('[data-testid="column"]');
-                            if (col) {
-                                col.classList.add('reveal-active');
-                                const btn = col.querySelector('[data-testid="stButton"]');
-                                if (btn) btn.classList.add('reveal-active');
-                            }
-                        });
-                    }, 1500);
                 }
 
-                // Passive scroll listener on container for lightning-fast response during scrolling
-                function bindScrollListener() {
+                function bindScrollListeners() {
                     const scrollContainer = d.querySelector('[data-testid="stAppViewContainer"]') || 
+                                            d.querySelector('section[data-testid="stMain"]') || 
                                             d.querySelector('section.main') || 
                                             d.documentElement;
-                    if (scrollContainer && !scrollContainer.__revealListenerAttached) {
-                        scrollContainer.__revealListenerAttached = true;
-                        let ticking = false;
-                        const checkScroll = () => {
-                            if (!ticking) {
-                                p.requestAnimationFrame(() => {
-                                    const targets = d.querySelectorAll('.scroll-reveal-target:not(.reveal-active)');
-                                    const vh = p.innerHeight || 800;
-                                    targets.forEach(el => {
-                                        const rect = el.getBoundingClientRect();
-                                        if (rect.top <= vh * 0.90) {
-                                            el.classList.add('reveal-active');
-                                            const col = el.closest('[data-testid="column"]');
-                                            if (col) {
-                                                col.classList.add('reveal-active');
-                                                const btn = col.querySelector('[data-testid="stButton"]');
-                                                if (btn) btn.classList.add('reveal-active');
-                                            }
-                                        }
-                                    });
-                                    ticking = false;
-                                });
-                                ticking = true;
-                            }
-                        };
-                        scrollContainer.addEventListener('scroll', checkScroll, { passive: true });
-                        p.addEventListener('scroll', checkScroll, { passive: true });
+
+                    let ticking = false;
+                    const onScrollTick = () => {
+                        if (!ticking) {
+                            p.requestAnimationFrame(() => {
+                                checkElementsInView();
+                                ticking = false;
+                            });
+                            ticking = true;
+                        }
+                    };
+
+                    if (scrollContainer && !scrollContainer.__smoothRevealBound) {
+                        scrollContainer.__smoothRevealBound = true;
+                        scrollContainer.addEventListener('scroll', onScrollTick, { passive: true });
+                    }
+
+                    if (!p.__smoothRevealBound) {
+                        p.__smoothRevealBound = true;
+                        p.addEventListener('scroll', onScrollTick, { passive: true });
                     }
                 }
 
-                // Run initialization
-                initScrollReveal();
-                bindScrollListener();
-                setTimeout(initScrollReveal, 100);
-                setTimeout(initScrollReveal, 350);
+                checkElementsInView();
+                initObserver();
+                bindScrollListeners();
+                setTimeout(checkElementsInView, 80);
+                setTimeout(checkElementsInView, 250);
 
-                // Re-bind when DOM changes
-                if (!p.__revealMutationObserver && d.body) {
-                    p.__revealMutationObserver = true;
+                if (!p.__smoothMutationObserver && d.body) {
+                    p.__smoothMutationObserver = true;
                     const mutObs = new p.MutationObserver(() => {
-                        initScrollReveal();
-                        bindScrollListener();
+                        checkElementsInView();
+                        initObserver();
+                        bindScrollListeners();
                     });
                     mutObs.observe(d.body, { childList: true, subtree: true });
                 }

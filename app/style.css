@@ -876,7 +876,7 @@ div.hero-cta-box div[data-testid="stButton"] button:hover {
    SCROLL REVEAL & LUXURY SMOOTH DYNAMIC ENTRANCE ANIMATIONS
    ========================================================================= */
 
-html, body, [data-testid="stAppViewContainer"], section.main {
+html, body, [data-testid="stAppViewContainer"], section[data-testid="stMain"], section.main {
     scroll-behavior: smooth !important;
 }
 
@@ -884,17 +884,19 @@ html, body, [data-testid="stAppViewContainer"], section.main {
 @keyframes heroEntrance {
     0% {
         opacity: 0;
-        transform: translateY(26px) scale(0.985);
+        transform: translateY(32px) scale(0.98);
+        filter: blur(6px);
     }
     100% {
         opacity: 1;
         transform: translateY(0) scale(1);
+        filter: blur(0);
     }
 }
 
 .landing-hero {
-    animation: heroEntrance 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
-    will-change: transform, opacity;
+    animation: heroEntrance 1.0s cubic-bezier(0.16, 1, 0.3, 1) both;
+    will-change: transform, opacity, filter;
 }
 
 @keyframes glowPulse {
@@ -910,57 +912,62 @@ html, body, [data-testid="stAppViewContainer"], section.main {
     animation: glowPulse 3s infinite ease-in-out;
 }
 
-/* Base State for Elements that Reveal on Scroll */
+/* Base State for Elements that Reveal on Scroll (Hidden, shifted down, soft blur) */
 .reveal-on-scroll,
 .scroll-reveal-target {
     opacity: 0;
-    transform: translateY(38px) scale(0.975);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-                box-shadow 0.3s ease,
-                border-color 0.3s ease;
-    will-change: transform, opacity;
+    transform: translateY(55px) scale(0.96);
+    filter: blur(5px);
+    transition: opacity 1.1s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 1.1s cubic-bezier(0.16, 1, 0.3, 1),
+                filter 0.95s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.4s ease,
+                border-color 0.4s ease;
+    will-change: transform, opacity, filter;
 }
 
-/* Active Revealed State */
+/* Active Revealed State (Smooth glide into place with crystal clarity) */
 .reveal-on-scroll.reveal-active,
 .scroll-reveal-target.reveal-active,
 .reveal-active {
     opacity: 1 !important;
     transform: translateY(0) scale(1) !important;
+    filter: blur(0) !important;
 }
 
 /* Enhanced Hover State on Revealed Cards */
 .vibe-card.reveal-active:hover,
 .spotlight-card.reveal-active:hover {
-    transform: translateY(-6px) scale(1.015) !important;
-    border-color: rgba(56, 189, 248, 0.5) !important;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.2) !important;
+    transform: translateY(-8px) scale(1.02) !important;
+    border-color: rgba(56, 189, 248, 0.6) !important;
+    box-shadow: 0 22px 48px rgba(0, 0, 0, 0.65), 0 0 30px rgba(56, 189, 248, 0.25) !important;
 }
 
-/* Cascading Staggered Timing Across 4 Columns */
+/* Cascading Staggered Timing Across 4 Columns (Fluid luxury wave) */
 div[data-testid="column"]:nth-of-type(1) .reveal-on-scroll {
-    transition-delay: 0.04s;
+    transition-delay: 0.05s;
 }
 
 div[data-testid="column"]:nth-of-type(2) .reveal-on-scroll {
-    transition-delay: 0.14s;
+    transition-delay: 0.18s;
 }
 
 div[data-testid="column"]:nth-of-type(3) .reveal-on-scroll {
-    transition-delay: 0.24s;
+    transition-delay: 0.31s;
 }
 
 div[data-testid="column"]:nth-of-type(4) .reveal-on-scroll {
-    transition-delay: 0.34s;
+    transition-delay: 0.44s;
 }
 
 /* Streamlit Button Underneath Each Card - Slides Up in Sync */
 div[data-testid="column"]:has(.reveal-on-scroll) div[data-testid="stButton"] {
     opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
-                transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: translateY(30px);
+    filter: blur(3px);
+    transition: opacity 1.0s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 1.0s cubic-bezier(0.16, 1, 0.3, 1),
+                filter 0.9s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 div[data-testid="column"]:has(.reveal-on-scroll.reveal-active) div[data-testid="stButton"],
@@ -968,51 +975,39 @@ div[data-testid="column"].reveal-active div[data-testid="stButton"],
 div[data-testid="stButton"].reveal-active {
     opacity: 1 !important;
     transform: translateY(0) !important;
+    filter: blur(0) !important;
 }
 
 div[data-testid="column"]:nth-of-type(1):has(.reveal-on-scroll) div[data-testid="stButton"],
 div[data-testid="column"]:nth-of-type(1).reveal-active div[data-testid="stButton"] {
-    transition-delay: 0.08s;
+    transition-delay: 0.10s;
 }
 
 div[data-testid="column"]:nth-of-type(2):has(.reveal-on-scroll) div[data-testid="stButton"],
 div[data-testid="column"]:nth-of-type(2).reveal-active div[data-testid="stButton"] {
-    transition-delay: 0.18s;
+    transition-delay: 0.23s;
 }
 
 div[data-testid="column"]:nth-of-type(3):has(.reveal-on-scroll) div[data-testid="stButton"],
 div[data-testid="column"]:nth-of-type(3).reveal-active div[data-testid="stButton"] {
-    transition-delay: 0.28s;
+    transition-delay: 0.36s;
 }
 
 div[data-testid="column"]:nth-of-type(4):has(.reveal-on-scroll) div[data-testid="stButton"],
 div[data-testid="column"]:nth-of-type(4).reveal-active div[data-testid="stButton"] {
-    transition-delay: 0.38s;
+    transition-delay: 0.49s;
 }
 
 /* Image Zoom and Brightness Micro-Interaction on Hover */
 .vibe-card .vibe-img,
 .spotlight-card .spotlight-img {
-    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), filter 0.45s ease;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), filter 0.5s ease;
 }
 
 .vibe-card:hover .vibe-img,
 .spotlight-card:hover .spotlight-img {
-    transform: scale(1.045);
-    filter: brightness(1.08) contrast(1.02);
-}
-
-/* Fail-Safe Animation: Guarantees full visibility even if JS is slow or blocked */
-@keyframes fallbackRevealSafety {
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-.reveal-on-scroll,
-.scroll-reveal-target {
-    animation: fallbackRevealSafety 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.6s forwards;
+    transform: scale(1.055);
+    filter: brightness(1.1) contrast(1.03);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1024,8 +1019,10 @@ div[data-testid="column"]:nth-of-type(4).reveal-active div[data-testid="stButton
         transition: none !important;
         opacity: 1 !important;
         transform: none !important;
+        filter: none !important;
     }
 }
+
 
 
 
