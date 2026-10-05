@@ -118,6 +118,22 @@ MODEL_IMAGE_MAP = {
     "Cullinan Series II": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/2019_Rolls-Royce_Cullinan_V12_Automatic_6.75_Front.jpg/960px-2019_Rolls-Royce_Cullinan_V12_Automatic_6.75_Front.jpg",
     "Phantom VIII Extended": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2019_Rolls-Royce_Phantom_V12_Automatic_6.75.jpg/960px-2019_Rolls-Royce_Phantom_V12_Automatic_6.75.jpg",
 
+    # --- PORSCHE & McLAREN SUPERCARS & SUVS ---
+    "Macan": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Porsche_Macan_GTS_%2895B%29.jpg",
+    "Porsche Macan": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Porsche_Macan_GTS_%2895B%29.jpg",
+    "Cayenne": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Porsche_Cayenne_II_%28958%29.jpg",
+    "Porsche Cayenne": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Porsche_Cayenne_II_%28958%29.jpg",
+    "718 Cayman": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Porsche_718_Cayman_%2852006437638%29.jpg",
+    "Porsche 718 Cayman": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Porsche_718_Cayman_%2852006437638%29.jpg",
+    "911 GT3 RS": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Porsche_911_GT3_RS_%28992.1%29.jpg",
+    "Porsche 911 GT3 RS": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Porsche_911_GT3_RS_%28992.1%29.jpg",
+    "McLaren 750S": "https://upload.wikimedia.org/wikipedia/commons/4/41/McLaren_750S.jpg",
+    "750S": "https://upload.wikimedia.org/wikipedia/commons/4/41/McLaren_750S.jpg",
+    "McLaren Artura": "https://upload.wikimedia.org/wikipedia/commons/3/36/McLaren_Artura_IAA_2021_1X7A0137.jpg",
+    "Artura": "https://upload.wikimedia.org/wikipedia/commons/3/36/McLaren_Artura_IAA_2021_1X7A0137.jpg",
+    "McLaren GT": "https://upload.wikimedia.org/wikipedia/commons/3/35/McLaren_GT_IMG_0004.jpg",
+    "GT": "https://upload.wikimedia.org/wikipedia/commons/3/35/McLaren_GT_IMG_0004.jpg",
+
     # --- BESPOKE & HYPERCARS (UP TO ₹15 CR) ---
     "SF90 Stradale": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg/960px-Red_2019_Ferrari_SF90_Stradale_%2848264238897%29_%28cropped%29.jpg",
     "Purosangue": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Ferrari_Purosangue_DSC_7008.jpg/960px-Ferrari_Purosangue_DSC_7008.jpg",

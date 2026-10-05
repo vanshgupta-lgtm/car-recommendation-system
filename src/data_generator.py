@@ -92,11 +92,18 @@ BRAND_NEW_CAR_SEEDS = [
     {"brand": "Toyota", "model": "Land Cruiser", "body_type": "SUV", "fuel_types": ["Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 210.00, "price_max_lakh": 225.00, "engine_cc": 3346, "power_bhp": 304, "mileage_kmpl": 10.2, "seats": 5, "safety_stars": 5, "tier": "ultra_luxury"},
     {"brand": "Mercedes-Benz", "model": "V-Class", "body_type": "MUV", "fuel_types": ["Diesel", "Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 71.10, "price_max_lakh": 146.00, "engine_cc": 1950, "power_bhp": 236, "mileage_kmpl": 16.0, "seats": 7, "safety_stars": 5, "tier": "ultra_luxury"},
     {"brand": "Toyota", "model": "Vellfire", "body_type": "MUV", "fuel_types": ["Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 122.30, "price_max_lakh": 132.50, "engine_cc": 2487, "power_bhp": 190, "mileage_kmpl": 19.3, "seats": 7, "safety_stars": 5, "tier": "ultra_luxury"},
+    {"brand": "Porsche", "model": "Macan", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 88.00, "price_max_lakh": 153.00, "engine_cc": 1984, "power_bhp": 261, "mileage_kmpl": 11.2, "seats": 5, "safety_stars": 5, "tier": "luxury"},
+    {"brand": "Porsche", "model": "Cayenne", "body_type": "SUV", "fuel_types": ["Petrol", "Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 136.00, "price_max_lakh": 257.00, "engine_cc": 2995, "power_bhp": 348, "mileage_kmpl": 10.8, "seats": 5, "safety_stars": 5, "tier": "ultra_luxury"},
+    {"brand": "Porsche", "model": "718 Cayman", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 148.00, "price_max_lakh": 254.00, "engine_cc": 1988, "power_bhp": 295, "mileage_kmpl": 12.5, "seats": 2, "safety_stars": 5, "tier": "luxury"},
     {"brand": "Porsche", "model": "911 Carrera", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 198.00, "price_max_lakh": 275.00, "engine_cc": 2981, "power_bhp": 388, "mileage_kmpl": 10.2, "seats": 4, "safety_stars": 5, "tier": "supercar"},
+    {"brand": "Porsche", "model": "911 GT3 RS", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 350.00, "price_max_lakh": 380.00, "engine_cc": 3996, "power_bhp": 518, "mileage_kmpl": 8.0, "seats": 2, "safety_stars": 5, "tier": "supercar"},
     {"brand": "Porsche", "model": "Taycan Turbo", "body_type": "Sedan", "fuel_types": ["Electric"], "transmissions": ["Automatic"], "price_min_lakh": 189.00, "price_max_lakh": 252.00, "engine_cc": 0, "power_bhp": 670, "range_km": 505, "mileage_kmpl": 0.0, "seats": 4, "safety_stars": 5, "tier": "supercar"},
     {"brand": "Mercedes-AMG", "model": "G 63", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 360.00, "price_max_lakh": 400.00, "engine_cc": 3982, "power_bhp": 577, "mileage_kmpl": 6.8, "seats": 5, "safety_stars": 5, "tier": "supercar"},
 
-    # --- ULTRA-LUXURY & EXOTIC (₹3.5 Cr – ₹8 Cr) ---
+    # --- ULTRA-LUXURY, EXOTIC & McLAREN (₹3.5 Cr – ₹8 Cr) ---
+    {"brand": "McLaren", "model": "GT", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 450.00, "price_max_lakh": 475.00, "engine_cc": 3994, "power_bhp": 612, "mileage_kmpl": 9.2, "seats": 2, "safety_stars": 5, "tier": "exotic"},
+    {"brand": "McLaren", "model": "Artura", "body_type": "Coupe", "fuel_types": ["Hybrid"], "transmissions": ["Automatic"], "price_min_lakh": 500.00, "price_max_lakh": 530.00, "engine_cc": 2993, "power_bhp": 671, "mileage_kmpl": 13.5, "seats": 2, "safety_stars": 5, "tier": "exotic"},
+    {"brand": "McLaren", "model": "750S", "body_type": "Coupe", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 590.00, "price_max_lakh": 630.00, "engine_cc": 3994, "power_bhp": 740, "mileage_kmpl": 8.2, "seats": 2, "safety_stars": 5, "tier": "exotic"},
     {"brand": "Mercedes-Maybach", "model": "GLS Maybach", "body_type": "SUV", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 335.00, "price_max_lakh": 380.00, "engine_cc": 3982, "power_bhp": 550, "mileage_kmpl": 8.5, "seats": 4, "safety_stars": 5, "tier": "exotic"},
     {"brand": "Mercedes-Maybach", "model": "S 680", "body_type": "Sedan", "fuel_types": ["Petrol"], "transmissions": ["Automatic"], "price_min_lakh": 343.00, "price_max_lakh": 410.00, "engine_cc": 5980, "power_bhp": 603, "mileage_kmpl": 7.5, "seats": 4, "safety_stars": 5, "tier": "exotic"},
     {"brand": "Land Rover", "model": "Range Rover SV", "body_type": "SUV", "fuel_types": ["Petrol", "Diesel"], "transmissions": ["Automatic"], "price_min_lakh": 417.00, "price_max_lakh": 515.00, "engine_cc": 4395, "power_bhp": 523, "mileage_kmpl": 8.7, "seats": 4, "safety_stars": 5, "tier": "exotic"},
@@ -207,8 +214,17 @@ MODEL_VARIANTS = {
     "Range Rover SV": ["Autobiography", "SV Serenity", "SV Intrepid"],
 
     # Porsche
+    "Macan": ["Standard", "T", "S", "GTS"],
+    "Cayenne": ["Base", "Coupe", "E-Hybrid", "GTS", "Turbo GT"],
+    "718 Cayman": ["Cayman", "Cayman Style Edition", "Cayman GTS 4.0", "GT4 RS"],
     "Taycan Turbo": ["Taycan 4S", "Taycan Turbo", "Taycan Turbo S"],
     "911 Carrera": ["Carrera", "Carrera S", "Carrera GTS", "GT3"],
+    "911 GT3 RS": ["GT3 RS", "GT3 RS Weissach Package"],
+
+    # McLaren
+    "GT": ["Standard", "Luxe", "Pioneer"],
+    "Artura": ["Standard", "Performance", "TechLux", "Vision"],
+    "750S": ["Coupe", "Spider"],
 
     # Mercedes High Performance & Bespoke
     "G 63": ["Speedshift 4MATIC+", "Grand Edition", "Magno Edition"],
