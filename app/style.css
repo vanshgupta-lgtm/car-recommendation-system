@@ -872,5 +872,161 @@ div.hero-cta-box div[data-testid="stButton"] button:hover {
     border-color: #FFFFFF !important;
 }
 
+/* =========================================================================
+   SCROLL REVEAL & LUXURY SMOOTH DYNAMIC ENTRANCE ANIMATIONS
+   ========================================================================= */
+
+html, body, [data-testid="stAppViewContainer"], section.main {
+    scroll-behavior: smooth !important;
+}
+
+/* Landing Hero Entrance Animation on Load */
+@keyframes heroEntrance {
+    0% {
+        opacity: 0;
+        transform: translateY(26px) scale(0.985);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.landing-hero {
+    animation: heroEntrance 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+    will-change: transform, opacity;
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        box-shadow: 0 0 16px rgba(56, 189, 248, 0.25);
+    }
+    50% {
+        box-shadow: 0 0 28px rgba(56, 189, 248, 0.5);
+    }
+}
+
+.landing-glow-pill {
+    animation: glowPulse 3s infinite ease-in-out;
+}
+
+/* Base State for Elements that Reveal on Scroll */
+.reveal-on-scroll,
+.scroll-reveal-target {
+    opacity: 0;
+    transform: translateY(38px) scale(0.975);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+    will-change: transform, opacity;
+}
+
+/* Active Revealed State */
+.reveal-on-scroll.reveal-active,
+.scroll-reveal-target.reveal-active,
+.reveal-active {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+}
+
+/* Enhanced Hover State on Revealed Cards */
+.vibe-card.reveal-active:hover,
+.spotlight-card.reveal-active:hover {
+    transform: translateY(-6px) scale(1.015) !important;
+    border-color: rgba(56, 189, 248, 0.5) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(56, 189, 248, 0.2) !important;
+}
+
+/* Cascading Staggered Timing Across 4 Columns */
+div[data-testid="column"]:nth-of-type(1) .reveal-on-scroll {
+    transition-delay: 0.04s;
+}
+
+div[data-testid="column"]:nth-of-type(2) .reveal-on-scroll {
+    transition-delay: 0.14s;
+}
+
+div[data-testid="column"]:nth-of-type(3) .reveal-on-scroll {
+    transition-delay: 0.24s;
+}
+
+div[data-testid="column"]:nth-of-type(4) .reveal-on-scroll {
+    transition-delay: 0.34s;
+}
+
+/* Streamlit Button Underneath Each Card - Slides Up in Sync */
+div[data-testid="column"]:has(.reveal-on-scroll) div[data-testid="stButton"] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+div[data-testid="column"]:has(.reveal-on-scroll.reveal-active) div[data-testid="stButton"],
+div[data-testid="column"].reveal-active div[data-testid="stButton"],
+div[data-testid="stButton"].reveal-active {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+div[data-testid="column"]:nth-of-type(1):has(.reveal-on-scroll) div[data-testid="stButton"],
+div[data-testid="column"]:nth-of-type(1).reveal-active div[data-testid="stButton"] {
+    transition-delay: 0.08s;
+}
+
+div[data-testid="column"]:nth-of-type(2):has(.reveal-on-scroll) div[data-testid="stButton"],
+div[data-testid="column"]:nth-of-type(2).reveal-active div[data-testid="stButton"] {
+    transition-delay: 0.18s;
+}
+
+div[data-testid="column"]:nth-of-type(3):has(.reveal-on-scroll) div[data-testid="stButton"],
+div[data-testid="column"]:nth-of-type(3).reveal-active div[data-testid="stButton"] {
+    transition-delay: 0.28s;
+}
+
+div[data-testid="column"]:nth-of-type(4):has(.reveal-on-scroll) div[data-testid="stButton"],
+div[data-testid="column"]:nth-of-type(4).reveal-active div[data-testid="stButton"] {
+    transition-delay: 0.38s;
+}
+
+/* Image Zoom and Brightness Micro-Interaction on Hover */
+.vibe-card .vibe-img,
+.spotlight-card .spotlight-img {
+    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), filter 0.45s ease;
+}
+
+.vibe-card:hover .vibe-img,
+.spotlight-card:hover .spotlight-img {
+    transform: scale(1.045);
+    filter: brightness(1.08) contrast(1.02);
+}
+
+/* Fail-Safe Animation: Guarantees full visibility even if JS is slow or blocked */
+@keyframes fallbackRevealSafety {
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.reveal-on-scroll,
+.scroll-reveal-target {
+    animation: fallbackRevealSafety 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.6s forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-on-scroll,
+    .scroll-reveal-target,
+    .landing-hero,
+    div[data-testid="stButton"] {
+        animation: none !important;
+        transition: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
+
 
 

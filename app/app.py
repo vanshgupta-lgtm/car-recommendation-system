@@ -83,8 +83,156 @@ def scroll_to_top():
     )
 
 
+def inject_scroll_reveal_engine():
+    """Injects high-performance IntersectionObserver and scroll tracking script
+    for fluid, buttery-smooth Apple/Tesla-style scroll reveal animations.
+    """
+    components.html(
+        """
+        <script>
+        (function() {
+            try {
+                const p = window.parent;
+                const d = p.document;
+
+                function initScrollReveal() {
+                    const targetSelectors = [
+                        '.reveal-on-scroll',
+                        '.vibe-card',
+                        '.spotlight-card',
+                        '.section-headline',
+                        '.section-subheadline',
+                        '.landing-stat-item',
+                        '.car-card-with-img',
+                        '.metric-tile'
+                    ];
+
+                    const elements = d.querySelectorAll(targetSelectors.join(','));
+                    if (!elements || elements.length === 0) return;
+
+                    const vh = p.innerHeight || 800;
+
+                    // Immediately reveal elements already near or within view
+                    elements.forEach(el => {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top <= vh * 0.90) {
+                            el.classList.add('reveal-active');
+                            const col = el.closest('[data-testid="column"]');
+                            if (col) {
+                                col.classList.add('reveal-active');
+                                const btn = col.querySelector('[data-testid="stButton"]');
+                                if (btn) btn.classList.add('reveal-active');
+                            }
+                        } else {
+                            el.classList.add('scroll-reveal-target');
+                        }
+                    });
+
+                    // Set up IntersectionObserver
+                    if ('IntersectionObserver' in p) {
+                        const observerOptions = {
+                            root: null,
+                            rootMargin: '0px 0px -40px 0px',
+                            threshold: [0.05, 0.15]
+                        };
+
+                        const observer = new p.IntersectionObserver((entries) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    entry.target.classList.add('reveal-active');
+                                    const col = entry.target.closest('[data-testid="column"]');
+                                    if (col) {
+                                        col.classList.add('reveal-active');
+                                        const btn = col.querySelector('[data-testid="stButton"]');
+                                        if (btn) btn.classList.add('reveal-active');
+                                    }
+                                }
+                            });
+                        }, observerOptions);
+
+                        elements.forEach(el => {
+                            if (!el.classList.contains('reveal-active')) {
+                                observer.observe(el);
+                            }
+                        });
+                    }
+
+                    // Fail-safe timeout: after 1.5 seconds, force all elements visible
+                    setTimeout(() => {
+                        elements.forEach(el => {
+                            el.classList.add('reveal-active');
+                            const col = el.closest('[data-testid="column"]');
+                            if (col) {
+                                col.classList.add('reveal-active');
+                                const btn = col.querySelector('[data-testid="stButton"]');
+                                if (btn) btn.classList.add('reveal-active');
+                            }
+                        });
+                    }, 1500);
+                }
+
+                // Passive scroll listener on container for lightning-fast response during scrolling
+                function bindScrollListener() {
+                    const scrollContainer = d.querySelector('[data-testid="stAppViewContainer"]') || 
+                                            d.querySelector('section.main') || 
+                                            d.documentElement;
+                    if (scrollContainer && !scrollContainer.__revealListenerAttached) {
+                        scrollContainer.__revealListenerAttached = true;
+                        let ticking = false;
+                        const checkScroll = () => {
+                            if (!ticking) {
+                                p.requestAnimationFrame(() => {
+                                    const targets = d.querySelectorAll('.scroll-reveal-target:not(.reveal-active)');
+                                    const vh = p.innerHeight || 800;
+                                    targets.forEach(el => {
+                                        const rect = el.getBoundingClientRect();
+                                        if (rect.top <= vh * 0.90) {
+                                            el.classList.add('reveal-active');
+                                            const col = el.closest('[data-testid="column"]');
+                                            if (col) {
+                                                col.classList.add('reveal-active');
+                                                const btn = col.querySelector('[data-testid="stButton"]');
+                                                if (btn) btn.classList.add('reveal-active');
+                                            }
+                                        }
+                                    });
+                                    ticking = false;
+                                });
+                                ticking = true;
+                            }
+                        };
+                        scrollContainer.addEventListener('scroll', checkScroll, { passive: true });
+                        p.addEventListener('scroll', checkScroll, { passive: true });
+                    }
+                }
+
+                // Run initialization
+                initScrollReveal();
+                bindScrollListener();
+                setTimeout(initScrollReveal, 100);
+                setTimeout(initScrollReveal, 350);
+
+                // Re-bind when DOM changes
+                if (!p.__revealMutationObserver && d.body) {
+                    p.__revealMutationObserver = true;
+                    const mutObs = new p.MutationObserver(() => {
+                        initScrollReveal();
+                        bindScrollListener();
+                    });
+                    mutObs.observe(d.body, { childList: true, subtree: true });
+                }
+            } catch (err) {}
+        })();
+        </script>
+        """,
+        height=0,
+        width=0
+    )
+
+
 # Anchor for scroll navigation
 st.markdown('<div id="top-anchor"></div>', unsafe_allow_html=True)
+inject_scroll_reveal_engine()
 
 
 @st.cache_resource(show_spinner="Loading vehicle dataset & ML models...")
@@ -260,8 +408,8 @@ if current_page == PAGES[0]:
     st.markdown("<br>", unsafe_allow_html=True)
 
     # --- SECTION: JUMP STRAIGHT IN BY VIBE ---
-    st.markdown('<div class="section-headline">✨ Explore By Driving Lifestyle</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-subheadline">Select your desired automotive vibe to immediately launch tailored recommendations:</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-headline reveal-on-scroll">✨ Explore By Driving Lifestyle</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-subheadline reveal-on-scroll">Select your desired automotive vibe to immediately launch tailored recommendations:</div>', unsafe_allow_html=True)
 
     vibe_cards = [
         {
@@ -337,7 +485,7 @@ if current_page == PAGES[0]:
         with vibe_cols[idx]:
             img_uri = get_car_image(vc["model"], vc["body"], vc["brand"])
             st.markdown(f"""
-            <div class="vibe-card">
+            <div class="vibe-card reveal-on-scroll">
                 <img src="{img_uri}" alt="{vc['title']}" class="vibe-img"/>
                 <div class="vibe-info">
                     <div class="vibe-title">{vc['title']}</div>
@@ -356,8 +504,8 @@ if current_page == PAGES[0]:
     st.markdown("<br><br>", unsafe_allow_html=True)
 
     # --- SECTION: SPOTLIGHT VEHICLES ---
-    st.markdown('<div class="section-headline">🔥 Trending In The Spotlight</div>', unsafe_allow_html=True)
-    st.markdown('<div class="section-subheadline">Authentic real-world photography of standout icons in our 5,200+ car catalog:</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-headline reveal-on-scroll">🔥 Trending In The Spotlight</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-subheadline reveal-on-scroll">Authentic real-world photography of standout icons in our 5,200+ car catalog:</div>', unsafe_allow_html=True)
 
     spotlight_cars = [
         {
@@ -393,7 +541,7 @@ if current_page == PAGES[0]:
         with spotlight_cols[idx]:
             img_uri = get_car_image(sc["model"], sc["body"], sc["brand"])
             st.markdown(f"""
-            <div class="spotlight-card">
+            <div class="spotlight-card reveal-on-scroll">
                 <img src="{img_uri}" alt="{sc['display_title']}" class="spotlight-img"/>
                 <div class="spotlight-info">
                     <div class="spotlight-title">{sc['display_title']}</div>
