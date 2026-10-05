@@ -263,21 +263,15 @@ if current_page == PAGES[0]:
     st.markdown('<div class="section-headline">✨ Explore By Driving Lifestyle</div>', unsafe_allow_html=True)
     st.markdown('<div class="section-subheadline">Select your desired automotive vibe to immediately launch tailored recommendations:</div>', unsafe_allow_html=True)
 
-    col_v1, col_v2, col_v3, col_v4 = st.columns(4)
-
-    with col_v1:
-        st.markdown("""
-        <div class="vibe-card">
-            <div>
-                <div class="vibe-icon">⚡</div>
-                <div class="vibe-title">Electric Revolution</div>
-                <div class="vibe-tag">Born-EV & Clean Tech</div>
-                <div class="vibe-desc">Instant torque, futuristic dual-screen cockpits, zero emissions and ultra-low running costs.</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("Explore EVs →", key="vibe_btn_ev", use_container_width=True):
-            st.session_state["user_pref"] = {
+    vibe_cards = [
+        {
+            "model": "EV6", "brand": "Kia", "body": "SUV",
+            "title": "Electric Revolution",
+            "tag": "Born-EV & Clean Tech",
+            "desc": "Instant torque, futuristic dual-screen cockpits, zero emissions and ultra-low running costs.",
+            "btn_label": "Explore EVs →",
+            "btn_key": "vibe_btn_ev",
+            "pref": {
                 "min_budget": 12.0, "max_budget": 50.0,
                 "body_type": "All", "fuel_type": "Electric",
                 "transmission": "Automatic", "brands": ["All"],
@@ -285,24 +279,15 @@ if current_page == PAGES[0]:
                 "features": ["Connected Car Tech", "Level 2 ADAS"],
                 "top_k": 8, "strict_filtering": False
             }
-            st.session_state["has_searched"] = True
-            st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[2]
-            st.rerun()
-
-    with col_v2:
-        st.markdown("""
-        <div class="vibe-card">
-            <div>
-                <div class="vibe-icon">⛰️</div>
-                <div class="vibe-title">Rugged 4x4 SUVs</div>
-                <div class="vibe-tag">All-Terrain & Adventure</div>
-                <div class="vibe-desc">Dominating road stance, authentic 4WD traction, high ground clearance and supreme trail capability.</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("Explore 4x4s →", key="vibe_btn_4x4", use_container_width=True):
-            st.session_state["user_pref"] = {
+        },
+        {
+            "model": "Defender", "brand": "Land Rover", "body": "SUV",
+            "title": "Rugged 4x4 SUVs",
+            "tag": "All-Terrain & Adventure",
+            "desc": "Dominating road stance, authentic 4WD traction, high ground clearance and supreme trail capability.",
+            "btn_label": "Explore 4x4s →",
+            "btn_key": "vibe_btn_4x4",
+            "pref": {
                 "min_budget": 15.0, "max_budget": 120.0,
                 "body_type": "SUV", "fuel_type": "Diesel",
                 "transmission": "All", "brands": ["All"],
@@ -310,24 +295,15 @@ if current_page == PAGES[0]:
                 "features": ["4x4 / AWD", "High Ground Clearance"],
                 "top_k": 8, "strict_filtering": False
             }
-            st.session_state["has_searched"] = True
-            st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[2]
-            st.rerun()
-
-    with col_v3:
-        st.markdown("""
-        <div class="vibe-card">
-            <div>
-                <div class="vibe-icon">👨‍👩‍👧‍👦</div>
-                <div class="vibe-title">Family 7-Seaters</div>
-                <div class="vibe-tag">Hybrid & Supreme Comfort</div>
-                <div class="vibe-desc">Captain seat luxury, stellar hybrid fuel economy, 5-star passenger safety and massive cargo room.</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("Explore 7-Seaters →", key="vibe_btn_7s", use_container_width=True):
-            st.session_state["user_pref"] = {
+        },
+        {
+            "model": "Carnival", "brand": "Kia", "body": "MUV",
+            "title": "Family 7-Seaters",
+            "tag": "Hybrid & Supreme Comfort",
+            "desc": "Captain seat luxury, stellar hybrid fuel economy, 5-star passenger safety and massive cargo room.",
+            "btn_label": "Explore 7-Seaters →",
+            "btn_key": "vibe_btn_7s",
+            "pref": {
                 "min_budget": 15.0, "max_budget": 45.0,
                 "body_type": "MUV", "fuel_type": "Strong Hybrid",
                 "transmission": "Automatic", "brands": ["All"],
@@ -335,24 +311,15 @@ if current_page == PAGES[0]:
                 "features": ["Captain Seats", "Ventilated Seats"],
                 "top_k": 8, "strict_filtering": False
             }
-            st.session_state["has_searched"] = True
-            st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[2]
-            st.rerun()
-
-    with col_v4:
-        st.markdown("""
-        <div class="vibe-card">
-            <div>
-                <div class="vibe-icon">👑</div>
-                <div class="vibe-title">Bespoke Ultra-Luxury</div>
-                <div class="vibe-tag">V8s & Flagship Exotics</div>
-                <div class="vibe-desc">Handcrafted interiors, whisper-quiet cabin refinement, twin-turbo muscle and unmatched prestige.</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("Explore Luxury →", key="vibe_btn_lux", use_container_width=True):
-            st.session_state["user_pref"] = {
+        },
+        {
+            "model": "Phantom VIII Extended", "brand": "Rolls-Royce", "body": "Sedan",
+            "title": "Bespoke Ultra-Luxury",
+            "tag": "V8s & Flagship Exotics",
+            "desc": "Handcrafted interiors, whisper-quiet cabin refinement, twin-turbo muscle and unmatched prestige.",
+            "btn_label": "Explore Luxury →",
+            "btn_key": "vibe_btn_lux",
+            "pref": {
                 "min_budget": 90.0, "max_budget": 1500.0,
                 "body_type": "All", "fuel_type": "Petrol",
                 "transmission": "Automatic", "brands": ["All"],
@@ -360,10 +327,31 @@ if current_page == PAGES[0]:
                 "features": ["Bespoke Interior", "Air Suspension", "Level 2 ADAS"],
                 "top_k": 8, "strict_filtering": False
             }
-            st.session_state["has_searched"] = True
-            st.session_state["do_scroll_top"] = True
-            st.session_state["target_page"] = PAGES[2]
-            st.rerun()
+        }
+    ]
+
+    col_v1, col_v2, col_v3, col_v4 = st.columns(4)
+    vibe_cols = [col_v1, col_v2, col_v3, col_v4]
+
+    for idx, vc in enumerate(vibe_cards):
+        with vibe_cols[idx]:
+            img_uri = get_car_image(vc["model"], vc["body"], vc["brand"])
+            st.markdown(f"""
+            <div class="vibe-card">
+                <img src="{img_uri}" alt="{vc['title']}" class="vibe-img"/>
+                <div class="vibe-info">
+                    <div class="vibe-title">{vc['title']}</div>
+                    <div class="vibe-tag">{vc['tag']}</div>
+                    <div class="vibe-desc">{vc['desc']}</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+            if st.button(vc["btn_label"], key=vc["btn_key"], use_container_width=True):
+                st.session_state["user_pref"] = vc["pref"]
+                st.session_state["has_searched"] = True
+                st.session_state["do_scroll_top"] = True
+                st.session_state["target_page"] = PAGES[2]
+                st.rerun()
 
     st.markdown("<br><br>", unsafe_allow_html=True)
 
