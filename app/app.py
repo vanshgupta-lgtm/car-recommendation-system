@@ -826,7 +826,7 @@ elif current_page == PAGES[1]:
 
 
 # =========================================================================
-# PAGE 2: TOP AI RECOMMENDATIONS (ARRANGED IN DESCENDING ORDER OF PRICE)
+# PAGE 2: TOP AI RECOMMENDATIONS (ARRANGED IN DESCENDING ORDER OF MATCH PERCENTAGE)
 # =========================================================================
 elif current_page == PAGES[2]:
     # Always snap scroll to top of recommendations
@@ -856,24 +856,26 @@ elif current_page == PAGES[2]:
     col_title, col_sort = st.columns([3, 2])
     with col_title:
         st.subheader(f"🏆 Top Recommended Vehicles ({format_currency(min_b)} – {format_currency(max_b)})")
-        st.caption("Ranked by Multi-Objective Hybrid ML Engine • Arranged in Descending Order According to Price")
+        st.caption("Ranked by Multi-Objective Hybrid ML Engine • Arranged in Descending Order of Match Percentage")
     with col_sort:
         sort_mode = st.selectbox(
             "Sort Order:",
-            ["💰 Price: High to Low (Descending)", "🏷️ Price: Low to High (Ascending)", "🎯 Match Score: Highest First"],
+            ["🎯 Match Percentage: Highest First (Descending)", "💰 Price: High to Low (Descending)", "🏷️ Price: Low to High (Ascending)"],
             index=0
         )
 
     if recs.empty:
         st.warning("No brand new cars matched your exact filter parameters. Please widen your budget or relax body style filters in the 'Preference Matchmaker' page.")
     else:
-        # Apply sorting: Descending price by default!
-        if "High to Low" in sort_mode:
+        # Apply sorting: Descending match percentage by default!
+        if "Match Percentage" in sort_mode or "Match Score" in sort_mode:
+            recs = recs.sort_values(by=["match_percentage", "hybrid_score"], ascending=[False, False]).reset_index(drop=True)
+        elif "High to Low" in sort_mode:
             recs = recs.sort_values(by="price_lakh", ascending=False).reset_index(drop=True)
         elif "Low to High" in sort_mode:
             recs = recs.sort_values(by="price_lakh", ascending=True).reset_index(drop=True)
-        elif "Match Score" in sort_mode:
-            recs = recs.sort_values(by="hybrid_score", ascending=False).reset_index(drop=True)
+        else:
+            recs = recs.sort_values(by=["match_percentage", "hybrid_score"], ascending=[False, False]).reset_index(drop=True)
 
         for idx, (_, car) in enumerate(recs.iterrows()):
             stars = "★" * int(car["safety_rating"]) + "☆" * (5 - int(car["safety_rating"]))
@@ -1070,11 +1072,11 @@ elif current_page == PAGES[3]:
     else:
         similar_df = knn_rec.get_similar_cars(ref_car_id, top_k=sim_k)
 
-    # Arrange competitors in descending order by price!
+    # Arrange competitors in descending order by match percentage!
     if not similar_df.empty:
-        similar_df = similar_df.sort_values(by="price_lakh", ascending=False).reset_index(drop=True)
+        similar_df = similar_df.sort_values(by="match_percentage", ascending=False).reset_index(drop=True)
 
-    st.markdown(f"#### Top {sim_k} Competitors in Vector Space (Arranged by Price):")
+    st.markdown(f"#### Top {sim_k} Competitors in Vector Space (Arranged by Match Percentage):")
     for _, sim_car in similar_df.iterrows():
         sim_score = sim_car["match_percentage"]
         why_sim = hybrid_rec.explainer.explain_similarity(ref_car, sim_car)
