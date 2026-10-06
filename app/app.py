@@ -280,6 +280,7 @@ if "user_pref" not in st.session_state:
         "fuel_type": "All",
         "transmission": "All",
         "brands": ["All"],
+        "seats": 0,
         "min_seats": 0,
         "min_mileage": 8.0,
         "min_safety": 0,
@@ -409,7 +410,7 @@ if current_page == PAGES[0]:
                 "min_budget": 12.0, "max_budget": 50.0,
                 "body_type": "All", "fuel_type": "Electric",
                 "transmission": "Automatic", "brands": ["All"],
-                "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
+                "seats": 0, "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
                 "features": ["Connected Car Tech", "Level 2 ADAS"],
                 "top_k": 8, "strict_filtering": False
             }
@@ -425,7 +426,7 @@ if current_page == PAGES[0]:
                 "min_budget": 15.0, "max_budget": 120.0,
                 "body_type": "SUV", "fuel_type": "Diesel",
                 "transmission": "All", "brands": ["All"],
-                "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
+                "seats": 0, "min_seats": 0, "min_mileage": 8.0, "min_safety": 0,
                 "features": ["4x4 / AWD", "High Ground Clearance"],
                 "top_k": 8, "strict_filtering": False
             }
@@ -441,7 +442,7 @@ if current_page == PAGES[0]:
                 "min_budget": 15.0, "max_budget": 45.0,
                 "body_type": "MUV", "fuel_type": "Strong Hybrid",
                 "transmission": "Automatic", "brands": ["All"],
-                "min_seats": 7, "min_mileage": 15.0, "min_safety": 0,
+                "seats": 7, "min_seats": 7, "min_mileage": 15.0, "min_safety": 0,
                 "features": ["Captain Seats", "Ventilated Seats"],
                 "top_k": 8, "strict_filtering": False
             }
@@ -457,7 +458,7 @@ if current_page == PAGES[0]:
                 "min_budget": 90.0, "max_budget": 1500.0,
                 "body_type": "All", "fuel_type": "Petrol",
                 "transmission": "Automatic", "brands": ["All"],
-                "min_seats": 0, "min_mileage": 5.0, "min_safety": 5,
+                "seats": 0, "min_seats": 0, "min_mileage": 5.0, "min_safety": 5,
                 "features": ["Bespoke Interior", "Air Suspension", "Level 2 ADAS"],
                 "top_k": 8, "strict_filtering": False
             }
@@ -766,7 +767,12 @@ elif current_page == PAGES[1]:
         with col_t1:
             trans_choice = st.selectbox("Transmission", ["All", "Automatic", "Manual"])
         with col_t2:
-            seats_choice = st.selectbox("Min Seats", [0, 2, 4, 5, 7], format_func=lambda x: "Any Seating" if x == 0 else f"{x} Seats")
+            seats_choice = st.selectbox(
+                "Seating Capacity",
+                [0, 5, 7, 4, 2],
+                format_func=lambda x: "Any Seating Capacity" if x == 0 else f"{x}-Seater (Exact Match)" if x in [5, 4, 2] else f"{x}-Seater (Family 3-Row)",
+                index=0
+            )
 
     st.markdown("---")
 
@@ -811,6 +817,7 @@ elif current_page == PAGES[1]:
                 "fuel_type": fuel_clean,
                 "transmission": trans_choice,
                 "brands": chosen_brands if chosen_brands else ["All"],
+                "seats": seats_choice,
                 "min_seats": seats_choice,
                 "min_mileage": 8.0,
                 "min_safety": 0,

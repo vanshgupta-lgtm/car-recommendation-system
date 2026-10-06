@@ -106,13 +106,24 @@ class HybridCarRecommender:
             scores.append(trans_match)
             weights.append(1.8)
 
-        # 5. Seating capacity
-        min_seats = int(pref.get("min_seats", 0))
-        if min_seats > 0:
+        # 5. Seating capacity (Exact configuration matching)
+        req_seats = int(pref.get("seats", pref.get("min_seats", 0)))
+        if req_seats > 0:
             seats = int(car.get("seats", 5))
-            seat_score = 1.0 if seats >= min_seats else max(0.0, 1.0 - 0.4 * (min_seats - seats))
+            if req_seats == 5:
+                # 5-seater request strictly penalizes 7-seaters and 2-seaters
+                seat_score = 1.0 if seats == 5 else (0.2 if seats == 4 else 0.0)
+            elif req_seats == 7:
+                # 7-seater request strictly penalizes 5-seaters and below
+                seat_score = 1.0 if seats >= 7 else (0.85 if seats == 6 else 0.0)
+            elif req_seats == 4:
+                seat_score = 1.0 if seats == 4 else 0.0
+            elif req_seats == 2:
+                seat_score = 1.0 if seats == 2 else 0.0
+            else:
+                seat_score = 1.0 if seats == req_seats else max(0.0, 1.0 - 0.5 * abs(req_seats - seats))
             scores.append(seat_score)
-            weights.append(1.5)
+            weights.append(3.0)
 
         # 6. Minimum mileage / Efficiency
         min_mileage = float(pref.get("min_mileage", 0.0))
@@ -211,10 +222,22 @@ class HybridCarRecommender:
                 matched = df[df["brand"].isin(preferences["brands"])]
                 if len(matched) > 0:
                     df = matched
-            if preferences.get("min_seats"):
-                matched = df[df["seats"] >= int(preferences["min_seats"])]
-                if len(matched) > 0:
-                    df = matched
+        # Seating capacity filtering (Always enforce exact seating preference)
+        req_seats = int(preferences.get("seats", preferences.get("min_seats", 0)))
+        if req_seats > 0:
+            if req_seats == 5:
+                matched_seats = df[df["seats"] == 5]
+            elif req_seats == 7:
+                matched_seats = df[df["seats"] >= 6]
+            elif req_seats == 4:
+                matched_seats = df[df["seats"] == 4]
+            elif req_seats == 2:
+                matched_seats = df[df["seats"] == 2]
+            else:
+                matched_seats = df[df["seats"] == req_seats]
+
+            if len(matched_seats) > 0:
+                df = matched_seats
 
         if len(df) == 0:
             df = self.cars_df.copy()
